@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>متابعة تعليقات قوقل</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f6f5f2; --surface:#fcfcfb; --surface-2:#f0efec; --line:#e4e2dc;
+  --text:#0b0b0b; --text-2:#52514e; --muted:#8a8984;
+  --accent:#2a78d6; --accent-soft:#cde2fb;
+  --good:#0ca30c; --warn:#b97f00; --serious:#d4652e; --critical:#d03b3b;
+  --star:#e7a400;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#121211; --surface:#1a1a19; --surface-2:#242422; --line:#33332f;
+    --text:#f0efec; --text-2:#c3c2b7; --muted:#8f8e86;
+    --accent:#3987e5; --accent-soft:#1c3352;
+    --warn:#fab219; --serious:#ec835a; --critical:#e66767; --star:#f2b632;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#121211; --surface:#1a1a19; --surface-2:#242422; --line:#33332f;
+  --text:#f0efec; --text-2:#c3c2b7; --muted:#8f8e86;
+  --accent:#3987e5; --accent-soft:#1c3352;
+  --warn:#fab219; --serious:#ec835a; --critical:#e66767; --star:#f2b632;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:"IBM Plex Sans Arabic",system-ui,sans-serif;font-size:15px;line-height:1.6}
+.wrap{max-width:1180px;margin:0 auto;padding:24px 16px 64px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:20px}
+h1{font-size:26px;margin:0;font-weight:700;letter-spacing:-.01em}
+.sub{color:var(--text-2);font-size:13px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+select,button.chip{font:inherit;font-size:14px;background:var(--surface);color:var(--text);
+  border:1px solid var(--line);border-radius:999px;padding:7px 14px;cursor:pointer}
+button.chip[aria-pressed="true"]{background:var(--text);color:var(--surface);border-color:var(--text)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px}
+.kpi .label{color:var(--text-2);font-size:13px}
+.kpi .value{font-size:30px;font-weight:700;line-height:1.2;margin-top:4px;font-variant-numeric:tabular-nums}
+.kpi .delta{font-size:12.5px;color:var(--text-2);margin-top:2px}
+.up{color:var(--good)} .down{color:var(--critical)}
+.grid2{display:grid;grid-template-columns:1.4fr 1fr;gap:12px;margin-bottom:12px}
+.card h2{font-size:15px;margin:0 0 12px;font-weight:600}
+.chart-box{position:relative;height:240px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{color:var(--text-2);font-weight:500;text-align:right;padding:8px 6px;border-bottom:1px solid var(--line);font-size:12.5px;white-space:nowrap;cursor:pointer}
+td{padding:9px 6px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:none}
+.bar{height:6px;border-radius:3px;background:var(--surface-2);overflow:hidden;min-width:60px}
+.bar>i{display:block;height:100%;border-radius:3px;background:var(--accent)}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;background:var(--surface-2);color:var(--text-2);margin:2px 0 0 4px}
+.sev{font-size:12px;font-weight:600;white-space:nowrap}
+.sev-critical{color:var(--critical)} .sev-high{color:var(--critical)} .sev-medium{color:var(--serious)} .sev-low{color:var(--warn)}
+.stars{color:var(--star);letter-spacing:1px;white-space:nowrap}
+.feed-head{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin-bottom:12px}
+.feed-head h2{margin:0}
+.review{padding:14px 0;border-bottom:1px solid var(--line)}
+.review:last-child{border-bottom:none}
+.review .meta{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:13px;color:var(--text-2)}
+.review .meta b{color:var(--text);font-weight:600}
+.review p{margin:6px 0 4px;white-space:pre-wrap}
+.review .ai{font-size:13px;color:var(--text-2)}
+.review .ai strong{color:var(--text);font-weight:600}
+.review a{color:var(--accent);font-size:13px;text-decoration:none}
+.empty{color:var(--muted);text-align:center;padding:24px}
+.staff-list{display:grid;gap:2px}
+.staff-row{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-bottom:1px solid var(--line);font-size:14px}
+.staff-row:last-child{border-bottom:none}
+.staff-row small{color:var(--text-2)}
+.more{display:block;margin:12px auto 0}
+.range{display:inline-flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px;color:var(--text-2)}
+.range input{font:inherit;font-size:14px;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:999px;padding:5px 12px;margin-inline-start:4px}
+.dist{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.dist .d{background:var(--surface-2);border:1px solid transparent;border-radius:10px;padding:10px 12px;cursor:pointer;text-align:right;font:inherit;color:var(--text)}
+.dist .d:hover,.dist .d.on{border-color:var(--text)}
+.dist .d .s{color:var(--star);font-size:13px;letter-spacing:1px}
+.dist .d .n{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.3}
+.dist .d .p{font-size:12.5px;color:var(--text-2)}
+.dist .d .bar{margin-top:6px}
+th.num,td.num{text-align:center}
+#tStars td:first-child{min-width:170px}
+td.num button{font:inherit;background:none;border:none;color:var(--text);cursor:pointer;padding:2px 8px;border-radius:6px;font-variant-numeric:tabular-nums}
+td.num button:hover{background:var(--surface-2)}
+td.num button.zero{color:var(--muted);cursor:default}
+td.num button.lo{color:var(--critical);font-weight:600}
+tfoot td{font-weight:700;border-top:2px solid var(--line);border-bottom:none}
+.active-f{font-size:13px;font-weight:500;background:var(--surface-2);border-radius:999px;padding:2px 6px 2px 10px;margin-inline-start:6px}
+.active-f button{font:inherit;background:none;border:none;color:var(--text-2);cursor:pointer;padding:0 4px}
+@media (max-width:640px){.dist{grid-template-columns:repeat(3,1fr)}}
+.theme-btn{font:inherit;font-size:13px;background:none;border:1px solid var(--line);color:var(--text-2);border-radius:999px;padding:5px 12px;cursor:pointer}
+@media (max-width:860px){.kpis{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}}
+@media (max-width:520px){.kpi .value{font-size:24px}.hide-sm{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>متابعة تعليقات قوقل</h1>
+      <div class="sub" id="updated">جاري التحميل…</div>
+    </div>
+    <button class="theme-btn" id="themeBtn" type="button">الوضع الليلي</button>
+  </header>
+
+  <div class="filters">
+    <select id="fPeriod" aria-label="الفترة">
+      <option value="7">آخر 7 أيام</option>
+      <option value="30" selected>آخر 30 يوم</option>
+      <option value="90">آخر 90 يوم</option>
+      <option value="365">آخر سنة</option>
+      <option value="0">كل الفترات</option>
+      <option value="custom">فترة مخصصة…</option>
+    </select>
+    <span id="customRange" class="range" hidden>
+      <label>من <input type="date" id="fFrom"></label>
+      <label>إلى <input type="date" id="fTo"></label>
+    </span>
+    <select id="fBrand" aria-label="العلامة">
+      <option value="">كل العلامات</option>
+    </select>
+    <select id="fBranch" aria-label="الفرع">
+      <option value="">كل الفروع</option>
+    </select>
+  </div>
+
+  <section class="kpis">
+    <div class="card kpi"><div class="label">متوسط التقييم</div><div class="value" id="kAvg">—</div><div class="delta" id="kAvgD"></div></div>
+    <div class="card kpi"><div class="label">عدد التعليقات</div><div class="value" id="kCount">—</div><div class="delta" id="kCountD"></div></div>
+    <div class="card kpi"><div class="label">نسبة السلبية</div><div class="value" id="kNeg">—</div><div class="delta" id="kNegD"></div></div>
+    <div class="card kpi"><div class="label">تعليقات خطورتها عالية</div><div class="value" id="kCrit">—</div><div class="delta">سلامة غذاء، إساءة، أو مشكلة جسيمة</div></div>
+  </section>
+
+  <section class="card" style="margin-bottom:12px">
+    <div class="feed-head">
+      <h2>عدد التقييمات حسب النجوم <span class="sub" id="starsPeriod"></span></h2>
+      <button class="chip" id="exportBtn" type="button">⬇ تحميل Excel</button>
+    </div>
+    <div class="dist" id="dist"></div>
+    <div style="overflow-x:auto;margin-top:14px"><table id="tStars">
+      <thead><tr>
+        <th>الفرع</th>
+        <th class="num">★5</th><th class="num">★4</th><th class="num">★3</th><th class="num">★2</th><th class="num">★1</th>
+        <th class="num">المجموع</th>
+      </tr></thead><tbody></tbody><tfoot></tfoot>
+    </table></div>
+    <div class="sub" style="margin-top:8px">اضغط على أي رقم لعرض تعليقاته.</div>
+  </section>
+
+  <section class="grid2">
+    <div class="card"><h2>متوسط التقييم أسبوعياً</h2><div class="chart-box"><canvas id="cTrend"></canvas></div></div>
+    <div class="card"><h2>أكثر مواضيع الشكاوى</h2><div class="chart-box"><canvas id="cTopics"></canvas></div></div>
+  </section>
+
+  <section class="grid2">
+    <div class="card">
+      <h2>الفروع <span class="sub">(اضغط على العنوان للترتيب)</span></h2>
+      <div style="overflow-x:auto"><table id="tBranches">
+        <thead><tr>
+          <th data-k="name">الفرع</th><th data-k="count">التعليقات</th><th data-k="avg">المتوسط</th>
+          <th data-k="neg">السلبية</th><th class="hide-sm" data-k="top">أكثر شكوى</th>
+        </tr></thead><tbody></tbody>
+      </table></div>
+    </div>
+    <div class="card">
+      <h2>موظفين ذُكروا بالاسم</h2>
+      <div class="staff-list" id="staff"></div>
+    </div>
+  </section>
+
+  <section class="card" id="feedCard">
+    <div class="feed-head">
+      <h2>التعليقات <span id="feedActive"></span></h2>
+      <div class="filters" style="margin:0" id="feedChips">
+        <button class="chip" data-f="all" aria-pressed="true">الكل</button>
+        <button class="chip" data-f="neg" aria-pressed="false">السلبية</button>
+        <button class="chip" data-f="high" aria-pressed="false">العالية والحرجة</button>
+        <button class="chip" data-f="pos" aria-pressed="false">الإيجابية</button>
+      </div>
+    </div>
+    <div id="feed"></div>
+    <button class="chip more" id="moreBtn" hidden>عرض المزيد</button>
+  </section>
+</div>
+
+<script>
+const TOPICS = {taste:"الطعم والجودة",speed:"السرعة والانتظار",staff:"تعامل الموظفين",accuracy:"دقة الطلب",
+  price:"السعر والقيمة",hygiene:"النظافة وسلامة الغذاء",facility:"المكان والدرايف ثرو",availability:"توفر المنتجات",
+  hours:"أوقات العمل",payment:"الدفع والتطبيقات",other:"أخرى"};
+const SEV = {critical:"حرج",high:"عالي",medium:"متوسط",low:"منخفض"};
+const DAY = 864e5;
+let ALL = [], feedFilter = "all", feedLimit = 30, sortKey = "avg", sortDir = 1, charts = {};
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmtDate = iso => new Date(iso).toLocaleDateString("ar-SA-u-ca-gregory-nu-latn",{year:"numeric",month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"});
+const A = r => r.analysis || {};
+const avg = rs => { const s = rs.filter(r => r.stars).map(r => r.stars); return s.length ? s.reduce((a,b)=>a+b,0)/s.length : null; };
+const isNeg = r => A(r).sentiment === "negative";
+const isHigh = r => ["high","critical"].includes(A(r).severity);
+const cssVar = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+// ---- theme toggle ----
+(function(){
+  let t = null; try { t = localStorage.getItem("theme"); } catch(e){}
+  if (t) document.documentElement.dataset.theme = t;
+  const label = () => {
+    const dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === "dark"
+      : matchMedia("(prefers-color-scheme: dark)").matches;
+    $("themeBtn").textContent = dark ? "الوضع النهاري" : "الوضع الليلي";
+    return dark;
+  };
+  label();
+  $("themeBtn").onclick = () => {
+    const next = label() ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem("theme", next); } catch(e){}
+    label(); render();
+  };
+})();
+
+// Selected time window as [start, end) in ms, or null for "all time".
+function windowRange(){
+  const v = $("fPeriod").value;
+  if (v === "0") return null;
+  if (v === "custom"){
+    const f = $("fFrom").value, t = $("fTo").value;
+    if (!f || !t) return null;
+    const start = new Date(f + "T00:00:00").getTime(), end = new Date(t + "T00:00:00").getTime() + DAY;
+    return end > start ? [start, end] : [end - DAY, start + DAY];
+  }
+  const end = Date.now();
+  return [end - (+v)*DAY, end];
+}
+
+function filtered(offsetPeriods = 0){
+  const brand = $("fBrand").value, branch = $("fBranch").value;
+  const w = windowRange();
+  if (!w && offsetPeriods) return [];
+  const len = w ? w[1] - w[0] : 0;
+  const start = w ? w[0] - offsetPeriods*len : 0, end = w ? w[1] - offsetPeriods*len : 0;
+  return ALL.filter(r => {
+    if (brand && r.brand !== brand) return false;
+    if (branch && r.branch_id !== branch) return false;
+    if (!w) return true;
+    const t = new Date(r.published_at).getTime();
+    return t >= start && t < end;
+  });
+}
+
+function periodLabel(){
+  const w = windowRange();
+  if (!w) return "(كل الفترات)";
+  const f = d => new Date(d).toLocaleDateString("ar-SA-u-ca-gregory-nu-latn",{year:"numeric",month:"short",day:"numeric"});
+  return `(${f(w[0])} — ${f(w[1] - 1)})`;
+}
+
+function delta(el, cur, prev, fmt, betterHigher){
+  if (cur == null || prev == null || !windowRange()) { el.textContent = ""; return; }
+  const d = cur - prev;
+  if (Math.abs(d) < 1e-9) { el.textContent = "بدون تغيير عن الفترة السابقة"; el.className="delta"; return; }
+  const good = betterHigher ? d > 0 : d < 0;
+  el.innerHTML = `<span class="${good?'up':'down'}">${d>0?'▲':'▼'} ${fmt(Math.abs(d))}</span> عن الفترة السابقة`;
+  el.className = "delta";
+}
+
+function renderKPIs(rs, prev){
+  const a = avg(rs), pa = avg(prev);
+  $("kAvg").textContent = a == null ? "—" : a.toFixed(2) + " ★";
+  delta($("kAvgD"), a, pa, v => v.toFixed(2), true);
+  $("kCount").textContent = rs.length.toLocaleString("en");
+  delta($("kCountD"), rs.length, prev.length, v => v.toLocaleString("en"), true);
+  const n = rs.length ? rs.filter(isNeg).length / rs.length * 100 : null;
+  const pn = prev.length ? prev.filter(isNeg).length / prev.length * 100 : null;
+  $("kNeg").textContent = n == null ? "—" : n.toFixed(0) + "%";
+  delta($("kNegD"), n, pn, v => v.toFixed(0) + " نقطة", false);
+  $("kCrit").textContent = rs.filter(isHigh).length;
+}
+
+function baseOpts(){
+  const text2 = cssVar("--text-2"), line = cssVar("--line");
+  return {
+    responsive:true, maintainAspectRatio:false, animation:false,
+    plugins:{ legend:{display:false},
+      tooltip:{rtl:true, textDirection:"rtl", backgroundColor:cssVar("--text"), titleColor:cssVar("--surface"),
+        bodyColor:cssVar("--surface"), padding:10, cornerRadius:8, displayColors:false,
+        titleFont:{family:"IBM Plex Sans Arabic"}, bodyFont:{family:"IBM Plex Sans Arabic"}} },
+    scales:{
+      x:{grid:{display:false}, ticks:{color:text2, font:{family:"IBM Plex Sans Arabic", size:11}}, border:{color:line}},
+      y:{grid:{color:line}, ticks:{color:text2, font:{family:"IBM Plex Sans Arabic", size:11}}, border:{display:false}}
+    }
+  };
+}
+
+function renderTrend(rs){
+  const weeks = new Map();
+  rs.forEach(r => {
+    if (!r.stars) return;
+    const d = new Date(r.published_at); d.setHours(0,0,0,0); d.setDate(d.getDate() - ((d.getDay()+1)%7)); // week starts Saturday
+    const k = d.toISOString().slice(0,10);
+    const w = weeks.get(k) || {sum:0,n:0}; w.sum += r.stars; w.n++; weeks.set(k, w);
+  });
+  const keys = [...weeks.keys()].sort();
+  const labels = keys.map(k => new Date(k).toLocaleDateString("ar-SA-u-ca-gregory-nu-latn",{month:"short",day:"numeric"}));
+  const data = keys.map(k => +(weeks.get(k).sum / weeks.get(k).n).toFixed(2));
+  const counts = keys.map(k => weeks.get(k).n);
+  const o = baseOpts();
+  o.scales.y.min = 1; o.scales.y.max = 5; o.scales.y.ticks.stepSize = 1;
+  o.scales.x.reverse = true;
+  o.interaction = {mode:"index", intersect:false};
+  o.plugins.tooltip.callbacks = {
+    title: items => "أسبوع " + items[0].label,
+    label: c => `المتوسط ${c.parsed.y.toFixed(2)} ★ — ${counts[c.dataIndex]} تعليق`
+  };
+  charts.trend?.destroy();
+  charts.trend = new Chart($("cTrend"), {type:"line", data:{labels, datasets:[{data, borderColor:cssVar("--accent"),
+    backgroundColor:cssVar("--accent"), borderWidth:2, pointRadius:4, pointHoverRadius:6, pointBorderColor:cssVar("--surface"),
+    pointBorderWidth:2, tension:.25}]}, options:o});
+}
+
+function renderTopics(rs){
+  const c = {};
+  rs.filter(isNeg).forEach(r => (A(r).negative_topics||[]).forEach(t => c[t] = (c[t]||0)+1));
+  const ent = Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,7);
+  const o = baseOpts();
+  o.indexAxis = "y";
+  o.scales.x.grid = {color:cssVar("--line")}; o.scales.y.grid = {display:false};
+  o.scales.x.reverse = true; o.scales.y.position = "right";
+  o.scales.x.ticks.precision = 0;
+  o.plugins.tooltip.callbacks = {label: c => `${c.parsed.x} شكوى`};
+  charts.topics?.destroy();
+  charts.topics = new Chart($("cTopics"), {type:"bar", data:{labels:ent.map(e=>TOPICS[e[0]]||e[0]),
+    datasets:[{data:ent.map(e=>e[1]), backgroundColor:cssVar("--accent"), borderRadius:4, borderSkipped:false, barThickness:14}]}, options:o});
+}
+
+function renderBranches(rs){
+  const m = new Map();
+  rs.forEach(r => { const k = r.branch_id; if (!m.has(k)) m.set(k, {name:`${r.brand} · ${r.branch_name}`, rs:[]}); m.get(k).rs.push(r); });
+  let rows = [...m.values()].map(b => {
+    const c = {}; b.rs.filter(isNeg).forEach(r => (A(r).negative_topics||[]).forEach(t => c[t]=(c[t]||0)+1));
+    const top = Object.entries(c).sort((a,b)=>b[1]-a[1])[0];
+    return {name:b.name, count:b.rs.length, avg:avg(b.rs) ?? 0, neg: b.rs.filter(isNeg).length / b.rs.length * 100,
+      top: top ? TOPICS[top[0]] : "—"};
+  });
+  rows.sort((a,b) => (a[sortKey] > b[sortKey] ? 1 : a[sortKey] < b[sortKey] ? -1 : 0) * sortDir);
+  $("tBranches").querySelector("tbody").innerHTML = rows.length ? rows.map(r => `
+    <tr><td>${esc(r.name)}</td><td>${r.count}</td>
+    <td><div style="display:flex;align-items:center;gap:8px"><span>${r.avg.toFixed(2)}</span><div class="bar" style="flex:1"><i style="width:${(r.avg/5*100).toFixed(0)}%"></i></div></div></td>
+    <td>${r.neg.toFixed(0)}%</td><td class="hide-sm">${esc(r.top)}</td></tr>`).join("")
+    : `<tr><td colspan="5" class="empty">لا توجد بيانات</td></tr>`;
+}
+
+function renderStaff(rs){
+  const m = new Map();
+  rs.forEach(r => (A(r).staff_mentions||[]).forEach(s => {
+    const name = (s.name||"").trim(); if (!name) return;
+    const k = name + "|" + r.branch_id;
+    const v = m.get(k) || {name, branch:r.branch_name, pos:0, neg:0};
+    s.sentiment === "positive" ? v.pos++ : v.neg++; m.set(k, v);
+  }));
+  const rows = [...m.values()].sort((a,b)=> (b.pos+b.neg)-(a.pos+a.neg)).slice(0,12);
+  $("staff").innerHTML = rows.length ? rows.map(s => `<div class="staff-row"><span>${esc(s.name)} <small>· ${esc(s.branch)}</small></span>
+    <span>${s.pos?`<span class="up">👍 ${s.pos}</span>`:""} ${s.neg?`<span class="down">👎 ${s.neg}</span>`:""}</span></div>`).join("")
+    : `<div class="empty">ما فيه موظفين مذكورين في هذه الفترة</div>`;
+}
+
+// ---- star counts ----
+let starFilter = null, cellBranch = null;   // set by clicking the star table
+
+function renderStars(rs){
+  $("starsPeriod").textContent = periodLabel();
+  const total = rs.filter(r => r.stars).length;
+  const cnt = s => rs.filter(r => r.stars === s).length;
+  $("dist").innerHTML = [5,4,3,2,1].map(s => {
+    const n = cnt(s), p = total ? n/total*100 : 0;
+    const on = starFilter === s && !cellBranch ? " on" : "";
+    return `<button class="d${on}" data-s="${s}" type="button" aria-label="${s} نجوم: ${n}">
+      <div class="s">${"★".repeat(s)}<span style="color:var(--line)">${"★".repeat(5-s)}</span></div>
+      <div class="n">${n.toLocaleString("en")}</div><div class="p">${p.toFixed(1)}%</div>
+      <div class="bar"><i style="width:${p.toFixed(1)}%"></i></div></button>`;
+  }).join("");
+
+  const m = new Map();
+  rs.forEach(r => {
+    if (!m.has(r.branch_id)) m.set(r.branch_id, {name:`${r.brand} · ${r.branch_name}`, c:{1:0,2:0,3:0,4:0,5:0}});
+    if (r.stars) m.get(r.branch_id).c[r.stars]++;
+  });
+  const rows = [...m.entries()].sort((a,b) => a[1].name.localeCompare(b[1].name, "ar"));
+  const cell = (bid, s, n) => `<td class="num"><button type="button" class="${n ? (s <= 2 ? "lo" : "") : "zero"}"
+      data-b="${bid}" data-s="${s}" ${n ? "" : "disabled"}>${n.toLocaleString("en")}</button></td>`;
+  $("tStars").querySelector("tbody").innerHTML = rows.length ? rows.map(([bid, b]) => {
+    const sum = Object.values(b.c).reduce((x,y)=>x+y,0);
+    return `<tr><td>${esc(b.name)}</td>${[5,4,3,2,1].map(s => cell(bid, s, b.c[s])).join("")}
+      <td class="num"><button type="button" data-b="${bid}" data-s="">${sum.toLocaleString("en")}</button></td></tr>`;
+  }).join("") : `<tr><td colspan="7" class="empty">لا توجد تقييمات في هذه الفترة</td></tr>`;
+  $("tStars").querySelector("tfoot").innerHTML = rows.length ? `<tr><td>المجموع</td>${[5,4,3,2,1].map(s =>
+      `<td class="num">${cnt(s).toLocaleString("en")}</td>`).join("")}<td class="num">${total.toLocaleString("en")}</td></tr>` : "";
+}
+
+function setStarFilter(s, bid){
+  starFilter = s; cellBranch = bid || null; feedLimit = 30;
+  feedFilter = "all";
+  document.querySelectorAll("#feedChips button").forEach(x => x.setAttribute("aria-pressed", x.dataset.f === "all"));
+  render();
+  $("feedCard").scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+function exportCSV(){
+  const rs = filtered(0);
+  const head = ["التاريخ","العلامة","الفرع","المدينة","النجوم","التعليق","التصنيف","المواضيع","الخطورة","الملخص","الإجراء المقترح","تم الرد","الرابط"];
+  const sent = {positive:"إيجابي", neutral:"محايد", negative:"سلبي"};
+  const q = v => `"${String(v ?? "").replace(/"/g,'""').replace(/\r?\n/g," ")}"`;
+  const lines = [head.map(q).join(",")].concat(rs.map(r => {
+    const a = A(r);
+    return [new Date(r.published_at).toLocaleString("en-GB",{hour12:false}), r.brand, r.branch_name, r.city, r.stars,
+      r.text || r.text_translated || "", sent[a.sentiment] || "", (a.topics||[]).map(t => TOPICS[t]||t).join("، "),
+      SEV[a.severity] || "", a.summary || "", a.action || "", r.owner_reply ? "نعم" : "لا", r.url || ""].map(q).join(",");
+  }));
+  const blob = new Blob(["﻿" + lines.join("\r\n")], {type:"text/csv;charset=utf-8"});
+  const a = document.createElement("a");
+  const w = windowRange(), d = x => { const t = new Date(x); return new Date(t.getTime() - t.getTimezoneOffset()*6e4).toISOString().slice(0,10); };
+  a.href = URL.createObjectURL(blob);
+  a.download = `تقييمات-قوقل_${w ? d(w[0]) + "_" + d(w[1]-1) : "الكل"}.csv`;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+function renderFeed(rs){
+  if (cellBranch) rs = rs.filter(r => r.branch_id === cellBranch);
+  if (starFilter) rs = rs.filter(r => r.stars === starFilter);
+  const parts = [];
+  if (starFilter) parts.push(`${starFilter} ★`);
+  if (cellBranch){ const r0 = ALL.find(r => r.branch_id === cellBranch); if (r0) parts.push(`${r0.brand} · ${r0.branch_name}`); }
+  $("feedActive").innerHTML = parts.length ? `<span class="active-f">${esc(parts.join(" · "))}<button type="button" id="clearF" aria-label="إلغاء الفلتر">✕</button></span>` : "";
+  if (parts.length) $("clearF").onclick = () => { starFilter = null; cellBranch = null; render(); };
+  let list = rs;
+  if (feedFilter === "neg") list = rs.filter(isNeg);
+  if (feedFilter === "high") list = rs.filter(isHigh);
+  if (feedFilter === "pos") list = rs.filter(r => A(r).sentiment === "positive");
+  $("feed").innerHTML = list.slice(0, feedLimit).map(r => {
+    const a = A(r);
+    const text = r.text || r.text_translated;
+    return `<article class="review">
+      <div class="meta"><b>${esc(r.brand)} · ${esc(r.branch_name)}</b>
+        <span class="stars" aria-label="${r.stars} من 5">${"★".repeat(r.stars||0)}${"☆".repeat(5-(r.stars||0))}</span>
+        <span>${fmtDate(r.published_at)}</span>
+        ${SEV[a.severity] ? `<span class="sev sev-${a.severity}">● ${SEV[a.severity]}</span>` : ""}
+        ${r.owner_reply ? `<span>↩︎ تم الرد</span>` : ""}
+      </div>
+      <p>${text ? esc(text) : '<span style="color:var(--muted)">بدون نص — تقييم بالنجوم فقط</span>'}</p>
+      ${a.summary || a.action ? `<div class="ai">${a.summary?`<strong>الملخص:</strong> ${esc(a.summary)}`:""}${a.action?` &nbsp;·&nbsp; <strong>المقترح:</strong> ${esc(a.action)}`:""}</div>` : ""}
+      <div>${(a.topics||[]).map(t=>`<span class="tag">${TOPICS[t]||t}</span>`).join("")}
+        ${r.url ? ` <a href="${esc(r.url)}" target="_blank" rel="noopener">فتح في قوقل ↗</a>` : ""}</div>
+    </article>`;
+  }).join("") || `<div class="empty">لا توجد تعليقات</div>`;
+  $("moreBtn").hidden = list.length <= feedLimit;
+}
+
+function render(){
+  const rs = filtered(0), prev = filtered(1);
+  renderKPIs(rs, prev); renderStars(rs); renderTrend(rs); renderTopics(rs); renderBranches(rs); renderStaff(rs); renderFeed(rs);
+}
+
+function fillBranches(){
+  const brand = $("fBrand").value, cur = $("fBranch").value;
+  const seen = new Map();
+  ALL.forEach(r => { if (!brand || r.brand === brand) seen.set(r.branch_id, `${r.brand} · ${r.branch_name}`); });
+  $("fBranch").innerHTML = `<option value="">كل الفروع</option>` +
+    [...seen].sort((a,b)=>a[1].localeCompare(b[1],"ar")).map(([id,n]) => `<option value="${id}">${esc(n)}</option>`).join("");
+  if (seen.has(cur)) $("fBranch").value = cur;
+}
+
+fetch("data/reviews.json", {cache:"no-store"}).then(r => r.json()).then(d => {
+  ALL = (d.reviews || []).filter(r => r.published_at);
+  $("updated").textContent = d.updated_at ? "آخر تحديث: " + fmtDate(d.updated_at) + ` · ${ALL.length.toLocaleString("en")} تعليق محفوظ` : "لا توجد بيانات بعد";
+  [...new Set(ALL.map(r => r.brand))].forEach(b => $("fBrand").insertAdjacentHTML("beforeend", `<option>${esc(b)}</option>`));
+  fillBranches(); render();
+}).catch(() => { $("updated").textContent = "تعذر تحميل البيانات — تأكد أن ملف data/reviews.json موجود"; });
+
+(function initRange(){
+  const iso = d => new Date(d.getTime() - d.getTimezoneOffset()*6e4).toISOString().slice(0,10);
+  const today = new Date();
+  $("fTo").value = iso(today);
+  $("fFrom").value = iso(new Date(today.getTime() - 29*DAY));
+  $("fTo").max = $("fFrom").max = iso(today);
+})();
+$("fPeriod").onchange = () => {
+  $("customRange").hidden = $("fPeriod").value !== "custom";
+  feedLimit = 30; render();
+};
+$("fFrom").onchange = $("fTo").onchange = () => { feedLimit = 30; render(); };
+$("dist").onclick = e => { const b = e.target.closest("button"); if (!b) return;
+  const s = +b.dataset.s; setStarFilter(starFilter === s && !cellBranch ? null : s, null); };
+$("tStars").onclick = e => { const b = e.target.closest("button"); if (!b || b.disabled) return;
+  setStarFilter(b.dataset.s ? +b.dataset.s : null, b.dataset.b); };
+$("exportBtn").onclick = exportCSV;
+$("fBrand").onchange = () => { fillBranches(); feedLimit = 30; render(); };
+$("fBranch").onchange = () => { feedLimit = 30; render(); };
+$("moreBtn").onclick = () => { feedLimit += 30; renderFeed(filtered(0)); };
+$("feedChips").onclick = e => {
+  const b = e.target.closest("button"); if (!b) return;
+  feedFilter = b.dataset.f; feedLimit = 30;
+  document.querySelectorAll("#feedChips button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderFeed(filtered(0));
+};
+// Changing brand/branch/period clears a star-table filter that may no longer apply.
+["fBrand","fBranch","fPeriod","fFrom","fTo"].forEach(id => $(id).addEventListener("change", () => {
+  if (cellBranch && $("fBranch").value && $("fBranch").value !== cellBranch) { cellBranch = null; render(); }
+}));
+document.querySelectorAll("#tBranches th").forEach(th => th.onclick = () => {
+  const k = th.dataset.k; sortDir = sortKey === k ? -sortDir : (k === "name" || k === "avg" ? 1 : -1); sortKey = k;
+  renderBranches(filtered(0));
+});
+</script>
+</body>
+</html>

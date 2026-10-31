@@ -1,0 +1,133 @@
+{
+  "source": "apify",
+  "timezone_offset_hours": 3,
+
+  "apify": {
+    "actor": "compass~Google-Maps-Reviews-Scraper",
+    "language": "ar",
+    "max_reviews_per_run": 300,
+    "overlap_hours": 6
+  },
+
+  "first_run_backfill_days": 90,
+
+  "claude": {
+    "model": "claude-haiku-5-5",
+    "report_model": "claude-sonnet-5-5",
+    "batch_size": 15
+  },
+
+  "alerts": {
+    "max_stars": 3,
+    "also_alert_severity": ["high", "critical"]
+  },
+
+  "dashboard_url": "https://saleh-althunayan.github.io/rshaf-reviews-monitor/",
+
+  "branches": [
+    {
+      "id": "rshaf-buraydah-rehab",
+      "brand": "رشف",
+      "name": "بريدة - الرحاب",
+      "city": "بريدة",
+      "place_id": "ChIJbaL138BXfxURl6ZU5rWhf2g",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "rshaf-buraydah-aliibnabitalib",
+      "brand": "رشف",
+      "name": "بريدة - طريق علي بن أبي طالب",
+      "city": "بريدة",
+      "place_id": "ChIJZ_1jIQBXfxUR7NZU6LCPplk",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "rshaf-buraydah-naziyah",
+      "brand": "رشف",
+      "name": "بريدة - النازية (طريق الملك خالد)",
+      "city": "بريدة",
+      "place_id": "ChIJKx-2PtpZfxURLHd-NlnOqSA",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "rshaf-unayzah-zamil",
+      "brand": "رشف",
+      "name": "عنيزة - طريق زامل السليم",
+      "city": "عنيزة",
+      "place_id": "ChIJa3D0Y1XtgRURx9pBCpvbLyo",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "rshaf-unayzah-kingabdulaziz",
+      "brand": "رشف",
+      "name": "عنيزة - طريق الملك عبدالعزيز",
+      "city": "عنيزة",
+      "place_id": "ChIJ7dQlfADtgRURVltPqlQdA5k",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "rshaf-bukayriyah",
+      "brand": "رشف",
+      "name": "البكيرية - طريق الملك عبدالعزيز",
+      "city": "البكيرية",
+      "place_id": "ChIJQxBHFQAZghURcfhIamLDdPM",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "rshaf-rass-hazm",
+      "brand": "رشف",
+      "name": "الرس - الحزم (شارع الجريف)",
+      "city": "الرس",
+      "place_id": "ChIJM1scVFrLgxURrgNoyU5fHDk",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "rshaf-rass-shananah",
+      "brand": "رشف",
+      "name": "الرس - شارع الشنانة",
+      "city": "الرس",
+      "place_id": "ChIJK0_hObDLgxUR1aGuGOiI7tc",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "rshaf-rass-kingfahd",
+      "brand": "رشف",
+      "name": "الرس - طريق الملك فهد",
+      "city": "الرس",
+      "place_id": "ChIJsXOFxN_LgxURBC_JSCvJdu4",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "rshaf-riyadhalkhabra",
+      "brand": "رشف",
+      "name": "رياض الخبراء - شارع محمد الخضير",
+      "city": "رياض الخبراء",
+      "place_id": "ChIJHQ-vgIU5ghUR85KEhchZuJ8",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "rshaf-badaie",
+      "brand": "رشف",
+      "name": "البدائع - طريق الملك فيصل",
+      "city": "البدائع",
+      "place_id": "ChIJq88hLsYnghURAWx69ipkKoo",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "armeema-rass",
+      "brand": "ارميما",
+      "name": "الرس - مجمع روسيل",
+      "city": "الرس",
+      "place_id": "ChIJsXj4-w_LgxURfsDL8l_g_3c",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "armeema-riyadhalkhabra",
+      "brand": "ارميما",
+      "name": "رياض الخبراء",
+      "city": "رياض الخبراء",
+      "place_id": "ChIJZfrLTwA5ghURLsY5s7dTucY",
+      "supervisor_chat_ids": []
+    }
+  ]
+}
