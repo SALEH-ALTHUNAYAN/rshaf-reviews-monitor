@@ -161,14 +161,23 @@ def owner_chats():
 - GBPSource:   official Google Business Profile API. Switch config "source"
                to "gbp" once Google approves your API access.
 """
+import re
+
 import requests
 
 
 STAR_WORDS = {"ONE": 1, "TWO": 2, "THREE": 3, "FOUR": 4, "FIVE": 5}
 
 
+def _clean(s):
+    """Google review text sometimes contains literal <br> tags."""
+    s = re.sub(r"<br\s*/?>", "\n", s or "", flags=re.I).replace("&nbsp;", " ")
+    return re.sub(r"\n{3,}", "\n\n", s).strip()
+
+
 def _normalize(branch, *, rid, stars, text, published, url=None,
                reply=None, translated=None, source):
+    text, translated, reply = _clean(text), _clean(translated), _clean(reply)
     return {
         "id": str(rid),
         "source": source,
@@ -711,7 +720,7 @@ def collect(store, state, cfg):
             new += 1
         else:
             # Review edited by customer or owner replied → refresh content.
-            changed = (old.get("text") != r["text"] or old.get("stars") != r["stars"])
+            changed = (_clean(old.get("text")) != r["text"] or old.get("stars") != r["stars"])
             for k, v in r.items():
                 if k not in KEEP_FIELDS_ON_UPDATE:
                     old[k] = v

@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <style>
 :root{
   color-scheme: light;
@@ -34,6 +35,7 @@
   --warn:#fab219; --serious:#ec835a; --critical:#e66767; --star:#f2b632;
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--text);
   font-family:"IBM Plex Sans Arabic",system-ui,sans-serif;font-size:15px;line-height:1.6}
 .wrap{max-width:1180px;margin:0 auto;padding:24px 16px 64px}
@@ -98,6 +100,29 @@ tfoot td{font-weight:700;border-top:2px solid var(--line);border-bottom:none}
 .active-f{font-size:13px;font-weight:500;background:var(--surface-2);border-radius:999px;padding:2px 6px 2px 10px;margin-inline-start:6px}
 .active-f button{font:inherit;background:none;border:none;color:var(--text-2);cursor:pointer;padding:0 4px}
 @media (max-width:640px){.dist{grid-template-columns:repeat(3,1fr)}}
+.xbtn{font:inherit;font-size:13px;background:none;border:none;color:var(--text-2);cursor:pointer;padding:2px 6px}
+.range .lbl{color:var(--text-2)}
+.feed-tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.feed-tools select{padding:6px 12px}
+.feed-count{font-size:13px;color:var(--text-2);margin:-4px 0 6px}
+/* ---- print / PDF ---- */
+#printArea{display:none}
+@media print{
+  @page{size:A4;margin:12mm}
+  html,body{background:#fff!important;color:#000!important}
+  .wrap{display:none!important}
+  #printArea{display:block;font-family:"IBM Plex Sans Arabic",system-ui,sans-serif;font-size:10.5pt;line-height:1.55;color:#000}
+  #printArea h1{font-size:17pt;margin:0 0 2px}
+  #printArea .p-sub{color:#444;font-size:9.5pt;margin-bottom:10px}
+  #printArea .p-sum{display:flex;flex-wrap:wrap;gap:6px 16px;border:1px solid #bbb;border-radius:6px;padding:6px 10px;margin-bottom:10px;font-size:9.5pt}
+  #printArea .p-item{break-inside:avoid;border-bottom:1px solid #ccc;padding:7px 0}
+  #printArea .p-meta{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:9.5pt;color:#333}
+  #printArea .p-meta b{color:#000}
+  #printArea .p-stars{color:#c98500;letter-spacing:1px}
+  #printArea .p-text{margin:3px 0;white-space:pre-wrap}
+  #printArea .p-ai{font-size:9.5pt;color:#333}
+  #printArea .p-sev{font-weight:700;color:#b00020}
+}
 .theme-btn{font:inherit;font-size:13px;background:none;border:1px solid var(--line);color:var(--text-2);border-radius:999px;padding:5px 12px;cursor:pointer}
 @media (max-width:860px){.kpis{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}}
 @media (max-width:520px){.kpi .value{font-size:24px}.hide-sm{display:none}}
@@ -132,6 +157,12 @@ tfoot td{font-weight:700;border-top:2px solid var(--line);border-bottom:none}
     <select id="fBranch" aria-label="الفرع">
       <option value="">كل الفروع</option>
     </select>
+    <span class="range">
+      <span class="lbl">الوقت:</span>
+      <label>من <input type="time" id="fHFrom" aria-label="من الساعة"></label>
+      <label>إلى <input type="time" id="fHTo" aria-label="إلى الساعة"></label>
+      <button type="button" class="xbtn" id="hClear" hidden aria-label="إلغاء فلتر الوقت">✕ كل اليوم</button>
+    </span>
   </div>
 
   <section class="kpis">
@@ -144,7 +175,6 @@ tfoot td{font-weight:700;border-top:2px solid var(--line);border-bottom:none}
   <section class="card" style="margin-bottom:12px">
     <div class="feed-head">
       <h2>عدد التقييمات حسب النجوم <span class="sub" id="starsPeriod"></span></h2>
-      <button class="chip" id="exportBtn" type="button">⬇ تحميل Excel</button>
     </div>
     <div class="dist" id="dist"></div>
     <div style="overflow-x:auto;margin-top:14px"><table id="tStars">
@@ -154,7 +184,7 @@ tfoot td{font-weight:700;border-top:2px solid var(--line);border-bottom:none}
         <th class="num">المجموع</th>
       </tr></thead><tbody></tbody><tfoot></tfoot>
     </table></div>
-    <div class="sub" style="margin-top:8px">اضغط على أي رقم لعرض تعليقاته.</div>
+    <div class="sub" style="margin-top:8px">اضغط على أي رقم لعرض تعليقاته، وصدّرها PDF أو Excel من قسم التعليقات تحت.</div>
   </section>
 
   <section class="grid2">
@@ -188,10 +218,30 @@ tfoot td{font-weight:700;border-top:2px solid var(--line);border-bottom:none}
         <button class="chip" data-f="pos" aria-pressed="false">الإيجابية</button>
       </div>
     </div>
+    <div class="feed-head" style="margin-top:-4px">
+      <div class="feed-tools">
+        <select id="fStars" aria-label="النجوم">
+          <option value="">كل النجوم</option>
+          <option value="1">★ نجمة وحدة</option>
+          <option value="2">★★ نجمتين</option>
+          <option value="3">★★★ 3 نجوم</option>
+          <option value="4">★★★★ 4 نجوم</option>
+          <option value="5">★★★★★ 5 نجوم</option>
+          <option value="1-2">نجمة ونجمتين</option>
+          <option value="1-3">من 1 إلى 3 نجوم</option>
+        </select>
+      </div>
+      <div class="feed-tools">
+        <button class="chip" id="pdfBtn" type="button">⬇ PDF</button>
+        <button class="chip" id="xlsBtn" type="button">⬇ Excel</button>
+      </div>
+    </div>
+    <div class="feed-count" id="feedCount"></div>
     <div id="feed"></div>
     <button class="chip more" id="moreBtn" hidden>عرض المزيد</button>
   </section>
 </div>
+<div id="printArea" dir="rtl"></div>
 
 <script>
 const TOPICS = {taste:"الطعم والجودة",speed:"السرعة والانتظار",staff:"تعامل الموظفين",accuracy:"دقة الطلب",
@@ -205,6 +255,9 @@ const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmtDate = iso => new Date(iso).toLocaleDateString("ar-SA-u-ca-gregory-nu-latn",{year:"numeric",month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"});
 const A = r => r.analysis || {};
+// Google review text sometimes arrives with literal <br> tags — turn them into line breaks.
+const clean = s => String(s ?? "").replace(/<br\s*\/?>/gi, "\n").replace(/&nbsp;/g, " ").replace(/\n{3,}/g, "\n\n").trim();
+const rText = r => clean(r.text || r.text_translated);
 const avg = rs => { const s = rs.filter(r => r.stars).map(r => r.stars); return s.length ? s.reduce((a,b)=>a+b,0)/s.length : null; };
 const isNeg = r => A(r).sentiment === "negative";
 const isHigh = r => ["high","critical"].includes(A(r).severity);
@@ -243,6 +296,30 @@ function windowRange(){
   return [end - (+v)*DAY, end];
 }
 
+// ---- Riyadh time helpers (UTC+3, no DST) ----
+const RY = 3*36e5;
+const ry = iso => new Date(new Date(iso).getTime() + RY);          // read with getUTC*
+const pad = n => String(n).padStart(2, "0");
+const ryDate = iso => { const d = ry(iso); return `${d.getUTCFullYear()}-${pad(d.getUTCMonth()+1)}-${pad(d.getUTCDate())}`; };
+const ryTime = iso => { const d = ry(iso); return `${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}`; };
+const toMin = v => { if (!v) return null; const [h, m] = v.split(":").map(Number); return h*60 + m; };
+const fmt12 = v => { const m = toMin(v); if (m == null) return ""; const h = Math.floor(m/60), mm = m % 60;
+  return `${((h + 11) % 12) + 1}:${pad(mm)} ${h < 12 ? "ص" : "م"}`; };
+
+// Time-of-day filter (Riyadh). Supports ranges that cross midnight, e.g. 22:00 → 04:00.
+function hourOK(r){
+  const f = toMin($("fHFrom").value), t = toMin($("fHTo").value);
+  if (f == null && t == null) return true;
+  const d = ry(r.published_at), m = d.getUTCHours()*60 + d.getUTCMinutes();
+  if (f != null && t != null) return f <= t ? (m >= f && m < t) : (m >= f || m < t);
+  return f != null ? m >= f : m < t;
+}
+function hourLabel(){
+  const f = $("fHFrom").value, t = $("fHTo").value;
+  if (!f && !t) return "";
+  return `من ${f ? fmt12(f) : "بداية اليوم"} إلى ${t ? fmt12(t) : "نهاية اليوم"}`;
+}
+
 function filtered(offsetPeriods = 0){
   const brand = $("fBrand").value, branch = $("fBranch").value;
   const w = windowRange();
@@ -252,6 +329,7 @@ function filtered(offsetPeriods = 0){
   return ALL.filter(r => {
     if (brand && r.brand !== brand) return false;
     if (branch && r.branch_id !== branch) return false;
+    if (!hourOK(r)) return false;
     if (!w) return true;
     const t = new Date(r.published_at).getTime();
     return t >= start && t < end;
@@ -375,7 +453,14 @@ function renderStaff(rs){
 }
 
 // ---- star counts ----
-let starFilter = null, cellBranch = null;   // set by clicking the star table
+let cellBranch = null;   // set by clicking a branch cell in the star table
+const STAR_LABEL = {"1":"نجمة وحدة","2":"نجمتين","3":"3 نجوم","4":"4 نجوم","5":"5 نجوم","1-2":"نجمة ونجمتين","1-3":"من 1 إلى 3 نجوم"};
+function starOK(r){
+  const v = $("fStars").value;
+  if (!v) return true;
+  if (v.includes("-")) { const [a, b] = v.split("-").map(Number); return r.stars >= a && r.stars <= b; }
+  return r.stars === +v;
+}
 
 function renderStars(rs){
   $("starsPeriod").textContent = periodLabel();
@@ -383,7 +468,7 @@ function renderStars(rs){
   const cnt = s => rs.filter(r => r.stars === s).length;
   $("dist").innerHTML = [5,4,3,2,1].map(s => {
     const n = cnt(s), p = total ? n/total*100 : 0;
-    const on = starFilter === s && !cellBranch ? " on" : "";
+    const on = $("fStars").value === String(s) && !cellBranch ? " on" : "";
     return `<button class="d${on}" data-s="${s}" type="button" aria-label="${s} نجوم: ${n}">
       <div class="s">${"★".repeat(s)}<span style="color:var(--line)">${"★".repeat(5-s)}</span></div>
       <div class="n">${n.toLocaleString("en")}</div><div class="p">${p.toFixed(1)}%</div>
@@ -408,52 +493,132 @@ function renderStars(rs){
 }
 
 function setStarFilter(s, bid){
-  starFilter = s; cellBranch = bid || null; feedLimit = 30;
+  $("fStars").value = s ? String(s) : ""; cellBranch = bid || null; feedLimit = 30;
   feedFilter = "all";
   document.querySelectorAll("#feedChips button").forEach(x => x.setAttribute("aria-pressed", x.dataset.f === "all"));
   render();
   $("feedCard").scrollIntoView({behavior:"smooth", block:"start"});
 }
 
-function exportCSV(){
-  const rs = filtered(0);
-  const head = ["التاريخ","العلامة","الفرع","المدينة","النجوم","التعليق","التصنيف","المواضيع","الخطورة","الملخص","الإجراء المقترح","تم الرد","الرابط"];
-  const sent = {positive:"إيجابي", neutral:"محايد", negative:"سلبي"};
-  const q = v => `"${String(v ?? "").replace(/"/g,'""').replace(/\r?\n/g," ")}"`;
-  const lines = [head.map(q).join(",")].concat(rs.map(r => {
+// The exact list the feed shows (all pages) — exports use this too.
+const FEED_LABEL = {neg:"السلبية", high:"العالية والحرجة", pos:"الإيجابية"};
+function feedList(rs){
+  let list = rs.filter(starOK);
+  if (cellBranch) list = list.filter(r => r.branch_id === cellBranch);
+  if (feedFilter === "neg") list = list.filter(isNeg);
+  if (feedFilter === "high") list = list.filter(isHigh);
+  if (feedFilter === "pos") list = list.filter(r => A(r).sentiment === "positive");
+  return list;
+}
+
+function filterSummary(){
+  const out = [periodLabel().replace(/^\(|\)$/g, "")];
+  const bid = cellBranch || $("fBranch").value;
+  if (bid){ const r0 = ALL.find(r => r.branch_id === bid); if (r0) out.push(`${r0.brand} · ${r0.branch_name}`); }
+  else if ($("fBrand").value) out.push($("fBrand").value);
+  else out.push("كل الفروع");
+  if ($("fStars").value) out.push(STAR_LABEL[$("fStars").value]);
+  if (hourLabel()) out.push("الوقت " + hourLabel());
+  if (FEED_LABEL[feedFilter]) out.push("التعليقات " + FEED_LABEL[feedFilter]);
+  return out;
+}
+
+function exportName(ext){
+  const w = windowRange(), d = x => ryDate(new Date(x).toISOString());
+  const parts = ["تعليقات-قوقل", w ? d(w[0]) + "_" + d(w[1] - 1) : "كل-الفترات"];
+  if ($("fStars").value) parts.push(STAR_LABEL[$("fStars").value].replace(/\s+/g, "-"));
+  return parts.join("_") + "." + ext;
+}
+
+const SENT = {positive:"إيجابي", neutral:"محايد", negative:"سلبي"};
+function rowsForExport(list){
+  return list.map(r => {
     const a = A(r);
-    return [new Date(r.published_at).toLocaleString("en-GB",{hour12:false}), r.brand, r.branch_name, r.city, r.stars,
-      r.text || r.text_translated || "", sent[a.sentiment] || "", (a.topics||[]).map(t => TOPICS[t]||t).join("، "),
-      SEV[a.severity] || "", a.summary || "", a.action || "", r.owner_reply ? "نعم" : "لا", r.url || ""].map(q).join(",");
-  }));
-  const blob = new Blob(["﻿" + lines.join("\r\n")], {type:"text/csv;charset=utf-8"});
+    return [ryDate(r.published_at), ryTime(r.published_at), r.brand, r.branch_name, r.city || "", r.stars ?? "",
+      rText(r).replace(/\s*\n+\s*/g, " "), SENT[a.sentiment] || "", (a.topics||[]).map(t => TOPICS[t]||t).join("، "),
+      SEV[a.severity] || "", a.summary || "", a.action || "", r.owner_reply ? "نعم" : "لا", r.url || ""];
+  });
+}
+const XLS_HEAD = ["التاريخ","الوقت","العلامة","الفرع","المدينة","النجوم","التعليق","التصنيف","المواضيع","الخطورة","الملخص","الإجراء المقترح","تم الرد","الرابط"];
+
+function download(blob, name){
   const a = document.createElement("a");
-  const w = windowRange(), d = x => { const t = new Date(x); return new Date(t.getTime() - t.getTimezoneOffset()*6e4).toISOString().slice(0,10); };
-  a.href = URL.createObjectURL(blob);
-  a.download = `تقييمات-قوقل_${w ? d(w[0]) + "_" + d(w[1]-1) : "الكل"}.csv`;
+  a.href = URL.createObjectURL(blob); a.download = name;
   document.body.appendChild(a); a.click(); a.remove();
-  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  setTimeout(() => URL.revokeObjectURL(a.href), 1500);
+}
+
+function exportExcel(){
+  const list = feedList(filtered(0));
+  if (!list.length) { alertEmpty(); return; }
+  const rows = rowsForExport(list);
+  if (window.XLSX){
+    const info = [["تعليقات قوقل — " + filterSummary().join(" · ")], [`عدد التعليقات: ${list.length}`], []];
+    const ws = XLSX.utils.aoa_to_sheet(info.concat([XLS_HEAD], rows));
+    ws["!cols"] = [12,8,9,28,12,7,60,9,24,9,40,40,8,30].map(w => ({wch: w}));
+    ws["!autofilter"] = {ref: XLSX.utils.encode_range({s:{r:3,c:0}, e:{r:3 + rows.length, c:XLS_HEAD.length - 1}})};
+    const wb = XLSX.utils.book_new();
+    wb.Workbook = {Views: [{RTL: true}]};
+    XLSX.utils.book_append_sheet(wb, ws, "التعليقات");
+    XLSX.writeFile(wb, exportName("xlsx"));
+  } else {
+    // Fallback: CSV with an explicit separator line so Excel splits columns in any language setting.
+    const q = v => `"${String(v ?? "").replace(/"/g,'""').replace(/\r?\n/g," ")}"`;
+    const csv = ["sep=,", XLS_HEAD.map(q).join(",")].concat(rows.map(r => r.map(q).join(","))).join("\r\n");
+    download(new Blob(["﻿" + csv], {type:"text/csv;charset=utf-8"}), exportName("csv"));
+  }
+}
+
+function exportPDF(){
+  const list = feedList(filtered(0));
+  if (!list.length) { alertEmpty(); return; }
+  const cnt = s => list.filter(r => r.stars === s).length;
+  const st = list.filter(r => r.stars).map(r => r.stars);
+  const av = st.length ? (st.reduce((a,b)=>a+b,0)/st.length).toFixed(2) : "—";
+  $("printArea").innerHTML = `
+    <h1>تعليقات قوقل — رشف وارميما</h1>
+    <div class="p-sub">${esc(filterSummary().join(" · "))}<br>تاريخ التقرير: ${ryDate(new Date().toISOString())} ${ryTime(new Date().toISOString())}</div>
+    <div class="p-sum"><span><b>عدد التعليقات:</b> ${list.length}</span><span><b>المتوسط:</b> ${av} ★</span>
+      ${[5,4,3,2,1].map(s => `<span>★${s}: ${cnt(s)}</span>`).join("")}</div>
+    ${list.map(r => {
+      const a = A(r), text = rText(r);
+      return `<div class="p-item">
+        <div class="p-meta"><b>${esc(r.brand)} · ${esc(r.branch_name)}</b>
+          <span class="p-stars">${"★".repeat(r.stars||0)}${"☆".repeat(5-(r.stars||0))}</span>
+          <span>${ryDate(r.published_at)} — ${fmt12(ryTime(r.published_at))}</span>
+          ${SEV[a.severity] ? `<span class="p-sev">${SEV[a.severity]}</span>` : ""}
+          ${r.owner_reply ? "<span>تم الرد</span>" : ""}</div>
+        <div class="p-text">${text ? esc(text) : "<i>بدون نص — تقييم بالنجوم فقط</i>"}</div>
+        ${a.summary || a.action ? `<div class="p-ai">${a.summary ? `<b>الملخص:</b> ${esc(a.summary)}` : ""}${a.action ? ` · <b>المقترح:</b> ${esc(a.action)}` : ""}</div>` : ""}
+      </div>`;
+    }).join("")}`;
+  const oldTitle = document.title;
+  document.title = exportName("pdf").replace(/\.pdf$/, "");   // default PDF file name
+  const restore = () => { document.title = oldTitle; window.removeEventListener("afterprint", restore); };
+  window.addEventListener("afterprint", restore);
+  setTimeout(() => window.print(), 50);
+}
+
+function alertEmpty(){
+  $("feedCount").textContent = "ما فيه تعليقات بهذا الفلتر للتصدير.";
 }
 
 function renderFeed(rs){
-  if (cellBranch) rs = rs.filter(r => r.branch_id === cellBranch);
-  if (starFilter) rs = rs.filter(r => r.stars === starFilter);
   const parts = [];
-  if (starFilter) parts.push(`${starFilter} ★`);
+  if ($("fStars").value) parts.push(STAR_LABEL[$("fStars").value]);
   if (cellBranch){ const r0 = ALL.find(r => r.branch_id === cellBranch); if (r0) parts.push(`${r0.brand} · ${r0.branch_name}`); }
   $("feedActive").innerHTML = parts.length ? `<span class="active-f">${esc(parts.join(" · "))}<button type="button" id="clearF" aria-label="إلغاء الفلتر">✕</button></span>` : "";
-  if (parts.length) $("clearF").onclick = () => { starFilter = null; cellBranch = null; render(); };
-  let list = rs;
-  if (feedFilter === "neg") list = rs.filter(isNeg);
-  if (feedFilter === "high") list = rs.filter(isHigh);
-  if (feedFilter === "pos") list = rs.filter(r => A(r).sentiment === "positive");
+  if (parts.length) $("clearF").onclick = () => { $("fStars").value = ""; cellBranch = null; feedLimit = 30; render(); };
+  const list = feedList(rs);
+  $("feedCount").textContent = `${list.length.toLocaleString("en")} تعليق` + (hourLabel() ? ` · ${hourLabel()}` : "") +
+    (list.length ? " — زر PDF وExcel يصدّر هذي القائمة كاملة" : "");
   $("feed").innerHTML = list.slice(0, feedLimit).map(r => {
     const a = A(r);
-    const text = r.text || r.text_translated;
+    const text = rText(r);
     return `<article class="review">
       <div class="meta"><b>${esc(r.brand)} · ${esc(r.branch_name)}</b>
         <span class="stars" aria-label="${r.stars} من 5">${"★".repeat(r.stars||0)}${"☆".repeat(5-(r.stars||0))}</span>
-        <span>${fmtDate(r.published_at)}</span>
+        <span>${ryDate(r.published_at)} · ${fmt12(ryTime(r.published_at))}</span>
         ${SEV[a.severity] ? `<span class="sev sev-${a.severity}">● ${SEV[a.severity]}</span>` : ""}
         ${r.owner_reply ? `<span>↩︎ تم الرد</span>` : ""}
       </div>
@@ -500,10 +665,17 @@ $("fPeriod").onchange = () => {
 };
 $("fFrom").onchange = $("fTo").onchange = () => { feedLimit = 30; render(); };
 $("dist").onclick = e => { const b = e.target.closest("button"); if (!b) return;
-  const s = +b.dataset.s; setStarFilter(starFilter === s && !cellBranch ? null : s, null); };
+  const s = b.dataset.s; setStarFilter($("fStars").value === s && !cellBranch ? null : s, null); };
 $("tStars").onclick = e => { const b = e.target.closest("button"); if (!b || b.disabled) return;
-  setStarFilter(b.dataset.s ? +b.dataset.s : null, b.dataset.b); };
-$("exportBtn").onclick = exportCSV;
+  setStarFilter(b.dataset.s || null, b.dataset.b); };
+$("fStars").onchange = () => { feedLimit = 30; render(); };
+$("xlsBtn").onclick = exportExcel;
+$("pdfBtn").onclick = exportPDF;
+$("fHFrom").onchange = $("fHTo").onchange = () => {
+  $("hClear").hidden = !$("fHFrom").value && !$("fHTo").value;
+  feedLimit = 30; render();
+};
+$("hClear").onclick = () => { $("fHFrom").value = ""; $("fHTo").value = ""; $("hClear").hidden = true; feedLimit = 30; render(); };
 $("fBrand").onchange = () => { fillBranches(); feedLimit = 30; render(); };
 $("fBranch").onchange = () => { feedLimit = 30; render(); };
 $("moreBtn").onclick = () => { feedLimit += 30; renderFeed(filtered(0)); };
