@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T09:46:31Z",
+ "updated_at": "2026-11-01T13:19:40Z",
  "reviews": [
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21WS2VGZFJVbTVSUTJjNWVVRTROV040VjNoWE9FRRAB",
@@ -26,7 +26,7 @@
     "products": [],
     "action": "",
     "model": "stars-only",
-    "attempts": 1,
+    "attempts": 2,
     "v": 2
    }
   },
@@ -47,16 +47,19 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "taste"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
+    "summary": "إعجاب بالقهوة والحلا من فرع الرس",
     "staff_mentions": [],
-    "products": [],
+    "products": [
+     "قهوة",
+     "حلا"
+    ],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -76,16 +79,22 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
-    "negative_topics": [],
-    "severity": "none",
-    "summary": "",
+    "topics": [
+     "price",
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [
+     "taste"
+    ],
+    "severity": "low",
+    "summary": "الكركديه جيد السعر لكن فيه حموضة زائدة قليلاً",
     "staff_mentions": [],
-    "products": [],
-    "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "products": [
+     "كركديه"
+    ],
+    "action": "مراجعة نسبة الحموضة في وصفة الكركديه والتأكد من ثباتها بين الدفعات.",
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -296,16 +305,24 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "staff",
+     "taste"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
-    "staff_mentions": [],
-    "products": [],
+    "summary": "فرع جميل وموظف محترم والقهوة لذيذة",
+    "staff_mentions": [
+     {
+      "name": "عبد الله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -767,16 +784,24 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "taste",
+     "staff"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
-    "staff_mentions": [],
-    "products": [],
+    "summary": "قهوة جميلة وخدمة راقية، إشادة بالموظف عبدالله",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "كوفي"
+    ],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -1131,16 +1156,22 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "speed",
+     "staff"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
-    "staff_mentions": [],
+    "summary": "خدمة سريعة واستقبال جميل من الموظف بسام",
+    "staff_mentions": [
+     {
+      "name": "بسام",
+      "sentiment": "positive"
+     }
+    ],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -2095,16 +2126,19 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "taste",
+     "price"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
+    "summary": "أفضل قهوة في الرس مع أسعار ممتازة",
     "staff_mentions": [],
-    "products": [],
+    "products": [
+     "كوفي"
+    ],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -2124,16 +2158,21 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "staff"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
-    "staff_mentions": [],
+    "summary": "شكر للموظف معشوق على تقديم الخدمة",
+    "staff_mentions": [
+     {
+      "name": "معشوق",
+      "sentiment": "positive"
+     }
+    ],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -2153,16 +2192,21 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "staff"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
-    "staff_mentions": [],
+    "summary": "إشادة بالموظف ناصر",
+    "staff_mentions": [
+     {
+      "name": "ناصر",
+      "sentiment": "positive"
+     }
+    ],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -2185,13 +2229,11 @@
     "topics": [],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
+    "summary": "تقييم 5 نجوم بدون نص",
     "staff_mentions": [],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -2211,16 +2253,20 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "negative",
-    "topics": [],
-    "negative_topics": [],
-    "severity": "medium",
-    "summary": "",
+    "topics": [
+     "speed",
+     "staff"
+    ],
+    "negative_topics": [
+     "speed",
+     "staff"
+    ],
+    "severity": "high",
+    "summary": "بطء العامل أدى لمغادرة العميل الصف دون طلب",
     "staff_mentions": [],
     "products": [],
-    "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "action": "مراجعة سرعة خدمة الصف وتدريب العامل المسؤول أو إعادة توزيع المهام في أوقات الذروة.",
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -2240,16 +2286,19 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
-    "negative_topics": [],
-    "severity": "none",
-    "summary": "",
+    "topics": [
+     "staff",
+     "other"
+    ],
+    "negative_topics": [
+     "staff"
+    ],
+    "severity": "low",
+    "summary": "تسجيل النقاط تم بفضل الموظف السعودي بعد تجاهل زميله",
     "staff_mentions": [],
     "products": [],
-    "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "action": "تذكير الموظفين بالاستماع الجيد للعميل قبل تسجيل النقاط أو الطلب.",
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -2272,13 +2321,11 @@
     "topics": [],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
+    "summary": "إشادة عامة بالمطعم",
     "staff_mentions": [],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -2301,13 +2348,11 @@
     "topics": [],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
+    "summary": "تقييم 5 نجوم بدون نص",
     "staff_mentions": [],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -6228,16 +6273,21 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "staff"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
-    "staff_mentions": [],
+    "summary": "إشادة بالموظف عمار وأخلاقه وحرصه على الطلب",
+    "staff_mentions": [
+     {
+      "name": "عمار",
+      "sentiment": "positive"
+     }
+    ],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -7779,13 +7829,11 @@
     "topics": [],
     "negative_topics": [],
     "severity": "medium",
-    "summary": "",
+    "summary": "تقييم نجمة واحدة بدون نص",
     "staff_mentions": [],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -8460,16 +8508,24 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "taste",
+     "staff"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
-    "staff_mentions": [],
-    "products": [],
+    "summary": "إعجاب بطعم الحلويات والقهوة وأخلاق الموظف محمد وتسويقه",
+    "staff_mentions": [
+     {
+      "name": "محمد",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -8807,13 +8863,11 @@
     "topics": [],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
+    "summary": "إشادة عامة قصيرة دون تفاصيل محددة",
     "staff_mentions": [],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
