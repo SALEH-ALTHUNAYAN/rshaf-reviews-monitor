@@ -325,6 +325,7 @@ def get_source(cfg):
 """Classify reviews with Claude (topics, sentiment, severity, staff mentions)."""
 import json
 import re
+import time
 
 import requests
 
@@ -394,17 +395,41 @@ def _call_claude(batch, model):
         },
         json={
             "model": model,
-            "max_tokens": 4000,
+            "max_tokens": 8000,
             "system": SYSTEM,
             "messages": [{"role": "user",
                           "content": json.dumps(payload, ensure_ascii=False)}],
         },
-        timeout=120,
+        timeout=180,
     )
+    if resp.status_code in (429, 529) or resp.status_code >= 500:
+        time.sleep(20)  # rate limit / overloaded: wait once, then let caller split/retry
+        raise RuntimeError(f"Claude {resp.status_code}: {resp.text[:200]}")
     if not resp.ok:
         raise RuntimeError(f"Claude {resp.status_code}: {resp.text[:300]}")
-    text = "".join(b.get("text", "") for b in resp.json()["content"])
+    body = resp.json()
+    if body.get("stop_reason") == "max_tokens":
+        raise RuntimeError("Claude reply truncated (max_tokens)")
+    text = "".join(b.get("text", "") for b in body["content"])
     return {str(x["id"]): x for x in _extract_json(text)}
+
+
+def _classify(batch, model, depth=0):
+    """Classify a batch; on failure split it in half so one bad batch never
+    sinks the rest. Returns {id: analysis} for whatever succeeded."""
+    try:
+        return _call_claude(batch, model)
+    except Exception as e:
+        log(f"Claude batch of {len(batch)} failed: {e}")
+        if len(batch) <= 1 or depth >= 4:
+            return {}
+        mid = len(batch) // 2
+        out = _classify(batch[:mid], model, depth + 1)
+        out.update(_classify(batch[mid:], model, depth + 1))
+        return out
+
+
+ANALYSIS_VERSION = 2  # bump to re-run fallback-only reviews with improved logic
 
 
 def analyze_pending(store, cfg):
@@ -414,23 +439,23 @@ def analyze_pending(store, cfg):
         a = r.get("analysis")
         if not a:
             return True
+        if not use_claude or a.get("model") != "stars-only":
+            return False
         # Retry reviews that only got the stars fallback (e.g. API was down).
-        return use_claude and a.get("model") == "stars-only" and a.get("attempts", 0) < 3
+        if a.get("v", 1) < ANALYSIS_VERSION:
+            return True
+        return a.get("attempts", 0) < 3
 
     pending = [r for r in store["reviews"] if needs(r)]
     if not pending:
         return 0
     model = cfg["claude"]["model"]
-    size = cfg["claude"].get("batch_size", 15)
+    # Arabic JSON replies are long; keep batches small so they never get cut off.
+    size = min(cfg["claude"].get("batch_size", 8), 8)
     done = 0
     for i in range(0, len(pending), size):
         batch = pending[i:i + size]
-        results = {}
-        if use_claude:
-            try:
-                results = _call_claude(batch, model)
-            except Exception as e:  # keep going; fall back to stars
-                log(f"Claude batch failed, using stars fallback: {e}")
+        results = _classify(batch, model) if use_claude else {}
         for r in batch:
             a = results.get(r["id"])
             if a:
@@ -440,11 +465,14 @@ def analyze_pending(store, cfg):
                 a["model"] = model
                 r["analysis"] = a
             else:
-                prev = (r.get("analysis") or {}).get("attempts", 0)
+                old = r.get("analysis") or {}
+                prev = old.get("attempts", 0) if old.get("v", 1) == ANALYSIS_VERSION else 0
                 r["analysis"] = _fallback(r)
                 r["analysis"]["attempts"] = prev + (1 if use_claude else 0)
+                r["analysis"]["v"] = ANALYSIS_VERSION
             done += 1
-    log(f"Analyzed {done} reviews (claude={'on' if use_claude else 'off'})")
+    ok = sum(1 for r in pending if (r.get("analysis") or {}).get("model") != "stars-only")
+    log(f"Analyzed {done} reviews: {ok} by Claude, {done - ok} stars-only (claude={'on' if use_claude else 'off'})")
     return done
 
 # ======================================================================
