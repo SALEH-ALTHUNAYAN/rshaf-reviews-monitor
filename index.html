@@ -104,6 +104,9 @@ tfoot td{font-weight:700;border-top:2px solid var(--line);border-bottom:none}
 .range .lbl{color:var(--text-2)}
 .feed-tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .feed-tools select{padding:6px 12px}
+.star-chips{display:flex;flex-wrap:wrap;gap:6px}
+.star-chips .chip{padding:5px 12px;font-variant-numeric:tabular-nums}
+.star-chips .chip[aria-pressed="true"]:not([data-s="all"]){background:var(--star);border-color:var(--star);color:#1a1a19}
 .feed-count{font-size:13px;color:var(--text-2);margin:-4px 0 6px}
 /* ---- print / PDF ---- */
 #printArea{display:none}
@@ -220,16 +223,15 @@ tfoot td{font-weight:700;border-top:2px solid var(--line);border-bottom:none}
     </div>
     <div class="feed-head" style="margin-top:-4px">
       <div class="feed-tools">
-        <select id="fStars" aria-label="النجوم">
-          <option value="">كل النجوم</option>
-          <option value="1">★ نجمة وحدة</option>
-          <option value="2">★★ نجمتين</option>
-          <option value="3">★★★ 3 نجوم</option>
-          <option value="4">★★★★ 4 نجوم</option>
-          <option value="5">★★★★★ 5 نجوم</option>
-          <option value="1-2">نجمة ونجمتين</option>
-          <option value="1-3">من 1 إلى 3 نجوم</option>
-        </select>
+        <span class="lbl" style="font-size:13px;color:var(--text-2)">النجوم (اختر واحد أو أكثر):</span>
+        <div class="star-chips" id="starChips" role="group" aria-label="النجوم">
+          <button type="button" class="chip" data-s="all" aria-pressed="true">الكل</button>
+          <button type="button" class="chip" data-s="1" aria-pressed="false">★1</button>
+          <button type="button" class="chip" data-s="2" aria-pressed="false">★2</button>
+          <button type="button" class="chip" data-s="3" aria-pressed="false">★3</button>
+          <button type="button" class="chip" data-s="4" aria-pressed="false">★4</button>
+          <button type="button" class="chip" data-s="5" aria-pressed="false">★5</button>
+        </div>
       </div>
       <div class="feed-tools">
         <button class="chip" id="pdfBtn" type="button">⬇ PDF</button>
@@ -454,12 +456,14 @@ function renderStaff(rs){
 
 // ---- star counts ----
 let cellBranch = null;   // set by clicking a branch cell in the star table
-const STAR_LABEL = {"1":"نجمة وحدة","2":"نجمتين","3":"3 نجوم","4":"4 نجوم","5":"5 نجوم","1-2":"نجمة ونجمتين","1-3":"من 1 إلى 3 نجوم"};
-function starOK(r){
-  const v = $("fStars").value;
-  if (!v) return true;
-  if (v.includes("-")) { const [a, b] = v.split("-").map(Number); return r.stars >= a && r.stars <= b; }
-  return r.stars === +v;
+// Multi-select star filter: empty set = all stars.
+const STARS = new Set();
+const starOK = r => !STARS.size || STARS.has(r.stars);
+const starsSorted = () => [...STARS].sort((a, b) => a - b);
+const starLabel = () => starsSorted().map(s => `★${s}`).join(" + ");
+function syncStarChips(){
+  document.querySelectorAll("#starChips .chip").forEach(b =>
+    b.setAttribute("aria-pressed", b.dataset.s === "all" ? !STARS.size : STARS.has(+b.dataset.s)));
 }
 
 function renderStars(rs){
@@ -468,7 +472,7 @@ function renderStars(rs){
   const cnt = s => rs.filter(r => r.stars === s).length;
   $("dist").innerHTML = [5,4,3,2,1].map(s => {
     const n = cnt(s), p = total ? n/total*100 : 0;
-    const on = $("fStars").value === String(s) && !cellBranch ? " on" : "";
+    const on = STARS.has(s) && !cellBranch ? " on" : "";
     return `<button class="d${on}" data-s="${s}" type="button" aria-label="${s} نجوم: ${n}">
       <div class="s">${"★".repeat(s)}<span style="color:var(--line)">${"★".repeat(5-s)}</span></div>
       <div class="n">${n.toLocaleString("en")}</div><div class="p">${p.toFixed(1)}%</div>
@@ -493,7 +497,7 @@ function renderStars(rs){
 }
 
 function setStarFilter(s, bid){
-  $("fStars").value = s ? String(s) : ""; cellBranch = bid || null; feedLimit = 30;
+  STARS.clear(); if (s) STARS.add(+s); syncStarChips(); cellBranch = bid || null; feedLimit = 30;
   feedFilter = "all";
   document.querySelectorAll("#feedChips button").forEach(x => x.setAttribute("aria-pressed", x.dataset.f === "all"));
   render();
@@ -517,7 +521,7 @@ function filterSummary(){
   if (bid){ const r0 = ALL.find(r => r.branch_id === bid); if (r0) out.push(`${r0.brand} · ${r0.branch_name}`); }
   else if ($("fBrand").value) out.push($("fBrand").value);
   else out.push("كل الفروع");
-  if ($("fStars").value) out.push(STAR_LABEL[$("fStars").value]);
+  if (STARS.size) out.push("النجوم " + starLabel());
   if (hourLabel()) out.push("الوقت " + hourLabel());
   if (FEED_LABEL[feedFilter]) out.push("التعليقات " + FEED_LABEL[feedFilter]);
   return out;
@@ -526,7 +530,7 @@ function filterSummary(){
 function exportName(ext){
   const w = windowRange(), d = x => ryDate(new Date(x).toISOString());
   const parts = ["تعليقات-قوقل", w ? d(w[0]) + "_" + d(w[1] - 1) : "كل-الفترات"];
-  if ($("fStars").value) parts.push(STAR_LABEL[$("fStars").value].replace(/\s+/g, "-"));
+  if (STARS.size) parts.push("نجوم-" + starsSorted().join("-"));
   return parts.join("_") + "." + ext;
 }
 
@@ -605,10 +609,10 @@ function alertEmpty(){
 
 function renderFeed(rs){
   const parts = [];
-  if ($("fStars").value) parts.push(STAR_LABEL[$("fStars").value]);
+  if (STARS.size) parts.push(starLabel());
   if (cellBranch){ const r0 = ALL.find(r => r.branch_id === cellBranch); if (r0) parts.push(`${r0.brand} · ${r0.branch_name}`); }
   $("feedActive").innerHTML = parts.length ? `<span class="active-f">${esc(parts.join(" · "))}<button type="button" id="clearF" aria-label="إلغاء الفلتر">✕</button></span>` : "";
-  if (parts.length) $("clearF").onclick = () => { $("fStars").value = ""; cellBranch = null; feedLimit = 30; render(); };
+  if (parts.length) $("clearF").onclick = () => { STARS.clear(); syncStarChips(); cellBranch = null; feedLimit = 30; render(); };
   const list = feedList(rs);
   $("feedCount").textContent = `${list.length.toLocaleString("en")} تعليق` + (hourLabel() ? ` · ${hourLabel()}` : "") +
     (list.length ? " — زر PDF وExcel يصدّر هذي القائمة كاملة" : "");
@@ -665,10 +669,16 @@ $("fPeriod").onchange = () => {
 };
 $("fFrom").onchange = $("fTo").onchange = () => { feedLimit = 30; render(); };
 $("dist").onclick = e => { const b = e.target.closest("button"); if (!b) return;
-  const s = b.dataset.s; setStarFilter($("fStars").value === s && !cellBranch ? null : s, null); };
+  const s = +b.dataset.s; setStarFilter(STARS.size === 1 && STARS.has(s) && !cellBranch ? null : s, null); };
 $("tStars").onclick = e => { const b = e.target.closest("button"); if (!b || b.disabled) return;
   setStarFilter(b.dataset.s || null, b.dataset.b); };
-$("fStars").onchange = () => { feedLimit = 30; render(); };
+$("starChips").onclick = e => {
+  const b = e.target.closest("button"); if (!b) return;
+  if (b.dataset.s === "all") STARS.clear();
+  else { const s = +b.dataset.s; STARS.has(s) ? STARS.delete(s) : STARS.add(s); }
+  if (STARS.size === 5) STARS.clear();   // all five picked = no filter
+  syncStarChips(); feedLimit = 30; render();
+};
 $("xlsBtn").onclick = exportExcel;
 $("pdfBtn").onclick = exportPDF;
 $("fHFrom").onchange = $("fHTo").onchange = () => {
