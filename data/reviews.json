@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T13:19:40Z",
+ "updated_at": "2026-11-01T18:55:21Z",
  "reviews": [
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21WS2VGZFJVbTVSUTJjNWVVRTROV040VjNoWE9FRRAB",
@@ -18,16 +18,20 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "negative",
-    "topics": [],
-    "negative_topics": [],
+    "topics": [
+     "speed",
+     "staff"
+    ],
+    "negative_topics": [
+     "speed",
+     "staff"
+    ],
     "severity": "medium",
-    "summary": "",
+    "summary": "انتظار ربع ساعة للطلب بسبب موظف واحد فقط",
     "staff_mentions": [],
     "products": [],
-    "action": "",
-    "model": "stars-only",
-    "attempts": 2,
-    "v": 2
+    "action": "مراجعة عدد الموظفين في فترات الذروة، خاصة في خدمة السيارات (الدرايف ثرو)، لتقليل زمن الانتظار.",
+    "model": "claude-haiku-5-5"
    }
   },
   {
