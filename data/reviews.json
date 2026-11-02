@@ -1,6 +1,44 @@
 {
- "updated_at": "2026-11-01T23:34:45Z",
+ "updated_at": "2026-11-02T05:59:27Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xGWFdXYzBWRk16VFdsdlQwY3dTRlZIY0VoQk1FRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "كوفي جميل وسريعين في التقديم وشكراً للموظف عبدالله على حسن تعامله وذوقه الراقي وخدمته الممتازة، بشوش ومتعاون ويستحق كل التقدير 🌟",
+   "text_translated": null,
+   "published_at": "2026-11-02T03:45:17.780Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": null,
+   "collected_at": "2026-11-02T05:58:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "speed",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة جميلة وتقديم سريع مع إشادة بتعامل الموظف عبدالله",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "كوفي"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21WS2VGZFJVbTVSUTJjNWVVRTROV040VjNoWE9FRRAB",
    "source": "apify",
