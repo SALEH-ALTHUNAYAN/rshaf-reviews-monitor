@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T15:46:23Z",
+ "updated_at": "2026-11-02T23:29:47Z",
  "reviews": [
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCdmJFRmtURmhvT1hNM01GTmpWRE5SZFdSaU4yYxAB",
@@ -77,16 +77,22 @@
    "collected_at": "2026-11-02T15:45:19Z",
    "analysis": {
     "sentiment": "negative",
-    "topics": [],
-    "negative_topics": [],
+    "topics": [
+     "staff",
+     "accuracy"
+    ],
+    "negative_topics": [
+     "staff",
+     "accuracy"
+    ],
     "severity": "medium",
-    "summary": "",
+    "summary": "عامل الصباح لم يفهم طلب اسبريسو شوت واحد وأساء العميل بوصفه",
     "staff_mentions": [],
-    "products": [],
-    "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "products": [
+     "اسبريسو شوت"
+    ],
+    "action": "مراجعة تأكيد الطلبات مع عامل الصباح وتدريبه على تكرار الطلب وتوضيحه مع العميل.",
+    "model": "claude-haiku-5-5"
    },
    "alerted": true
   },
