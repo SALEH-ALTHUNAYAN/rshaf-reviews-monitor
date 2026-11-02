@@ -1,6 +1,130 @@
 {
- "updated_at": "2026-11-02T05:59:27Z",
+ "updated_at": "2026-11-02T15:46:23Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCdmJFRmtURmhvT1hNM01GTmpWRE5SZFdSaU4yYxAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 1,
+   "text": "تجربة سيئة خمس دقايق انتظر الموظف و انا واقف عند الكاشير و هو سافهني يشوفني و مخليني و يوم قلت له تعال خذ طلبي بأسلوب هادي و مبتسم له يزمر و يقول اطلب من التطبيق!؟ يسلام! ماوده يصوعني بكف بعد؟، عطيتكم الطعام خمسه عشان ما اظلمكم",
+   "text_translated": null,
+   "published_at": "2026-11-02T10:05:58.630Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": "يؤسفنا جداً سماع ذلك وعدم رضاك عن الخدمة المقدمة نأمل التواصل معنا مباشرة عن طريق الواتس اب لنتمكن من خدمتكم بشكل افضل ومعالجة الأمر 0503579222",
+   "collected_at": "2026-11-02T15:45:19Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "speed",
+     "staff"
+    ],
+    "negative_topics": [
+     "speed",
+     "staff"
+    ],
+    "severity": "critical",
+    "summary": "انتظار خمس دقائق عند الكاشير وتجاهل وتعامل غير لائق من الموظف",
+    "staff_mentions": [],
+    "products": [],
+    "action": "التحقيق في الواقعة مع الموظف المعني وتذكيره بمعايير التعامل المحترم مع العملاء عند الكاشير.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pkalYxcHZPVzVGU25rME56QldXRU56ZW5kNmJXYxAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-02T09:58:21.985Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": null,
+   "collected_at": "2026-11-02T15:45:19Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي النجوم دون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21STE5qRm9jbHB0UVZkQlUwWmhjM05hT1dkcU9IYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-rehab",
+   "brand": "رشف",
+   "branch_name": "بريدة - الرحاب",
+   "city": "بريدة",
+   "stars": 1,
+   "text": "حاطين عامل  الصباح  يوم الاثنين   مايفهم  مايفهم اقول شوت واحد بالسبانش يوريني الكوب   غباء",
+   "text_translated": null,
+   "published_at": "2026-11-02T07:49:58.543Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJbaL138BXfxURl6ZU5rWhf2g",
+   "owner_reply": "يؤسفنا جداً سماع ذلك وعدم رضاك عن الخدمة المقدمة نأمل التواصل معنا مباشرة عن طريق الواتس اب لنتمكن من خدمتكم بشكل افضل ومعالجة الأمر 0502041122",
+   "collected_at": "2026-11-02T15:45:19Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "medium",
+    "summary": "",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "stars-only",
+    "attempts": 1,
+    "v": 2
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21jM2RXdDZSVTkxTlZCclprOXVjMFpmUkZWR00wRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-kingfahd",
+   "brand": "رشف",
+   "branch_name": "الرس - طريق الملك فهد",
+   "city": "الرس",
+   "stars": 5,
+   "text": "هالفرع بالذات احب اجيه تعامل الموظف راااائع وخدمته سريعه بالنسبة للقهوه رشف يتحدث عن نفسه ماشاء الله محاصيلهم لذيذة والافضل 👍🏻",
+   "text_translated": null,
+   "published_at": "2026-11-02T07:48:21.542Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJsXOFxN_LgxURBC_JSCvJdu4",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵",
+   "collected_at": "2026-11-02T15:45:19Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "accuracy",
+     "staff"
+    ],
+    "negative_topics": [
+     "accuracy",
+     "staff"
+    ],
+    "severity": "medium",
+    "summary": "عدم فهم طلب الشوت بالسبانش من عامل الصباح وإهانة في التعليق",
+    "staff_mentions": [],
+    "products": [
+     "سبانش"
+    ],
+    "action": "تدريب عامل الفترة الصباحية على تسميات المشروبات المختصة وتأكيد الطلب مع العميل قبل التحضير.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xGWFdXYzBWRk16VFdsdlQwY3dTRlZIY0VoQk1FRRAB",
    "source": "apify",
@@ -13,7 +137,7 @@
    "text_translated": null,
    "published_at": "2026-11-02T03:45:17.780Z",
    "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
-   "owner_reply": null,
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵",
    "collected_at": "2026-11-02T05:58:00Z",
    "analysis": {
     "sentiment": "positive",
