@@ -1,6 +1,44 @@
 {
- "updated_at": "2026-11-03T00:27:10Z",
+ "updated_at": "2026-11-03T06:45:32Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pKWWJYUTFWSHB2WjBOSldtVTJXVkJ6TW5vemMyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-badaie",
+   "brand": "رشف",
+   "branch_name": "البدائع - طريق الملك فيصل",
+   "city": "البدائع",
+   "stars": 4,
+   "text": "اول ما جربت ماتشا بالفراوله كانت لذيذه بس بعدين تغير طعمها و جربت عندهم بعض المشروبات الحاره و البارده حلوه الصراحه دايم اطلب من عندهم و الكوكيز حلو بس بالنسبه لي حالي بزياده",
+   "text_translated": null,
+   "published_at": "2026-11-03T05:43:33.101Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJq88hLsYnghURAWx69ipkKoo",
+   "owner_reply": "اهلاً بك .. سعيدين بمشاركتنا ملاحظاتك ونعتذر على اختلاف طعم الماتشا ملاحظاتك رفعت فوراً لفريق التحضير لمراجعتها وننتظر زيارتك الجاية لتكون تجربة أفضل",
+   "collected_at": "2026-11-03T06:44:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "price"
+    ],
+    "negative_topics": [
+     "taste",
+     "price"
+    ],
+    "severity": "low",
+    "summary": "الماتشا بالفراولة تغير طعمها لاحقاً، والكوكيز مرتفع السعر نسبياً للعميل",
+    "staff_mentions": [],
+    "products": [
+     "ماتشا بالفراولة",
+     "مشروبات حارة",
+     "مشروبات باردة",
+     "كوكيز"
+    ],
+    "action": "مراجعة ثبات طعم وصفة الماتشا بالفراولة بين الدفعات، ومراجعة تسعير الكوكيز.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCdmJFRmtURmhvT1hNM01GTmpWRE5SZFdSaU4yYxAB",
    "source": "apify",
