@@ -1,6 +1,103 @@
 {
- "updated_at": "2026-11-03T06:45:32Z",
+ "updated_at": "2026-11-03T16:14:00Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21WUWVEQmtRbTVEYjBkMlRHNVVPRWxJWjNneFJGRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-unayzah-zamil",
+   "brand": "رشف",
+   "branch_name": "عنيزة - طريق زامل السليم",
+   "city": "عنيزة",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-03T13:21:28.735Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJa3D0Y1XtgRURx9pBCpvbLyo",
+   "owner_reply": null,
+   "collected_at": "2026-11-03T16:13:19Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي النجوم بدون نص مكتوب",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2sxak9HWmxkMGRwYWtwVWFETTVlWFJJTTE4eGExRRAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 5,
+   "text": "تجربة رائعة جربت جميع اصناف وجبة الغداء صراحة لذيذ وبقوة ونكهة خاصة  وان شاءالله اجرب اصناف العشاء بس دايم اجي متاخر وتخلص الاطباق بسرعه استمروا بهاذا الابداع صراحةً طعم وجودة وسعر معقول",
+   "text_translated": null,
+   "published_at": "2026-11-03T13:11:28.030Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": "سعيدين بتتقييمك وبالعافية عليك ونأمل ان تكون من عملائنا المميزين 🤩🧡",
+   "collected_at": "2026-11-03T16:13:19Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "speed",
+     "price"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "طعم لذيذ وسعر معقول وتقديم سريع للأطباق",
+    "staff_mentions": [],
+    "products": [
+     "وجبة الغداء"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21KMlNFTnJZVkZmU0dkNVJFOHlORVo1ZUU5cWVVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-kingfahd",
+   "brand": "رشف",
+   "branch_name": "الرس - طريق الملك فهد",
+   "city": "الرس",
+   "stars": 5,
+   "text": "رهيبه قهوته، خصوصاً خدمة ناصر 👍🏻",
+   "text_translated": null,
+   "published_at": "2026-11-03T07:54:01.035Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJsXOFxN_LgxURBC_JSCvJdu4",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵",
+   "collected_at": "2026-11-03T16:13:19Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة رائعة وخدمة مميزة من الموظف ناصر",
+    "staff_mentions": [
+     {
+      "name": "ناصر",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pKWWJYUTFWSHB2WjBOSldtVTJXVkJ6TW5vemMyYxAB",
    "source": "apify",
