@@ -1,6 +1,101 @@
 {
- "updated_at": "2026-11-04T12:05:42Z",
+ "updated_at": "2026-11-04T19:43:58Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xGd09VMTNSME53ZDJGNVJIUkJSMk0wZWtSMGIxRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "محمد سجيب محترم",
+   "text_translated": null,
+   "published_at": "2026-11-04T17:50:37.791Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵‏",
+   "collected_at": "2026-11-04T19:43:24Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "العميل يصف الموظف محمد بالاحترام.",
+    "staff_mentions": [
+     {
+      "name": "محمد",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pWd1NGRTBjMll0TFZodFdEbG9UVGhzYzAxWmQzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "الموظف محمد غلام افضل موظف عندهم شكرا لك",
+   "text_translated": null,
+   "published_at": "2026-11-04T14:23:30.653Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵",
+   "collected_at": "2026-11-04T19:43:24Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "العميل يمدح الموظف محمد غلام ويعتبره الأفضل.",
+    "staff_mentions": [
+     {
+      "name": "محمد غلام",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0dFYwUkhNbGsxVVZoWExXeERNSFEzWmkwNVNVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-04T13:03:12.148Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": null,
+   "collected_at": "2026-11-04T19:43:24Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21WUWVEQmtRbTVEYjBkMlRHNVVPRWxJWjNneFJGRRAB",
    "source": "apify",
