@@ -1,6 +1,113 @@
 {
- "updated_at": "2026-11-05T09:30:09Z",
+ "updated_at": "2026-11-05T18:01:06Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21NdFpGRlZhbnBRTUd0dlRVczNibk5NTmpGdlVXYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "اشكر الموظف عبدالله على حسن الخلق والتعامل مع العملاء ❤️❤️",
+   "text_translated": null,
+   "published_at": "2026-11-05T17:01:08.627Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": null,
+   "collected_at": "2026-11-05T17:59:54Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر للموظف عبدالله على حسن الخلق وتعامله مع العملاء",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pOUFpHaG5ORXBaUzNwdE4zaFJha0ZDZW5SNGFsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "خدمة رائعة خاصتا من الموظف عبدالله 10/10",
+   "text_translated": null,
+   "published_at": "2026-11-05T14:54:25.846Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": null,
+   "collected_at": "2026-11-05T17:59:54Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بخدمة الموظف عبدالله وتقييم 10/10",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21oVU4ySnJlR1JoU0RrMlVrZDNVRGd4WDNBNFEwRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "اشكر محمد غلام ومحمد جوني على حسن التعامل والبشاشة وسريعين بالطلب",
+   "text_translated": null,
+   "published_at": "2026-11-05T11:47:22.344Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": null,
+   "collected_at": "2026-11-05T17:59:54Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "speed"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر لمحمد غلام ومحمد جوني على البشاشة وسرعة الطلب",
+    "staff_mentions": [
+     {
+      "name": "محمد غلام",
+      "sentiment": "positive"
+     },
+     {
+      "name": "محمد جوني",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xGd09VMTNSME53ZDJGNVJIUkJSMk0wZWtSMGIxRRAB",
    "source": "apify",
@@ -5529,13 +5636,11 @@
     "topics": [],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي",
     "staff_mentions": [],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
@@ -5817,16 +5922,21 @@
    "alerted": "backfill",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "staff"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
-    "staff_mentions": [],
+    "summary": "إشادة عامة بالفريق وتقييم ممتاز للموظف توفال",
+    "staff_mentions": [
+     {
+      "name": "توفال",
+      "sentiment": "positive"
+     }
+    ],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    }
   },
   {
