@@ -201,10 +201,10 @@ class ApifySource:
         self.cfg = cfg
         self.token = env("APIFY_TOKEN", required=True)
 
-    def fetch(self, since):
+    def fetch(self, since, place_ids=None):
         a = self.cfg["apify"]
         body = {
-            "placeIds": [b["place_id"] for b in self.cfg["branches"]],
+            "placeIds": place_ids or [b["place_id"] for b in self.cfg["branches"]],
             "maxReviews": a.get("max_reviews_per_run", 300),
             "reviewsSort": "newest",
             # Absolute dates are interpreted as UTC by the actor.
@@ -298,9 +298,11 @@ class GBPSource:
                     break
         return found
 
-    def fetch(self, since):
+    def fetch(self, since, place_ids=None):
         out = []
         for path, branch in self._locations().items():
+            if place_ids and branch.get("place_id") not in place_ids:
+                continue
             token = None
             while True:
                 data = self._get(f"https://mybusiness.googleapis.com/v4/{path}/reviews",
@@ -489,6 +491,7 @@ def analyze_pending(store, cfg):
 # ======================================================================
 """Telegram notifications: instant alerts, daily digest, weekly report."""
 import json
+import re
 from collections import Counter, defaultdict
 from datetime import timedelta
 
@@ -502,6 +505,12 @@ SEV_AR = {"critical": "🚨 حرج", "high": "🔴 عالي", "medium": "🟠 م
 
 def _a(r):
     return r.get("analysis") or {}
+
+
+def _txt(r):
+    """Review text with any leftover <br> tags turned into spaces; '' if stars only."""
+    t = r.get("text") or r.get("text_translated") or ""
+    return re.sub(r"\s*<br\s*/?>\s*", " ", t, flags=re.I).strip()
 
 
 def _is_alert(r, cfg):
@@ -599,7 +608,9 @@ def send_daily(store, cfg):
     if not day:
         lines.append("ما وصل تعليقات جديدة خلال آخر 24 ساعة.")
     else:
+        written = [r for r in day if _txt(r)]
         lines += [f"عدد التعليقات: <b>{s['count']}</b>   المتوسط: <b>{s['avg']:.2f}</b>{STAR}",
+                  f"✍️ مكتوبة: <b>{len(written)}</b>   ⭐ نجوم فقط: <b>{len(day) - len(written)}</b>",
                   f"السلبية: <b>{len(s['neg'])}</b>", "", "<b>حسب الفرع</b>"]
         lines += _branch_lines(s["by_branch"])
         if s["topics"]:
@@ -608,6 +619,18 @@ def send_daily(store, cfg):
         if s["staff_pos"]:
             lines += ["", "<b>موظفين انشكروا بالاسم 👏</b>"]
             lines += [f"• {esc(n)} ({esc(b)}) ×{c}" for (n, b), c in s["staff_pos"].most_common(5)]
+        # Every review of the day: lowest stars first; written ones show their text.
+        lines += ["", "<b>تعليقات اليوم</b>"]
+        for r in sorted(day, key=lambda r: (r.get("stars") or 0, r.get("published_at") or "")):
+            pub = parse_iso(r.get("published_at"))
+            when = local_str(pub, cfg, "%I:%M %p").replace("AM", "ص").replace("PM", "م") if pub else ""
+            head = f"{STAR * (r.get('stars') or 0)} <b>{esc(r['brand'])} · {esc(r['branch_name'])}</b> — {when}"
+            text = _txt(r)
+            if text:
+                short = text if len(text) <= 300 else text[:300].rsplit(" ", 1)[0] + "…"
+                lines += ["", head, f"✍️ <b>مكتوب:</b> {esc(short)}"]
+            else:
+                lines += ["", head + " — <i>نجوم فقط</i>"]
     lines += ["", f'<a href="{cfg["dashboard_url"]}">فتح لوحة المتابعة</a>']
     telegram_send(owner_chats(), "\n".join(lines))
 
@@ -707,7 +730,20 @@ def collect(store, state, cfg):
     else:
         since = last - timedelta(hours=cfg["apify"].get("overlap_hours", 6))
 
-    fetched = get_source(cfg).fetch(since)
+    source = get_source(cfg)
+    fetched = source.fetch(since)
+
+    # Branches added to config.json later get their own history backfill,
+    # without alerts on the old reviews.
+    seen = set(state.get("branches_seen") or {r["branch_id"] for r in store["reviews"]})
+    added = [b for b in cfg["branches"] if b["id"] not in seen]
+    backfill_ids = set()
+    if added and not first_run:
+        bf_since = started - timedelta(days=cfg.get("first_run_backfill_days", 90))
+        log("New branches → backfill: " + ", ".join(b["id"] for b in added))
+        bf = source.fetch(bf_since, place_ids=[b["place_id"] for b in added])
+        backfill_ids = {r["id"] for r in bf}
+        fetched = fetched + bf
 
     by_id = {r["id"]: r for r in store["reviews"]}
     new = 0
@@ -715,6 +751,8 @@ def collect(store, state, cfg):
         old = by_id.get(r["id"])
         if old is None:
             r["collected_at"] = iso(started)
+            if r["id"] in backfill_ids:
+                r["alerted"] = "backfill"
             store["reviews"].append(r)
             by_id[r["id"]] = r
             new += 1
@@ -733,6 +771,7 @@ def collect(store, state, cfg):
         mark_existing_as_alerted(store)
     state["last_success_utc"] = iso(started)
     state["last_source"] = cfg.get("source")
+    state["branches_seen"] = sorted(seen | {b["id"] for b in cfg["branches"]})
     log(f"Collected {len(fetched)} (new {new}, backfill={first_run})")
     return new, first_run
 

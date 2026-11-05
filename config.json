@@ -1,29 +1,26 @@
 {
   "source": "apify",
   "timezone_offset_hours": 3,
-
   "apify": {
     "actor": "compass~Google-Maps-Reviews-Scraper",
     "language": "ar",
     "max_reviews_per_run": 300,
     "overlap_hours": 6
   },
-
   "first_run_backfill_days": 90,
-
   "claude": {
     "model": "claude-haiku-5-5",
     "report_model": "claude-sonnet-5-5",
-    "batch_size": 15
+    "batch_size": 8
   },
-
   "alerts": {
     "max_stars": 3,
-    "also_alert_severity": ["high", "critical"]
+    "also_alert_severity": [
+      "high",
+      "critical"
+    ]
   },
-
   "dashboard_url": "https://saleh-althunayan.github.io/rshaf-reviews-monitor/",
-
   "branches": [
     {
       "id": "rshaf-buraydah-rehab",
@@ -111,6 +108,14 @@
       "name": "البدائع - طريق الملك فيصل",
       "city": "البدائع",
       "place_id": "ChIJq88hLsYnghURAWx69ipkKoo",
+      "supervisor_chat_ids": []
+    },
+    {
+      "id": "rshaf-uyunaljawa",
+      "brand": "رشف",
+      "name": "عيون الجواء - طريق الملك فهد",
+      "city": "عيون الجواء",
+      "place_id": "ChIJuVnVa6CneBURXAxeZAEW-mk",
       "supervisor_chat_ids": []
     },
     {
