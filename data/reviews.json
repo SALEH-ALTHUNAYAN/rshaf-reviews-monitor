@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T00:54:03Z",
+ "updated_at": "2026-11-05T09:30:09Z",
  "reviews": [
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xGd09VMTNSME53ZDJGNVJIUkJSMk0wZWtSMGIxRRAB",
@@ -398,6 +398,33 @@
     "model": "claude-haiku-5-5"
    },
    "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tKSk1GaDNlblZCWjBaamJqTmFPSFJRVmpKNGNGRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-01T03:41:29.949Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": null,
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون نص.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21WS2VGZFJVbTVSUTJjNWVVRTROV040VjNoWE9FRRAB",
@@ -927,6 +954,41 @@
    }
   },
   {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pFd1FUSlFYMU5xUWs5bVZHVnFUM1JMUkU1SGFtYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "The service is excellent 👌 and good work and very fast service\nThe employe Tofayel is very good person ❣️",
+   "text_translated": "الخدمة ممتازة 👌، والعمل متقن وسريع جدًا.\nالموظف طفيل شخص رائع ❣️",
+   "published_at": "2026-10-28T12:19:46.369Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعدنا بتلقي تقييمك",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "speed",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "خدمة ممتازة وسريعة، والموظف Tofayel لطيف جدًا.",
+    "staff_mentions": [
+     {
+      "name": "Tofayel",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25oNFVHTkxTVzFNVEdaSFJWSnpabFpWWkVoWGJHYxAB",
    "source": "apify",
    "branch_id": "rshaf-bukayriyah",
@@ -1133,6 +1195,98 @@
    }
   },
   {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2s1UldGaElVVmcyYTJSNllXb3dkM2RHTmpGcFUxRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "افضل واحد بالعالم",
+   "text_translated": null,
+   "published_at": "2026-10-26T02:37:29.808Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة عامة بالمقهى دون تفاصيل.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21KM01VeHZXR3hoWW14SFNrZzVjR05NV0ZCWGVtYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-10-26T01:45:35.663Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": null,
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون نص.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25ORGFqUkplVUUzWTFJeFJWZ3dVV3BRVlhZM1lVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "الموضف توفيل\nالموضف سيم\nكلهم جيدين واسلوب زين",
+   "text_translated": null,
+   "published_at": "2026-10-26T00:30:27.121Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظفين توفيل وسيم وأسلوبهم الجيد.",
+    "staff_mentions": [
+     {
+      "name": "توفيل",
+      "sentiment": "positive"
+     },
+     {
+      "name": "سيم",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pabVlXZzBWM2h3TTNoRWVUQnpibXhrYVhkZlFWRRAB",
    "source": "apify",
    "branch_id": "rshaf-rass-shananah",
@@ -1237,6 +1391,41 @@
     ],
     "products": [],
     "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21KRmQzcG5UemMyWmtoNVZrWktSSGd0VjNKTlZWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "للامانه شغله زين وقهوتهم طيبه ولكن يعيبهم التأخير في الطلبات ، المفروض اللي طلباته كثيره او تأخذ وقت يتم تقديمه للأمام واخذ طلبات السياره الثانيه واذا انتهى طلبه العامل يسلمه له بالسياره",
+   "text_translated": null,
+   "published_at": "2026-10-25T16:47:13.451Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "شاكرين لك لتقييمك وملاحظتك سوف تؤخذ بعين الاعتبار",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "taste",
+     "speed"
+    ],
+    "negative_topics": [
+     "speed"
+    ],
+    "severity": "low",
+    "summary": "قهوة طيبة وشغل جيد، لكن تأخير في الطلبات بالسيارة.",
+    "staff_mentions": [],
+    "products": [
+     "قهوة"
+    ],
+    "action": "ترتيب طلبات السيارات بحيث تُقدَّم الطلبات الصغيرة أولًا وتُسلَّم الطلبات الجاهزة للعميل فورًا دون انتظار اكتمال الطلب كاملًا.",
     "model": "claude-haiku-5-5"
    }
   },
@@ -1715,6 +1904,42 @@
      "ماء ابونص"
     ],
     "action": "مراجعة تسعير المياه وتوضيح سعرها للعملاء.",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xnMmVFMVBTM0EwYTIxM05tSklhVzFIU0hOemVWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 4,
+   "text": "الخدمة رائعة وجودة المنتجات كويسة ، لكن فيه نقطة حبيت أنوّه عليها بخصوص ساندويشات الإفطار\nتغليفها بالنايلون مخلي لها طعم سيء وريحة الخبزة اسوأ رغم إن الحشوة مثالية ولذيذة !\nأقترح تغلفونها بكيس ورقي أفضل من النايلون بكثير",
+   "text_translated": null,
+   "published_at": "2026-10-23T11:01:43.739Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "شاكرين لك على ملاحظتك وسوف تؤخذ بعين الاعتبار",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "taste",
+     "other"
+    ],
+    "negative_topics": [
+     "taste",
+     "other"
+    ],
+    "severity": "low",
+    "summary": "خدمة رائعة وجودة جيدة، لكن تغليف ساندويشات الإفطار بالنايلون يؤثر على الطعم.",
+    "staff_mentions": [],
+    "products": [
+     "ساندويشات الإفطار"
+    ],
+    "action": "مراجعة تغليف ساندويشات الإفطار واختبار أكياس ورقية بديلة للنايلون.",
     "model": "claude-haiku-5-5"
    }
   },
@@ -3759,6 +3984,41 @@
    }
   },
   {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tsalNIWkZZVzlPWlVRM2QxOWxjMUZtTTJ4c2RGRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "خدمة جميلة وسريعة من الموظف اللطيف توفائيل ❤️",
+   "text_translated": null,
+   "published_at": "2026-10-08T04:33:17.820Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": null,
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "speed",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "خدمة جميلة وسريعة من الموظف اللطيف توفائيل.",
+    "staff_mentions": [
+     {
+      "name": "توفائيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2psVFFWTTFWM04yVldobVMxcE9OazB6TFVwRlQwRRAB",
    "source": "apify",
    "branch_id": "armeema-rass",
@@ -3827,6 +4087,40 @@
    }
   },
   {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tWblpHWTFlSEl6ZG0xcWVEVmtWWFZVYVRWMlUxRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 3,
+   "text": "هو حلو بس فيه اشياء لو يعدلونه بيصير واو نوع الثلج وغطا القهوه البارده ماش والشفاط لو اصغر",
+   "text_translated": null,
+   "published_at": "2026-10-07T20:01:49.399Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": null,
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "neutral",
+    "topics": [
+     "taste",
+     "other"
+    ],
+    "negative_topics": [
+     "other"
+    ],
+    "severity": "low",
+    "summary": "الطعم حلو، لكن الثلج والغطاء والشفاط تحتاج تعديل",
+    "staff_mentions": [],
+    "products": [
+     "قهوة باردة"
+    ],
+    "action": "مراجعة نوع الثلج ومقاس غطاء القهوة الباردة، واستبدال الشفاط بآخر أصغر حجماً.",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT20xbGNtVnpWVkJrYUc1Mk1tNVhWMjFQVEcxWmVWRRAB",
    "source": "apify",
    "branch_id": "rshaf-unayzah-zamil",
@@ -3849,6 +4143,43 @@
     "summary": "تعليق إيجابي عام بكلمة \"جميل\".",
     "staff_mentions": [],
     "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tWbE9IWmZRMDAyZVZjeGR6VnRhbTlRZGxGelZHYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "قهوه جمليه واشكر الموظف تفائل على اسلوبه الجميل🌹",
+   "text_translated": null,
+   "published_at": "2026-10-07T07:00:35.626Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": null,
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة جميلة وإشادة بأسلوب الموظف تفائل",
+    "staff_mentions": [
+     {
+      "name": "تفائل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
     "action": "",
     "model": "claude-haiku-5-5"
    }
@@ -3930,6 +4261,38 @@
     "summary": "تقييم 4 نجوم بدون نص.",
     "staff_mentions": [],
     "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xkeVl6QjBUbkptUzBKWmFteGFSVzlxY2poWldtYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "اول تجربه للكوفي بعد مافتحو اول فرع لهم عندنا فالمحافظه جربت قهوة اليوم بارد وكانت لذيذه و ايضا تشيز مدريد لذيذ نتمنى منكم الاستمرار على ذلك وفالكم التوفيق",
+   "text_translated": null,
+   "published_at": "2026-10-06T19:19:26.592Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": null,
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تجربة أولى لذيذة للقهوة الباردة والتشيز مدريد",
+    "staff_mentions": [],
+    "products": [
+     "قهوة اليوم بارد",
+     "تشيز مدريد"
+    ],
     "action": "",
     "model": "claude-haiku-5-5"
    }
@@ -4408,6 +4771,42 @@
     ],
     "products": [],
     "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xBeFozbHZRVUZ4TUZNNVpWZG1SbWRWY1dSVWJFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 2,
+   "text": "الثلج قليل والقهوه غاليه بس الكوكيز جميل",
+   "text_translated": null,
+   "published_at": "2026-10-04T15:42:17.689Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "اولا نعتذر على هذه التجربة التي لم تكن بالمستوى المطلوب ونأمل منك التواصل معنا عبر الواتساب لمعالجة الامر وتعويضك 🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "price",
+     "other"
+    ],
+    "negative_topics": [
+     "price",
+     "other"
+    ],
+    "severity": "low",
+    "summary": "الثلج قليل والسعر مرتفع، والكوكيز أعجبه",
+    "staff_mentions": [],
+    "products": [
+     "قهوة",
+     "كوكيز"
+    ],
+    "action": "مراجعة كمية الثلج في المشروبات وإعادة تقييم تسعير القهوة.",
     "model": "claude-haiku-5-5"
    }
   },
@@ -4914,6 +5313,36 @@
    }
   },
   {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xoMGNVTjRaRTQyV0ZJM1VuUmxiWGxxZW5GS1pXYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "افتتاح كافيه رشف جودة وخدمة",
+   "text_translated": null,
+   "published_at": "2026-09-30T09:56:06.628Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵 ‏",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "other"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "افتتاح الكافيه مع جودة وخدمة جيدة",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21sVVkwZ3RVVTFXVlhFeFFYRXhTbXBvTVVoTVMzYxAB",
    "source": "apify",
    "branch_id": "rshaf-buraydah-aliibnabitalib",
@@ -4935,6 +5364,74 @@
     "severity": "none",
     "summary": "إشادة عامة بالتجربة",
     "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT214cU56Y3pZMTlITjAxaVJXNWpaWFpxYjFablVVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "صراحه الطعم ولا غلطه والتعامل فوق التقييم",
+   "text_translated": null,
+   "published_at": "2026-09-30T00:39:00.577Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "الطعم جيد والتعامل فوق التوقعات",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xOU1FYSlRkaTFQWjA1dmVUWndTMWd0TlY5d1pWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "شكراً جدا لكم على فتح الفرع\nوشكرأ للموضفين اسامه و توفيل",
+   "text_translated": null,
+   "published_at": "2026-09-30T00:20:24.075Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر للإدارة وإشادة بالموظفين أسامه وتوفيل",
+    "staff_mentions": [
+     {
+      "name": "اسامه",
+      "sentiment": "positive"
+     },
+     {
+      "name": "توفيل",
+      "sentiment": "positive"
+     }
+    ],
     "products": [],
     "action": "",
     "model": "claude-haiku-5-5"
@@ -4975,6 +5472,457 @@
    }
   },
   {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t4Tlh5MUdNelJpVjFCZmJuRTFZa2RWWVZoc1EwRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "بداية خير إن شاءالله\nوعسى الله يوفقهم\nالقهوة عندهم زينه والسعر مناسب\nوماقصر كوفيل خدمه وابتسامه واسلوب",
+   "text_translated": null,
+   "published_at": "2026-09-29T08:57:20.313Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "price",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "القهوة جيدة والسعر مناسب، وإشادة بخدمة الموظف كوفيل",
+    "staff_mentions": [
+     {
+      "name": "كوفيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21oeVFuQk9jV3h4TkhOcE4yNUlhMlpFUjIxbk9FRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-09-29T08:22:28.609Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "stars-only",
+    "attempts": 1,
+    "v": 2
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pSUWQwUTROMUpMYWxoQmVUQlZXVk5sZVVjM1UzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-09-29T08:02:49.948Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي بدون نص",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pSaVJXZFViWEZPTkVwWFlsSm1RblJOU0UxbFUzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "Good 👍",
+   "text_translated": "جيد 👍",
+   "published_at": "2026-09-29T07:53:03.905Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي بدون نص",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25SUmVEbHhVelJpVFd0NVkxZFRMVzF5VlROTFlXYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-09-29T02:35:53.534Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة مختصرة بالإنجليزية",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xVMWNIRnFRVVJoVXpCQmNVRnJWRVJ4Wmtvd1ltYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "الصراحه التعامل والطعم لايعلى عليهم ودخول قوي للعيون والعامل كوفايل جدا مناسب أسلوبه وتعامله انصح بالتجربه❣️❤️ .",
+   "text_translated": null,
+   "published_at": "2026-09-29T02:16:58.304Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "طعم ممتاز وتعامل راقٍ من الموظف",
+    "staff_mentions": [
+     {
+      "name": "كوفايل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xkb1ozTnpjRzFqY1c1V1VsRnhjbDgzUkdWbVdIYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "قهوة اثيوبية ممتازة\nوثلاثة أحجام\nومقدم الخدمة طفيل  مقدم خدمة متميز راقي في التعامل",
+   "text_translated": null,
+   "published_at": "2026-09-29T00:58:34.883Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff",
+     "other"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة إثيوبية ممتازة وخدمة راقية وتوفر ثلاثة أحجام",
+    "staff_mentions": [
+     {
+      "name": "طفيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة إثيوبية"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCemMwdHlNbXN5UlZBd2J6bFJkRFpUZVZaWFMzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "تفاوييل نفسيته حلوه ماشاءالله🤍",
+   "text_translated": null,
+   "published_at": "2026-09-29T00:48:14.914Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بنفسية الموظف وأسلوبه",
+    "staff_mentions": [
+     {
+      "name": "تفاوييل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25Zek5pMU1MWGgxYkZGMk16QXdOamhzTUdOVGNFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "قهوة واسعار ممتازة خاصة ان عندهم 3 احجام لاكواب القهوة غير البوكسات وخدمة ممتازة من الموظف توفايل",
+   "text_translated": null,
+   "published_at": "2026-09-29T00:41:15.859Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "price",
+     "staff",
+     "other"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة وأسعار ممتازة وخدمة متميزة من الموظف",
+    "staff_mentions": [
+     {
+      "name": "توفايل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة",
+     "أكواب القهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xrelZtZG9kV1ZXUzB0TFNrSXROR1Z3ZVU0d2FYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "طفيل انسان كويس",
+   "text_translated": null,
+   "published_at": "2026-09-29T00:30:06.867Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "يمدح شخصاً باسم طفيل ويصفه بأنه إنسان طيب",
+    "staff_mentions": [
+     {
+      "name": "طفيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xCdE5WbG5kM1ZHUzNjeWNFaDJXWE5aTFVNellsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "مشاء الله مبدعين فالكم التوفيق\nالعامل توفال ممتاز ✅",
+   "text_translated": null,
+   "published_at": "2026-09-29T00:24:11.419Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "stars-only",
+    "attempts": 1,
+    "v": 2
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2psRldHUTFURkF0UTNOeU1UQk1WV04yZWtwc2FsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "ولله مره مدونيه شكرا مره مره و قهوتهم حلوه مره",
+   "text_translated": null,
+   "published_at": "2026-09-29T00:17:59.708Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك وبالعافية عليك🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالتميز وبأداء العامل توفال",
+    "staff_mentions": [
+     {
+      "name": "توفال",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tjd2VXcGxWMUZUZURoR1NrVjRUVTUxVEhORGNVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-09-28T22:12:44.076Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم بخمس نجوم بدون نص",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tzd01uZGlNVGxDZVhSTExVdHdiRk5XUVVnMmNYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "رشف كافية من افضل الكوفيهات في القصيم",
+   "text_translated": null,
+   "published_at": "2026-09-28T20:10:43.709Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "يشيد بالدونات والقهوة ويشكر المقهى",
+    "staff_mentions": [],
+    "products": [
+     "دونات",
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21wVlFWcDVaRE5pT0VWb1FUTlpOak5NV0U1NlVVRRAB",
    "source": "apify",
    "branch_id": "rshaf-riyadhalkhabra",
@@ -5006,6 +5954,479 @@
    }
   },
   {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tvd1JYQTRjMWswV0dNNGVWOUhjVEYxYlRWd2VFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-09-28T15:54:06.225Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "other"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "يصف رشف بأنها من أفضل الكوفيهات في القصيم",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2poMFNuVXdXRXc1Vm1wNmVraHJkMTlsYkdsWFFVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "القهوه لذييذه وموظف الصبح مره لطييف",
+   "text_translated": null,
+   "published_at": "2026-09-28T15:51:24.486Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  وبالعافية عليك🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "يشيد بلذة القهوة ولطف موظف الصباح",
+    "staff_mentions": [
+     {
+      "name": "موظف الصبح",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT201VWFtMVZRVWhhVGxOSlZrWTNPVU54T0cxQlVXYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "فتح؟",
+   "text_translated": null,
+   "published_at": "2026-09-28T04:35:27.220Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "نعم نخدمكم من اليوم بالافتتاح الرسمي 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "neutral",
+    "topics": [
+     "hours"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "يسأل عن مواعيد فتح الفرع",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25JeWMwcElRbGhKTjFvd1JUZHBXVzlGUjNOT1kzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-09-28T04:26:00.173Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xCV1RIQnJVMUZoZUZSa1ZFSjZkRzVqT0doaWFIYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-09-28T04:11:54.025Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21ZNWNEVTFhRU5IWm5CTWNWUjRUWFpvVlU0NGRuYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "القهوه ممتازه والعامل طفيل افضل موظف",
+   "text_translated": null,
+   "published_at": "2026-09-28T03:50:35.508Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك فراس ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة ممتازة وموظف طفيل مميز",
+    "staff_mentions": [
+     {
+      "name": "طفيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25wNVNYZEVhVFptU2tsTFZFRjZSbkYwVkROT2JYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "القهوة الإثيوبية خطيرة و خدمة تاريخيه\nاحسن قهوه يوم بالعيون الصدق\nوطفيل من احسن الموظفين 🤍🤍",
+   "text_translated": null,
+   "published_at": "2026-09-28T03:48:28.248Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "نورتنا ونشكرك على تقييمك .. وننتظر زيارتك القادمة 😍💙",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة إثيوبية ممتازة وخدمة مميزة وطفيل من أفضل الموظفين",
+    "staff_mentions": [
+     {
+      "name": "طفيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "القهوة الإثيوبية"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25KNlIzZHhaRUp3VGpGT1dETTJOVFZMTlVsbFVrRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "توفاييل تعامله جدا راقي ولطيف 🙏",
+   "text_translated": null,
+   "published_at": "2026-09-28T03:45:52.949Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تعامل راقٍ ولطيف من الموظف توفاييل",
+    "staff_mentions": [
+     {
+      "name": "توفاييل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25KM2VHNW1ablV4Y3paUWNGRnhVbWxyTlU5NFYzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-09-28T03:40:07.381Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2psRlYwTndiRWxRWm5sWU4zWldORlZ3Vm1oWVQzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "خدمة تاريخيه قهوه الالذ بالعيون صراحة\nاحسن قهوه يوم بالعيون الصدق\nوطفيل من احسن الموظفين صراحة حبيب وعسل",
+   "text_translated": null,
+   "published_at": "2026-09-28T02:02:38.878Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة مميزة وخدمة ممتازة وطفيل من أفضل الموظفين",
+    "staff_mentions": [
+     {
+      "name": "طفيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2w5UmFUUjNUWGd0WlY5aFJqRlBNV3MyZVRCVmVuYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "توفايل موظف كويس وتعامله واخلاقه كويس والطلب وصل سريع",
+   "text_translated": null,
+   "published_at": "2026-09-28T01:43:47.606Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "speed"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "موظف متعاون وأخلاقه حسنة والطلب وصل بسرعة",
+    "staff_mentions": [
+     {
+      "name": "توفايل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xwRlMxZDBiV3hFTmw5WE5FWmFaRkI1V0RSZk5tYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "خدمه كويسه مره و العمال مره كويسن توفيل بعد كويس و يوسع الصدر قهوه كويسه بعد",
+   "text_translated": null,
+   "published_at": "2026-09-28T00:45:42.479Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "نورتنا ونشكرك على تقييمك .. وننتظر زيارتك القادمة 😍💙",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "خدمة وقهوة جيدة وعمال لطفاء مع تجربة مريحة.",
+    "staff_mentions": [],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21vd2VIVmpkMjV6WkU1aFMzTkdMVnBOUzB0WVdYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "توفايل خدمه كويس",
+   "text_translated": null,
+   "published_at": "2026-09-28T00:45:29.891Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "نورتنا ونشكرك على تقييمك .. وننتظر زيارتك القادمة 😍💙",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "خدمة جيدة وشكر للفريق.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tOVGF6RTJWM1ZNZEZaalRXaGtiVWQyTjJkM2NFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "اشكر الموظف كفيل",
+   "text_translated": null,
+   "published_at": "2026-09-28T00:02:01.171Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "نورتنا ونشكرك على تقييمك .. وننتظر زيارتك القادمة 😍💙",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر لأحد الموظفين.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT214YVkwaERPRzVTWVVjeFIwRnROVkl4TWtwNVduYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "ممتاز حداً  توفيل شكراً",
+   "text_translated": null,
+   "published_at": "2026-09-27T23:59:39.271Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم ممتاز مع شكر عام.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2kxR05qTkNYeTFrYWpSVGRHbFdNVEZhVW1KcGNYYxAB",
    "source": "apify",
    "branch_id": "rshaf-buraydah-aliibnabitalib",
@@ -5026,6 +6447,33 @@
     "negative_topics": [],
     "severity": "none",
     "summary": "تقييم إيجابي عام بدون تفاصيل",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xwQmQwTmZNREpIUkdJNGNsQjRSblpaVGtKTlpWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-09-27T23:50:49.987Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك  🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي.",
     "staff_mentions": [],
     "products": [],
     "action": "",
@@ -5133,6 +6581,44 @@
    }
   },
   {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21aR1VIZENMV3hIVm5ScE1WaEhUbVV0ZEVsM2FFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "العامل روجيه او روشي ارجلهم",
+   "text_translated": null,
+   "published_at": "2026-09-27T09:06:40.466Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالعاملين روجيه وروشي.",
+    "staff_mentions": [
+     {
+      "name": "روجيه",
+      "sentiment": "positive"
+     },
+     {
+      "name": "روشي",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xkU2EwczRiRE0zWDBSTWRHOUZUemR0U0d4VFIwRRAB",
    "source": "apify",
    "branch_id": "armeema-riyadhalkhabra",
@@ -5156,6 +6642,39 @@
     "staff_mentions": [],
     "products": [],
     "action": "",
+    "model": "claude-haiku-5-5"
+   }
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pWSWRrSjVXRko0T0VkRVZVZEVNR281WDNKcFExRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "محترمييين جداً و سريعين بأداءهم بالعمل ، مرره حلوو بس لو تزيدونا باوقات العمل 🤭",
+   "text_translated": null,
+   "published_at": "2026-09-26T20:46:59.399Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "سعيدين بتتقييمك ,ومشاركتك لنا رأيك  ونخدمكم 24 ساعة 🤩🩵",
+   "collected_at": "2026-11-05T09:28:04Z",
+   "alerted": "backfill",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "speed",
+     "hours"
+    ],
+    "negative_topics": [
+     "hours"
+    ],
+    "severity": "low",
+    "summary": "موظفون محترمون وسريعون، مع طلب بزيادة ساعات العمل.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "مراجعة إمكانية تمديد ساعات الدوام للموظفين أو الفرع حسب الاحتياج.",
     "model": "claude-haiku-5-5"
    }
   },

@@ -1,5 +1,21 @@
 {
- "last_success_utc": "2026-11-05T00:53:18Z",
+ "last_success_utc": "2026-11-05T09:28:04Z",
  "last_source": "apify",
- "consecutive_failures": 0
+ "consecutive_failures": 0,
+ "branches_seen": [
+  "armeema-rass",
+  "armeema-riyadhalkhabra",
+  "rshaf-badaie",
+  "rshaf-bukayriyah",
+  "rshaf-buraydah-aliibnabitalib",
+  "rshaf-buraydah-naziyah",
+  "rshaf-buraydah-rehab",
+  "rshaf-rass-hazm",
+  "rshaf-rass-kingfahd",
+  "rshaf-rass-shananah",
+  "rshaf-riyadhalkhabra",
+  "rshaf-unayzah-kingabdulaziz",
+  "rshaf-unayzah-zamil",
+  "rshaf-uyunaljawa"
+ ]
 }
