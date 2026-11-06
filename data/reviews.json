@@ -1,6 +1,184 @@
 {
- "updated_at": "2026-11-06T15:55:08Z",
+ "updated_at": "2026-11-06T21:30:11Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xnd1JtMXJabVpVWW1OVWRXaFJOaTFYUVRaQlNHYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "كوفي جميل خاصتا الكاشير عبدالله ما شاء الله تعامله جميل وخلوق الله يوفقه",
+   "text_translated": null,
+   "published_at": "2026-11-06T20:07:05.445Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": null,
+   "collected_at": "2026-11-06T21:29:12Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بجودة الكوفي وتعامل الكاشير عبدالله الجميل والخلوق",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "كوفي"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2sxbVR6WkJZakJDYUZSVWFESlRkRWxpUW5Nd1IyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-badaie",
+   "brand": "رشف",
+   "branch_name": "البدائع - طريق الملك فيصل",
+   "city": "البدائع",
+   "stars": 5,
+   "text": "صراحه الموضف انوار من يستاهل خمس 🌟 من اسلوب ونضافه",
+   "text_translated": null,
+   "published_at": "2026-11-06T19:51:42.962Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJq88hLsYnghURAWx69ipkKoo",
+   "owner_reply": null,
+   "collected_at": "2026-11-06T21:29:12Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "hygiene"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بأسلوب الموظفة أنوار والنظافة",
+    "staff_mentions": [
+     {
+      "name": "انوار",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2taSU5tSlRUM2REUWtGaFRFOXdObXBHTUVkS1lVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "الكفي ممتاز والكاشير عبدالله تعامله محترم",
+   "text_translated": null,
+   "published_at": "2026-11-06T16:28:40.564Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": null,
+   "collected_at": "2026-11-06T21:29:12Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بجودة الكوفي وتعامل الكاشير عبدالله المحترم",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "الكفي"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25JM1h6a3dNWFZsU1RObFUwMURaRTlEYm5OSVRFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "Sajib is a great person and he’s so kind and always smiling",
+   "text_translated": "ساجيب شخص رائع، وهو لطيف للغاية ودائم الابتسامة.",
+   "published_at": "2026-11-06T16:17:06.186Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": null,
+   "collected_at": "2026-11-06T21:29:12Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بلطف الموظف Sajib وابتسامته الدائمة",
+    "staff_mentions": [
+     {
+      "name": "Sajib",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21KVFRWZ3daaTFHYzA0d2VtWmFWVWhPU0hodU5YYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 2,
+   "text": "واضح الطعم من الشكل ، مسخن بس يابس وسكر تكرم النعمه 👎🏻\nوقهوة اليوم سيئه ماكانت كذا خسارة فلوس ع الفاضي",
+   "text_translated": null,
+   "published_at": "2026-11-06T15:01:28.262Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "يؤسفنا جداً سماع ذلك وعدم رضاك عن الخدمة المقدمة نأمل التواصل معنا مباشرة عن طريق الواتس اب لنتمكن من خدمتكم بشكل افضل ومعالجة الأمر 0502041122",
+   "collected_at": "2026-11-06T21:29:12Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "taste",
+     "price"
+    ],
+    "negative_topics": [
+     "taste",
+     "price"
+    ],
+    "severity": "medium",
+    "summary": "طعم سيئ وصنف يابس مسخن، وقهوة اليوم أسوأ من المعتاد",
+    "staff_mentions": [],
+    "products": [
+     "قهوة"
+    ],
+    "action": "مراجعة جودة القهوة اليومية وطريقة تسخين الأصناف لضمان الطراوة والطعم المعتاد.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT213MVpteEhRVXRWTmtSVFVYTm1jRmRXZFZsM1EyYxAB",
    "source": "apify",
