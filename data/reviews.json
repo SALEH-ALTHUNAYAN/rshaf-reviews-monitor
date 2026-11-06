@@ -1,6 +1,38 @@
 {
- "updated_at": "2026-11-06T06:40:06Z",
+ "updated_at": "2026-11-06T15:55:08Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT213MVpteEhRVXRWTmtSVFVYTm1jRmRXZFZsM1EyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "لازم تجبون قهوه اليوم برازيلي لذيذه وب٥ ريال بس يابلاش🤩",
+   "text_translated": null,
+   "published_at": "2026-11-06T14:18:03.850Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": null,
+   "collected_at": "2026-11-06T15:54:37Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "price"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بلذة قهوة البرازيلي وسعرها المناسب 5 ريال",
+    "staff_mentions": [],
+    "products": [
+     "قهوة برازيلي"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0UmVXdGhSR1IxVHpJNWMyYzJaMHBvYVV4RWEyYxAB",
    "source": "apify",
@@ -48,7 +80,7 @@
    "text_translated": "أفضل سائق، محمد يوسف! وصل الطلب بسرعة! أتمنى أن يحصل على مكافأة أو شيء يستحقه.",
    "published_at": "2026-11-06T00:50:30.176Z",
    "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
-   "owner_reply": null,
+   "owner_reply": "سعدنا بتلقي تقييمك",
    "collected_at": "2026-11-06T06:38:54Z",
    "analysis": {
     "sentiment": "positive",
