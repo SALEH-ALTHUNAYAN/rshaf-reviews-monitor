@@ -1,6 +1,113 @@
 {
- "updated_at": "2026-11-07T16:24:59Z",
+ "updated_at": "2026-11-07T21:23:05Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tGR1dYVkpaakZ6T0RGWVZ6ZGtkMk53UkZsS1NrRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-badaie",
+   "brand": "رشف",
+   "branch_name": "البدائع - طريق الملك فيصل",
+   "city": "البدائع",
+   "stars": 5,
+   "text": "قهوتهم السوداء لذيذه والفاخوريس بعد حلو\nوالموظف انور بشوش وخدوم",
+   "text_translated": null,
+   "published_at": "2026-11-07T20:33:06.217Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJq88hLsYnghURAWx69ipkKoo",
+   "owner_reply": null,
+   "collected_at": "2026-11-07T21:22:26Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة لذيذة وحلا مميز وموظف بشوش وخدوم",
+    "staff_mentions": [
+     {
+      "name": "انور",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة سوداء",
+     "فاخوريس"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT213MVEwMWxlbkJ1TjBKWE0xRmFhVlV5UkRkbFFWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 3,
+   "text": "القهوه لذيذه جداً\nولاكن الحلا طلبت نوعين حلا للاسف سيئة جداً وكنها قديمه او مبطيه ماهي مضبوطه ابداً محد يقدر ياكلها",
+   "text_translated": null,
+   "published_at": "2026-11-07T19:05:40.638Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": null,
+   "collected_at": "2026-11-07T21:22:26Z",
+   "analysis": {
+    "sentiment": "neutral",
+    "topics": [
+     "taste"
+    ],
+    "negative_topics": [
+     "taste"
+    ],
+    "severity": "medium",
+    "summary": "القهوة ممتازة لكن نوعان من الحلا قديمان وغير مضبوطين",
+    "staff_mentions": [],
+    "products": [
+     "قهوة",
+     "حلا"
+    ],
+    "action": "مراجعة طازجية الحلويات وفحص مدة صلاحيتها ودرجة نضجها قبل تقديمها للعملاء.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25Cd2NVOURUSFZvYjFwYVMwRlpZV3haZFVwTGIzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "محمد غلام سرعه في الشغل ويمشي الطلبات بسرعه 🙏🏼",
+   "text_translated": null,
+   "published_at": "2026-11-07T18:23:44.048Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": null,
+   "collected_at": "2026-11-07T21:22:26Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "speed"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "الموظف محمد سريع في تجهيز الطلبات",
+    "staff_mentions": [
+     {
+      "name": "محمد",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xGMlFsSlhaVkJtWlc5QmVuUkpUMjkyVjE5NUxWRRAB",
    "source": "apify",
@@ -13,7 +120,7 @@
    "text_translated": null,
    "published_at": "2026-11-07T16:12:24.426Z",
    "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
-   "owner_reply": null,
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵",
    "collected_at": "2026-11-07T16:24:22Z",
    "analysis": {
     "sentiment": "positive",
