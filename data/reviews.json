@@ -1,6 +1,36 @@
 {
- "updated_at": "2026-11-08T01:26:15Z",
+ "updated_at": "2026-11-08T08:58:19Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25KdmR6Wm9WMXBCZDNOWWNrNWZXbXQyTTFGZlUzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "طلبت من التطبيق وصلني بسرعة والسائق ممتاز 👍🏻💗",
+   "text_translated": null,
+   "published_at": "2026-11-08T07:01:23.025Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": null,
+   "collected_at": "2026-11-08T08:57:36Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "speed",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "طلب عبر التطبيق وصل بسرعة مع إشادة بالسائق",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tGR1dYVkpaakZ6T0RGWVZ6ZGtkMk53UkZsS1NrRRAB",
    "source": "apify",
@@ -13,7 +43,7 @@
    "text_translated": null,
    "published_at": "2026-11-07T20:33:06.217Z",
    "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJq88hLsYnghURAWx69ipkKoo",
-   "owner_reply": null,
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵‏",
    "collected_at": "2026-11-07T21:22:26Z",
    "analysis": {
     "sentiment": "positive",
