@@ -1,6 +1,33 @@
 {
- "updated_at": "2026-11-08T21:38:43Z",
+ "updated_at": "2026-11-08T22:01:33Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21KdFdGZGljWEJJZGxkeFpraFJRbTFaT1U1bFgxRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-unayzah-zamil",
+   "brand": "رشف",
+   "branch_name": "عنيزة - طريق زامل السليم",
+   "city": "عنيزة",
+   "stars": 4,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-08T20:06:06.716Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJa3D0Y1XtgRURx9pBCpvbLyo",
+   "owner_reply": null,
+   "collected_at": "2026-11-08T22:00:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 4 نجوم دون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21KVU4wTXlRVlphY1ZCWlpsaDRiRGd5Tm1wM2NVRRAB",
    "source": "apify",
