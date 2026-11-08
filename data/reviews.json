@@ -1,6 +1,40 @@
 {
- "updated_at": "2026-11-08T16:40:00Z",
+ "updated_at": "2026-11-08T21:38:43Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21KVU4wTXlRVlphY1ZCWlpsaDRiRGd5Tm1wM2NVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "فيه موظف اسمه عبدالله تعامله رهيب وحبيب الله يسعده ويوفقه",
+   "text_translated": null,
+   "published_at": "2026-11-08T17:05:48.085Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵",
+   "collected_at": "2026-11-08T21:37:43Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بتعامل الموظف عبدالله الراقي",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2sxNWNHUlBWVmhmYjJ4QlRWZHlVazUyYmsxQ00zYxAB",
    "source": "apify",
