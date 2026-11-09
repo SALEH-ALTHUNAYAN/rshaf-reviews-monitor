@@ -1,6 +1,76 @@
 {
- "updated_at": "2026-11-09T01:43:37Z",
+ "updated_at": "2026-11-09T09:47:35Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25WNVkzZzRNM2M0YldwdFh6Y3RlVWc1U0c1algzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-badaie",
+   "brand": "رشف",
+   "branch_name": "البدائع - طريق الملك فيصل",
+   "city": "البدائع",
+   "stars": 5,
+   "text": "الموظف عبدالملك موظف ممتاز والمكان ممتاز بشكل عام",
+   "text_translated": null,
+   "published_at": "2026-11-09T08:46:20.260Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJq88hLsYnghURAWx69ipkKoo",
+   "owner_reply": null,
+   "collected_at": "2026-11-09T09:45:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "other"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظف عبدالملك وبالمكان بشكل عام",
+    "staff_mentions": [
+     {
+      "name": "عبدالملك",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21SZldVcHdNbVE0TW1aMFlteDJNbDlQVUZCbk5FRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "الصراحه السواق محمد نبالي اكثر من رائع ..اكثر طلباتي الصباح او العصر ومايتاخر والله ١٠ دقايق وهو جايب الطلب وحار وانا مره يهمن السواق تعامله وسرعه توصيله 😍😍",
+   "text_translated": null,
+   "published_at": "2026-11-09T04:47:36.893Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵",
+   "collected_at": "2026-11-09T09:45:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "speed",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالسائق محمد نبالي وسرعة التوصيل",
+    "staff_mentions": [
+     {
+      "name": "محمد نبالي",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21KdFdGZGljWEJJZGxkeFpraFJRbTFaT1U1bFgxRRAB",
    "source": "apify",
