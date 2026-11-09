@@ -1,6 +1,172 @@
 {
- "updated_at": "2026-11-09T09:47:35Z",
+ "updated_at": "2026-11-09T20:42:51Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25VM1VuRkRaMjVmZVRFdFZHTTNRVzk1ZFhCcE5GRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 2,
+   "text": "دايم اخذ من عندهم قهوة اليوم وتكون حلوه الا اليوم مرره سيئه، حلى ماكرون لذيذ",
+   "text_translated": null,
+   "published_at": "2026-11-09T14:13:57.645Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵‏",
+   "collected_at": "2026-11-09T20:42:10Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "taste"
+    ],
+    "negative_topics": [
+     "taste"
+    ],
+    "severity": "low",
+    "summary": "قهوة اليوم كانت مرّة هذه المرة، والحلى لذيذ",
+    "staff_mentions": [],
+    "products": [
+     "قهوة اليوم",
+     "ماكرون"
+    ],
+    "action": "مراجعة تحضير قهوة اليوم (التحميص والعيار) مع الباريستا لضمان ثبات الطعم.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t4TlVrbFhjVjluZFUxbk1FWlljV1pHTTA5RmQyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "قهوتهم ممتازه الموظف محمد شجيب فنان",
+   "text_translated": null,
+   "published_at": "2026-11-09T13:21:55.642Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵‏",
+   "collected_at": "2026-11-09T20:42:10Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة ممتازة مع إشادة بالموظف محمد",
+    "staff_mentions": [
+     {
+      "name": "محمد",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2sxNmMzRllUQzA1U0VsTWVIUlNaVXhsWDNKcVUyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-rehab",
+   "brand": "رشف",
+   "branch_name": "بريدة - الرحاب",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-09T13:17:26.281Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJbaL138BXfxURl6ZU5rWhf2g",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵‏",
+   "collected_at": "2026-11-09T20:42:10Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25Sb01HTjZVVE5CWldGcGVWQm5jRUUwZG5OM2NIYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "متميزون بالقهوه",
+   "text_translated": null,
+   "published_at": "2026-11-09T12:25:07.827Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵‏",
+   "collected_at": "2026-11-09T20:42:10Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بتميز جودة القهوة",
+    "staff_mentions": [],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25kYVpWOVVVRGhOUW1wQ2JTMUhWRlZKVWxsSmJtYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "رشف غني عن التعريف والتقييم\nكل شيء عندهم لذيذ🙂‍↔️\nوأشكر الموظف محمد غلام مؤدب وسرعة ودقة بتنفيذ الطلب💯🙏🏻",
+   "text_translated": null,
+   "published_at": "2026-11-09T10:44:25.084Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵‏",
+   "collected_at": "2026-11-09T20:42:10Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "speed",
+     "accuracy",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "خدمة سريعة ودقيقة وموظف محمد مؤدب",
+    "staff_mentions": [
+     {
+      "name": "محمد غلام",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25WNVkzZzRNM2M0YldwdFh6Y3RlVWc1U0c1algzYxAB",
    "source": "apify",
@@ -13,7 +179,7 @@
    "text_translated": null,
    "published_at": "2026-11-09T08:46:20.260Z",
    "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJq88hLsYnghURAWx69ipkKoo",
-   "owner_reply": null,
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵‏",
    "collected_at": "2026-11-09T09:45:28Z",
    "analysis": {
     "sentiment": "positive",
