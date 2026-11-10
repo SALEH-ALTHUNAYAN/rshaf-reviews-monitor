@@ -1,6 +1,33 @@
 {
- "updated_at": "2026-11-10T12:37:06Z",
+ "updated_at": "2026-11-10T20:49:03Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0dFYwUkhNbGsxVVZoWExXeERNSFEzWmkwNVNVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-10T19:51:43.240Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": null,
+   "collected_at": "2026-11-04T19:43:24Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25GaVowOXZXR056ZDNaWk5tb3liVjlaV1daMlMyYxAB",
    "source": "apify",
@@ -1074,33 +1101,6 @@
       "sentiment": "positive"
      }
     ],
-    "products": [],
-    "action": "",
-    "model": "claude-haiku-5-5"
-   },
-   "alerted": "skip"
-  },
-  {
-   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0dFYwUkhNbGsxVVZoWExXeERNSFEzWmkwNVNVRRAB",
-   "source": "apify",
-   "branch_id": "rshaf-rass-hazm",
-   "brand": "رشف",
-   "branch_name": "الرس - الحزم (شارع الجريف)",
-   "city": "الرس",
-   "stars": 5,
-   "text": "",
-   "text_translated": null,
-   "published_at": "2026-11-04T13:03:12.148Z",
-   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
-   "owner_reply": null,
-   "collected_at": "2026-11-04T19:43:24Z",
-   "analysis": {
-    "sentiment": "positive",
-    "topics": [],
-    "negative_topics": [],
-    "severity": "none",
-    "summary": "تقييم 5 نجوم بدون تعليق نصي.",
-    "staff_mentions": [],
     "products": [],
     "action": "",
     "model": "claude-haiku-5-5"
