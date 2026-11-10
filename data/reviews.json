@@ -1,6 +1,33 @@
 {
- "updated_at": "2026-11-10T01:08:25Z",
+ "updated_at": "2026-11-10T04:06:47Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25wSk9HVmZObUZ3UzJrd1kxTnNSemgyWlV4WE4xRRAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 3,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-10T03:32:27.993Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": null,
+   "collected_at": "2026-11-10T04:06:10Z",
+   "analysis": {
+    "sentiment": "neutral",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 3 نجوم بدون نص توضيحي.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25VM1VuRkRaMjVmZVRFdFZHTTNRVzk1ZFhCcE5GRRAB",
    "source": "apify",
