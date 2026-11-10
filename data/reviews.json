@@ -1,6 +1,70 @@
 {
- "updated_at": "2026-11-10T04:06:47Z",
+ "updated_at": "2026-11-10T12:37:06Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25GaVowOXZXR056ZDNaWk5tb3liVjlaV1daMlMyYxAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-10T08:27:37.061Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": null,
+   "collected_at": "2026-11-10T12:36:27Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21Zek1qZFBhMEozVm1nMFQwaEliVEpUWVdJMlVVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-kingfahd",
+   "brand": "رشف",
+   "branch_name": "الرس - طريق الملك فهد",
+   "city": "الرس",
+   "stars": 5,
+   "text": "كوفي ممتاز اخذت قهوة من عندهم لذيذة\nوالموظف ناصر تعامله جميل",
+   "text_translated": null,
+   "published_at": "2026-11-10T06:24:48.450Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJsXOFxN_LgxURBC_JSCvJdu4",
+   "owner_reply": null,
+   "collected_at": "2026-11-10T12:36:27Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة لذيذة وتعامل جميل من الموظف ناصر",
+    "staff_mentions": [
+     {
+      "name": "ناصر",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25wSk9HVmZObUZ3UzJrd1kxTnNSemgyWlV4WE4xRRAB",
    "source": "apify",
