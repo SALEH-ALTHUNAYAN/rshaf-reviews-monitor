@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T09:21:58Z",
+ "updated_at": "2026-11-11T17:53:11Z",
  "reviews": [
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pWVmNHeDNiSE5vV0UwMVoyUlRNRFl6YXpoeU9VRRAB",
@@ -11,7 +11,7 @@
    "stars": 5,
    "text": "من افضل الموظفين برشف",
    "text_translated": null,
-   "published_at": "2026-11-11T07:35:06.869Z",
+   "published_at": "2026-11-11T14:47:17.940Z",
    "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJsXOFxN_LgxURBC_JSCvJdu4",
    "owner_reply": "حياك الله يا عبدالعزيز مشكور على كلامك الحلو عن فريقنا في رشف وبنوصل شكرك لزملائنا اللي خدموك. تنورنا في أي وقت.\n\nمع أطيب التحيات،\nخدمة عملاء رشف RSHAF\nالملك فهد, الرس",
    "collected_at": "2026-11-11T09:21:21Z",
@@ -31,6 +31,69 @@
    "alerted": "skip"
   },
   {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pseGRFSnZiVjlZZG14WlpHWkVUV3g1VUhSUWMyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "دايم أجيهم اشكر محمد غلام دايم يسوي قهوتي ونفسيته حلوه",
+   "text_translated": null,
+   "published_at": "2026-11-11T12:44:45.438Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "تسلم يا غالي كلامك عن محمد غلام يوصله بإذن الله وسعدنا إن قهوتك تعجبك دايم ونفسيته الحلوة تستاهل الشكر. ننتظرك مرة ثانية.\n\nيومك سعيد\nخدمة عملاء رشف RSHAF",
+   "collected_at": "2026-11-11T17:52:35Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "زبون دائم يشيد بمحمد ولطف تعامله وحسن نفسيته",
+    "staff_mentions": [
+     {
+      "name": "محمد غلام",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25kVU5saGpTSEJmY3pRM05HbFRabWx6U0VkTk1tYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-11T09:28:26.155Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "ما قصرت يا صالح تسلم على التقييم والمكان مكانك في زيارتك الجاية.\n\nيومك سعيد\nخدمة عملاء رشف RSHAF",
+   "collected_at": "2026-11-11T17:52:35Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون نص",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2paQ1QyUkNPRzE2TTNkTWRYSkdVRm95VkVsVFMwRRAB",
    "source": "apify",
    "branch_id": "rshaf-rass-kingfahd",
@@ -42,7 +105,7 @@
    "text_translated": null,
    "published_at": "2026-11-11T05:23:28.506Z",
    "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJsXOFxN_LgxURBC_JSCvJdu4",
-   "owner_reply": null,
+   "owner_reply": "شاكرين لك تقييمك يومك سعيد",
    "collected_at": "2026-11-11T09:21:21Z",
    "analysis": {
     "sentiment": "positive",
