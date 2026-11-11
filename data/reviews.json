@@ -1,6 +1,62 @@
 {
- "updated_at": "2026-11-11T01:56:16Z",
+ "updated_at": "2026-11-11T09:21:58Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pWVmNHeDNiSE5vV0UwMVoyUlRNRFl6YXpoeU9VRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-kingfahd",
+   "brand": "رشف",
+   "branch_name": "الرس - طريق الملك فهد",
+   "city": "الرس",
+   "stars": 5,
+   "text": "من افضل الموظفين برشف",
+   "text_translated": null,
+   "published_at": "2026-11-11T07:35:06.869Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJsXOFxN_LgxURBC_JSCvJdu4",
+   "owner_reply": "حياك الله يا عبدالعزيز مشكور على كلامك الحلو عن فريقنا في رشف وبنوصل شكرك لزملائنا اللي خدموك. تنورنا في أي وقت.\n\nمع أطيب التحيات،\nخدمة عملاء رشف RSHAF\nالملك فهد, الرس",
+   "collected_at": "2026-11-11T09:21:21Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بموظفي رشف ووصفهم بأنهم من الأفضل",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2paQ1QyUkNPRzE2TTNkTWRYSkdVRm95VkVsVFMwRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-kingfahd",
+   "brand": "رشف",
+   "branch_name": "الرس - طريق الملك فهد",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-11T05:23:28.506Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJsXOFxN_LgxURBC_JSCvJdu4",
+   "owner_reply": null,
+   "collected_at": "2026-11-11T09:21:21Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم بخمس نجوم دون نص مكتوب",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0dFYwUkhNbGsxVVZoWExXeERNSFEzWmkwNVNVRRAB",
    "source": "apify",
