@@ -1,6 +1,678 @@
 {
- "updated_at": "2026-11-16T09:37:44Z",
+ "updated_at": "2026-11-16T20:27:49Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tkNU1taDRTSGgzUlRaa1NtTjBSVkp0VTAxUWNIYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "الموظف بسام تعامله رائع وجزاه الله خيرا",
+   "text_translated": null,
+   "published_at": "2026-11-16T19:11:40.685Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "هلا بك سليمان، آمين وإياك، وبنوصّل دعاءك وشكرك لبسام، ومكانك محفوظ عندنا 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بتعامل الموظف بسام وحسن خدمته",
+    "staff_mentions": [
+     {
+      "name": "بسام",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25OdFVFOVpiVFJrVTJGamFqRjJWRkExV0ZGV1pFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "التعامل حلو مره واسلوب وماشاءالله عليه بسام الخميس مدح لي حلا وجربته وطلع حلو صدق الصراحه اشكر التعامل اسلوب واحترام ماقصر معي ابد",
+   "text_translated": null,
+   "published_at": "2026-11-16T18:44:44.633Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "منوّر يا قتيبة، الحلا اللي جربته وعجبك فرّحنا، وشكرك لبسام الخميس بيوصله، بالخدمة دايم 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "stars-only",
+    "attempts": 1,
+    "v": 2
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21kRk9FeDRTRTlvWDBGQmVqWlRlVGROUjBSbFpFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 4,
+   "text": "ماشاءالله التعامل بالكوفي رائع والموظف بسام تعامله حللو ♥️",
+   "text_translated": null,
+   "published_at": "2026-11-16T18:25:48.846Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "حيّاك وبيّاك ساري، يفرحنا إن التعامل عجبك، وبنوصّل شكرك لبسام، ونتمنى نكسب النجمة الخامسة الزيارة الجاية 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تعامل رائع من الموظف بسام",
+    "staff_mentions": [
+     {
+      "name": "بسام",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0WGJsRmlaR1pDWVVsUmJFSm5RbFJMTmxkaVgzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "اشكر الموظف بسام على خدمته اسلوب الله يسعده ومتعاااوون❤️👍",
+   "text_translated": null,
+   "published_at": "2026-11-16T18:10:17.127Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "هلا وغلا، أسلوب بسام وتعاون الفريق أفرحنا مره، وبنوصّل شكرك له، ننتظر زيارتك الجاية 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر للموظف بسام على أسلوبه وتعاونه",
+    "staff_mentions": [
+     {
+      "name": "بسام",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21JM2RUVlNaRmRzZFdWUk9UWjBXa3N3V0RoNmRFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 1,
+   "text": "الموظف بسام اسلوب واحترام وسريع العمل الله يوفقه",
+   "text_translated": null,
+   "published_at": "2026-11-16T18:09:48.141Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": null,
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "نص إيجابي عن الموظف بسام رغم تقييم نجمة واحدة (تناقض محتمل)",
+    "staff_mentions": [
+     {
+      "name": "بسام",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25sMVRHRkdaRUpwZFRGV1luTlVPRUoyZWs1UGExRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "افضل كفي بالرس واسعاره فنانه والموظف بسام اسلوبه محترم",
+   "text_translated": null,
+   "published_at": "2026-11-16T18:02:32.463Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "نورتونا، شاكرين لك كلامك عن الكفي والأسعار، وبنوصّل شكرك لبسام على أسلوبه، بالخدمة دايم 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "price",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالأسعار المناسبة وأسلوب الموظف بسام",
+    "staff_mentions": [
+     {
+      "name": "بسام",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0MU1YVTRYM2h2V0dsR1J6bFJSRE5HV2xkeGNVRRAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 1,
+   "text": "لم اقوم بزيارة المكان",
+   "text_translated": null,
+   "published_at": "2026-11-16T17:58:18.499Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": null,
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "neutral",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "العميل يذكر أنه لم يزر المكان",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT20xNVl6bDZVVE5GU1hneGFrNU9lVko2UkdOWE1GRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-badaie",
+   "brand": "رشف",
+   "branch_name": "البدائع - طريق الملك فيصل",
+   "city": "البدائع",
+   "stars": 5,
+   "text": "نشكركم على القهوة الطيبة والاختيارات المتنوعة للحلى والطعم اللذيذ للماتشا الفروالة 👍🏻ركن العائلة المفضل 🫶🏻 واخص بالشكر الموظف انوار على الخدمة الممتازة ورحابه صدره",
+   "text_translated": null,
+   "published_at": "2026-11-16T17:09:17.895Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJq88hLsYnghURAWx69ipkKoo",
+   "owner_reply": "صباحك خير، الماتشا الفراولة وركن العائلة أفرحونا بشهادتك، وبنوصّل شكرك لانوار، بالعافية 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "availability",
+     "facility",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالقهوة والماتشا والتنوع وخدمة الموظفة انوار",
+    "staff_mentions": [
+     {
+      "name": "انوار",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "القهوة",
+     "الحلى",
+     "الماتشا الفروالة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pOa1JISnJUVVYwTlVSbGMwWnRSR1l3TmpaalgzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-riyadhalkhabra",
+   "brand": "رشف",
+   "branch_name": "رياض الخبراء - شارع محمد الخضير",
+   "city": "رياض الخبراء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-16T15:15:59.124Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJHQ-vgIU5ghUR85KEhchZuJ8",
+   "owner_reply": "الله يحييك، شاكرين لك تقييمك، تنوّرنا دايم 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم بخمس نجوم دون تعليق",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25KWWVVMVRSRUUxWXpWeVgycGhWalZFY3pVNVNrRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "عبدالله محترم وتعاملة ممتاز الله يسعده",
+   "text_translated": null,
+   "published_at": "2026-11-16T14:57:21.344Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "أهلاً مجيد، الله يسعدك على كلامك الطيب، وبنوصّل شكرك لعبدالله، بالعافية عليك 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تعامل ممتاز من الموظف عبدالله",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xWQlJqUllMUzFEUjA5UVVqazFRMGhUV25CTldtYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 4,
+   "text": "اذا بطلب قهوة ايطالية اطلبها من فرع سلتي، مضبووووطه والخدمة رائعة💫🍃",
+   "text_translated": null,
+   "published_at": "2026-11-16T14:07:37.349Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "يا مرحبا، دام القهوة الإيطالية مضبوطة والخدمة رائعة فهذا يسعدنا، ونتمنى نكسب النجمة الخامسة الزيارة الجاية، بالعافية عليك 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة إيطالية مضبوطة وخدمة رائعة، ويفضل طلبها من فرع سلتي",
+    "staff_mentions": [],
+    "products": [
+     "قهوة ايطالية"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pka2VGUnRNV2N3UVU1TGIxSmhjblp0UldoR1NsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-badaie",
+   "brand": "رشف",
+   "branch_name": "البدائع - طريق الملك فيصل",
+   "city": "البدائع",
+   "stars": 5,
+   "text": "خدمة ممتازة من انور",
+   "text_translated": null,
+   "published_at": "2026-11-16T13:41:23.055Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJq88hLsYnghURAWx69ipkKoo",
+   "owner_reply": "يا هلا فهد، خدمة ممتازة بشهادتك، وبنوصّل شكرك لأنور، نورتنا 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "خدمة ممتازة من الموظف انور",
+    "staff_mentions": [
+     {
+      "name": "انور",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25OR2JEQkxOa3B5T0hKcFltUnZjMHhaZVdNNGVsRRAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-16T13:22:18.756Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": "سعيدين بتقييمك، ونشوفك قريب 🍔",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم بخمس نجوم دون تعليق",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tkc01VUnNha1JRTlRSMWJqWjJTMDl3Vkdjd1FuYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-badaie",
+   "brand": "رشف",
+   "branch_name": "البدائع - طريق الملك فيصل",
+   "city": "البدائع",
+   "stars": 5,
+   "text": "جداً لذيذ خاصة العامل انور جداً جداً كويس",
+   "text_translated": null,
+   "published_at": "2026-11-16T13:10:50.008Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJq88hLsYnghURAWx69ipkKoo",
+   "owner_reply": "هلا والله عبدالعزيز، دام الطعم لذيذ عندك فهذا يسعدنا، وبنوصّل شكرك لانور، تنوّرنا دايم 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "طعم لذيذ وخدمة ممتازة من انور",
+    "staff_mentions": [
+     {
+      "name": "انور",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25oemFYTjJPVWxoTFV4aFEzQk5ZV2QxYm5sRmIxRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "خدمتهم ممتازه وبالاخص ديبوم 👍",
+   "text_translated": null,
+   "published_at": "2026-11-16T12:53:24.357Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "حياك الله، الخدمة الممتازة هذي فخر لنا، وبنوصّل شكرك لديبوم، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "خدمة ممتازة خاصة من الموظف ديبوم",
+    "staff_mentions": [
+     {
+      "name": "ديبوم",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT214SFRsWXlMVll4VVhreVJrWlVTRVEzVjJGR1dFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-16T12:26:53.989Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "تشرفنا بزيارتك.. يومك سعيد 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم بخمس نجوم دون تعليق",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCNU5XRkpSa2RZT0ZscE4ySkVZVWxJV2w5cVpYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "قهوة اليوم عندهم لايعلى عليها وخدمة يشكرون عليها\nديبوق وروبين موظفين قمة في الاحترام وخدومين الله يعافيهم🫶🏻",
+   "text_translated": null,
+   "published_at": "2026-11-16T11:16:36.142Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "جودة ترضيكم 🩵\nبالخدمة لكم بكل وقت ✨",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة ممتازة وموظفون محترمون وخدومون",
+    "staff_mentions": [
+     {
+      "name": "ديبوق",
+      "sentiment": "positive"
+     },
+     {
+      "name": "روبين",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2sxclZtWldiak55U1c5bVFtSnRVelZJY1hkRWNGRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "سنجيب👍🏼",
+   "text_translated": null,
+   "published_at": "2026-11-16T10:09:41.973Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "سعيدين بتقييمك ومشاركتك لنا رأيك ونتمنى دائما ان نكون عند حسن ظنك ونأمل ان تكون من عملائنا المميزين 🩵🩵‏",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظف سنجيب بإبهام مرفوع",
+    "staff_mentions": [
+     {
+      "name": "سنجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2poNlRsOHpiMEZYV25Ca1FXUmZTMnB4TFU5UmRGRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "قهوه لذيذه و تعامل سانجيب و حمزه ممتاز",
+   "text_translated": "قهوة لذيذة وتفاعل بين سنجيب وحمزة ممتاز",
+   "published_at": "2026-11-16T09:49:07.739Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "يا مرحبا، القهوة لذيذة بشهادتك وهذا يفرحنا، وبنوصّل شكرك لسانجيب وحمزه، نشوفك على خير 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة لذيذة وتعامل ممتاز من الموظفين",
+    "staff_mentions": [
+     {
+      "name": "سانجيب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزه",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xKNFZGVndOSFoxZEhFNVMyNDFXV1Z5U2xJMlUwRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "سانجيب وحمزه 👍🏻👍🏻👍🏻",
+   "text_translated": null,
+   "published_at": "2026-11-16T09:45:20.322Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "أهلاً وسهلاً، بنوصّل شكرك لسانجيب وحمزه، وتنوّرنا دايم 🩵",
+   "collected_at": "2026-11-16T20:26:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظفين سانجيب وحمزه",
+    "staff_mentions": [
+     {
+      "name": "سانجيب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزه",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21SaFdFa3lkbDg0UlVGdFREaHdZVU4zZDNJeGVrRRAB",
    "source": "apify",
