@@ -1,7 +1,7 @@
 {
- "last_success_utc": "2026-11-11T17:52:35Z",
+ "last_success_utc": "2026-11-16T04:14:45Z",
  "last_source": "apify",
- "consecutive_failures": 21,
+ "consecutive_failures": 0,
  "branches_seen": [
   "armeema-rass",
   "armeema-riyadhalkhabra",
