@@ -1,6 +1,37 @@
 {
- "updated_at": "2026-11-16T20:27:49Z",
+ "updated_at": "2026-11-17T01:30:21Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pOWGNuaHRSMnhGTFhKUGJXRmhZM2hDTUZscFRIYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "قهوة اليوم حار افضل قهوةً بالقصيم",
+   "text_translated": null,
+   "published_at": "2026-11-16T21:43:50.449Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "مساك الله بالخير محمد، أفضل قهوة بالقصيم بشهادتك فخر لنا مره، وعساها دايم عامرة 🩵",
+   "collected_at": "2026-11-17T01:29:45Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "يصف قهوة اليوم الحارة بأنها الأفضل في القصيم",
+    "staff_mentions": [],
+    "products": [
+     "قهوة اليوم الحارة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tkNU1taDRTSGgzUlRaa1NtTjBSVkp0VTAxUWNIYxAB",
    "source": "apify",
@@ -51,16 +82,24 @@
    "collected_at": "2026-11-16T20:26:28Z",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "staff",
+     "taste"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
-    "staff_mentions": [],
-    "products": [],
+    "summary": "إشادة بأسلوب الموظف بسام الخميس وتوصيته بحلا",
+    "staff_mentions": [
+     {
+      "name": "بسام الخميس",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "حلا"
+    ],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    },
    "alerted": "skip"
   },
@@ -144,7 +183,7 @@
    "text_translated": null,
    "published_at": "2026-11-16T18:09:48.141Z",
    "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
-   "owner_reply": null,
+   "owner_reply": "حيّاك وبيّاك أبو محمد، كلامك الطيب عن بسام بيوصله وبيفرحه، وإذا عندك أي ملاحظة على زيارتك تواصل معنا واتساب 0502041122 🩵",
    "collected_at": "2026-11-16T20:26:28Z",
    "analysis": {
     "sentiment": "positive",
