@@ -1,6 +1,33 @@
 {
- "updated_at": "2026-11-17T15:57:55Z",
+ "updated_at": "2026-11-17T23:30:48Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25GUE1EUlZNak5oZGtkeFpIZ3hTRVI0Y0hFeWJHYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-riyadhalkhabra",
+   "brand": "رشف",
+   "branch_name": "رياض الخبراء - شارع محمد الخضير",
+   "city": "رياض الخبراء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-17T19:22:59.620Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJHQ-vgIU5ghUR85KEhchZuJ8",
+   "owner_reply": "هلا والله، شاكرين لك على نجومك الخمس، يومك سعيد 🩵",
+   "collected_at": "2026-11-17T23:29:55Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xWNVVGb3dkMk53UTNGV2RIaFNWVVF0WTBOUlVsRRAB",
    "source": "apify",
@@ -12,7 +39,7 @@
    "text": "الموظف بسام اشكره جداً مدح لي حلا وطلع فعلا لذيذ",
    "text_translated": null,
    "published_at": "2026-11-17T15:52:06.416Z",
-   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
    "owner_reply": "أهلاً وسهلاً، ترشيح بسام للحلا طلع على قد الثقة وسعدنا إنه لذيذ، وبنوصّل شكرك له، ومالك إلا اللي يرضيك 🩵",
    "collected_at": "2026-11-17T15:56:55Z",
    "analysis": {
