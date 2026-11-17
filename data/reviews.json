@@ -1,6 +1,44 @@
 {
- "updated_at": "2026-11-17T01:30:21Z",
+ "updated_at": "2026-11-17T04:29:29Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pobE5GWkRaSGcyWDJ0SGNrZDBkRmgyUldaWVJsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "شكر سانجيب وحمزه",
+   "text_translated": null,
+   "published_at": "2026-11-17T04:27:00.595Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": null,
+   "collected_at": "2026-11-17T04:28:20Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر للموظفين سانجيب وحمزه",
+    "staff_mentions": [
+     {
+      "name": "سانجيب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزه",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pOWGNuaHRSMnhGTFhKUGJXRmhZM2hDTUZscFRIYxAB",
    "source": "apify",
