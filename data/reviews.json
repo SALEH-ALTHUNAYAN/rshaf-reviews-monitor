@@ -1,6 +1,183 @@
 {
- "updated_at": "2026-11-17T04:29:29Z",
+ "updated_at": "2026-11-17T15:57:55Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xWNVVGb3dkMk53UTNGV2RIaFNWVVF0WTBOUlVsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "الموظف بسام اشكره جداً مدح لي حلا وطلع فعلا لذيذ",
+   "text_translated": null,
+   "published_at": "2026-11-17T15:52:06.416Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "أهلاً وسهلاً، ترشيح بسام للحلا طلع على قد الثقة وسعدنا إنه لذيذ، وبنوصّل شكرك له، ومالك إلا اللي يرضيك 🩵",
+   "collected_at": "2026-11-17T15:56:55Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظف بسام وبجودة الحلا",
+    "staff_mentions": [
+     {
+      "name": "بسام",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "حلا"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21abWRIQXpaV2xhTVU5eFQwRnpVbVI2ZUdKek9FRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "افضل قهوة بالعالم 🤩",
+   "text_translated": null,
+   "published_at": "2026-11-17T12:08:58.407Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "يا مرحبا، أفضل قهوة بالعالم شهادة نعتز فيها مره، نورتنا 🩵",
+   "collected_at": "2026-11-17T15:56:55Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة مبالغ فيها بجودة القهوة",
+    "staff_mentions": [],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pGT1JuZHdNMmN6TTI1M1pteExSVlZ4U3pORGJFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "سانجيب وحمزة 👍🏼",
+   "text_translated": null,
+   "published_at": "2026-11-17T09:33:11.728Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "يا هلا، سانجيب وحمزة بيفرحون بكلمتك، وبنوصّل لهم شكرك، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-17T15:56:55Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظفين سانجيب وحمزة",
+    "staff_mentions": [
+     {
+      "name": "سانجيب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزة",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21OT01XOURTM05RU0cxbVoyeDNORVY1WVd4Sk1XYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-badaie",
+   "brand": "رشف",
+   "branch_name": "البدائع - طريق الملك فيصل",
+   "city": "البدائع",
+   "stars": 5,
+   "text": "انور افضل موظف",
+   "text_translated": null,
+   "published_at": "2026-11-17T07:32:14.300Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJq88hLsYnghURAWx69ipkKoo",
+   "owner_reply": "أهلاً بك، انور يستاهل كلامك الحلو، وبنوصّل له شكرك، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-17T15:56:55Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظف انور",
+    "staff_mentions": [
+     {
+      "name": "انور",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tseVExOHlObE5zYkU1NFdUTnRNMjVYT1hOd2NXYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-kingfahd",
+   "brand": "رشف",
+   "branch_name": "الرس - طريق الملك فهد",
+   "city": "الرس",
+   "stars": 5,
+   "text": "القهوة ممتازة و الموظف ناصر رائع ما شاء الله عليه فرع مميز",
+   "text_translated": null,
+   "published_at": "2026-11-17T04:54:16.251Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJsXOFxN_LgxURBC_JSCvJdu4",
+   "owner_reply": "يا أهلاً، شاكرين لك على كلامك عن القهوة والفرع المميز، وبنوصّل شكرك لناصر، نشوفكم على خير 🩵",
+   "collected_at": "2026-11-17T15:56:55Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بجودة القهوة وأداء الموظف ناصر",
+    "staff_mentions": [
+     {
+      "name": "ناصر",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pobE5GWkRaSGcyWDJ0SGNrZDBkRmgyUldaWVJsRRAB",
    "source": "apify",
@@ -13,7 +190,7 @@
    "text_translated": null,
    "published_at": "2026-11-17T04:27:00.595Z",
    "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
-   "owner_reply": null,
+   "owner_reply": "يا أهلاً، شكرك لسانجيب وحمزه بيوصلهم وبيفرحهم مره، نشوفك قريب 🩵",
    "collected_at": "2026-11-17T04:28:20Z",
    "analysis": {
     "sentiment": "positive",
