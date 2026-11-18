@@ -1,6 +1,246 @@
 {
- "updated_at": "2026-11-18T00:27:20Z",
+ "updated_at": "2026-11-18T07:24:11Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pNd1FXOVpkR1ZLUjBsT1NXSnpPSGd6TW5Sa1VFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 4,
+   "text": "الفطور بصراحة ما كان لذيذ خصوصًا ساندوتش الحلوم لكن حبيت أشكر الموظفين سنجيب وحمزة على تعاملهم الجميل ولطافتهم كانوا جدًا متعاونين وخدمتهم كانت أكثر من رائعة شكرًا لهم🤍",
+   "text_translated": null,
+   "published_at": "2026-11-18T05:17:36.926Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "الله يحييكم، بنوصّل شكرك لسنجيب وحمزة وبيفرحهم مره، وملاحظتك على ساندوتش الحلوم وصلت للفرع وبنتابعها، ونتمنى نكسب النجمة الخامسة الزيارة الجاية 🩵",
+   "collected_at": "2026-11-18T07:23:26Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [
+     "taste"
+    ],
+    "severity": "low",
+    "summary": "الفطور غير لذيذ خصوصًا ساندوتش الحلوم، مع شكر للموظفين",
+    "staff_mentions": [
+     {
+      "name": "سنجيب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزة",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "الفطور",
+     "ساندوتش الحلوم"
+    ],
+    "action": "مراجعة جودة ساندوتش الحلوم وطريقة تحضيره مع فريق الفطور.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xsMVRHZzBaVmxmYms1WmNXUlNNMkYzZFVoR2QzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-riyadhalkhabra",
+   "brand": "رشف",
+   "branch_name": "رياض الخبراء - شارع محمد الخضير",
+   "city": "رياض الخبراء",
+   "stars": 5,
+   "text": "الموظفين الصباح الصراحه يشكرون على تعاملهم وسرعه تجهيز الطلبات\nلما الموظف يعرفك ومجرد مايشوف سيارتك قدام الكوفي طلبك يصير جاهز وحار وينمد لك اول ماتدخل\nالتعامل هذا يكسب الزبون ويريحنا بعد عن مسكة السرا والانتظار\nطبعاً غير ان القهوه والماتشا والحليات لذيذه عندهم وتستاهل سعره\nاكرر شكري للموظف اللي ماسك الكاشير الصباح 👏🏻🤍",
+   "text_translated": null,
+   "published_at": "2026-11-18T04:58:33.120Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJHQ-vgIU5ghUR85KEhchZuJ8",
+   "owner_reply": "صباحك خير، سرعة التجهيز والطلب الحار قبل الدخول، مع القهوة والماتشا، كلها فرّحتنا، وبنوصّل شكرك لموظف الكاشير الصباحي، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-18T07:23:26Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "speed",
+     "staff",
+     "taste",
+     "price"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بسرعة التجهيز وتعامل موظف الصباح، والقهوة لذيذة",
+    "staff_mentions": [],
+    "products": [
+     "القهوة",
+     "الماتشا",
+     "الحلويات"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xad1pHcDBNM0I2V0VaR2VVUnRRa05EWTJNemNYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "سانجيب وحمزه 👍👍",
+   "text_translated": null,
+   "published_at": "2026-11-18T04:52:52.884Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "هلا وغلا، سانجيب وحمزه يستاهلون، وبنوصّل لهم شكرك، ونتمنى نشوفكم قريب 🩵",
+   "collected_at": "2026-11-18T07:23:26Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظفين سانجيب وحمزة",
+    "staff_mentions": [
+     {
+      "name": "سانجيب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزة",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tsTWJqaHpjR0owTkdGMmNERTNSamRGYzNReU9IYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "Sanjeev and Hamza the best",
+   "text_translated": "سانجيف وحمزة هما الأفضل",
+   "published_at": "2026-11-18T03:15:15.012Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "شكرًا لك على كلماتك اللطيفة! سننقلها إلى سانجيف وحمزة، ويسعدنا وجودك معنا في أي وقت 🩵",
+   "collected_at": "2026-11-18T07:23:26Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظفين Sanjeev وHamza",
+    "staff_mentions": [
+     {
+      "name": "Sanjeev",
+      "sentiment": "positive"
+     },
+     {
+      "name": "Hamza",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT210d01YUlphVE5OVjAxelZuZzBXR2g0WTNZMmFtYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "Sanjeev and Hamza one of the best staff i have ever seen",
+   "text_translated": "سانجيف وحمزة من أفضل الموظفين الذين رأيتهم على الإطلاق",
+   "published_at": "2026-11-18T02:41:50.754Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "أهلاً وسهلاً تركي، كلامك جميل حقاً! سننقل كلماتك الطيبة إلى سانجيف وحمزة، ونتطلع إلى رؤيتك مجدداً 🩵",
+   "collected_at": "2026-11-18T07:23:26Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "وصف الموظفين Sanjeev وHamza بأنهم من الأفضل",
+    "staff_mentions": [
+     {
+      "name": "Sanjeev",
+      "sentiment": "positive"
+     },
+     {
+      "name": "Hamza",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xKcE1DMVRkM2hDWWpnd1Ixa3pibVZ1VGkwMFZsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "شكرا سان جيب حمزه امين و يشغيل",
+   "text_translated": null,
+   "published_at": "2026-11-18T02:31:07.581Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "حياك الله متعب، شكرك لسان جيب وحمزه وأمين وكل الفريق بيوصلهم وبيفرحهم، بالعافية عليك 🩵",
+   "collected_at": "2026-11-18T07:23:26Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر للموظفين سان جيب وحمزه وأمين ويشغيل",
+    "staff_mentions": [
+     {
+      "name": "سان جيب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزه",
+      "sentiment": "positive"
+     },
+     {
+      "name": "امين",
+      "sentiment": "positive"
+     },
+     {
+      "name": "يشغيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25GUE1EUlZNak5oZGtkeFpIZ3hTRVI0Y0hFeWJHYxAB",
    "source": "apify",
@@ -12,7 +252,7 @@
    "text": "",
    "text_translated": null,
    "published_at": "2026-11-17T19:22:59.620Z",
-   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJHQ-vgIU5ghUR85KEhchZuJ8",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJHQ-vgIU5ghUR85KEhchZuJ8",
    "owner_reply": "هلا والله، شاكرين لك على نجومك الخمس، يومك سعيد 🩵",
    "collected_at": "2026-11-17T23:29:55Z",
    "analysis": {
