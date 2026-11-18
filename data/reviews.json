@@ -1,6 +1,197 @@
 {
- "updated_at": "2026-11-18T07:24:11Z",
+ "updated_at": "2026-11-18T17:15:25Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25aQ1gwRkdSRmgxTjNGNFJETmxMVEpFVVZCT1RsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-aliibnabitalib",
+   "brand": "رشف",
+   "branch_name": "بريدة - طريق علي بن أبي طالب",
+   "city": "بريدة",
+   "stars": 1,
+   "text": "يتاخرون بزباده",
+   "text_translated": null,
+   "published_at": "2026-11-18T16:55:47.969Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJZ_1jIQBXfxUR7NZU6LCPplk",
+   "owner_reply": "حيّاك وبيّاك عبدالكريم، نعتذر لك عن التأخير، وملاحظتك وصلت لإدارة الفرع، تواصل معنا واتساب 0502041122 مع وقت زيارتك أو رقم الطلب 🩵",
+   "collected_at": "2026-11-18T17:14:16Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "speed"
+    ],
+    "negative_topics": [
+     "speed"
+    ],
+    "severity": "medium",
+    "summary": "تأخر كبير في تجهيز الطلبات",
+    "staff_mentions": [],
+    "products": [],
+    "action": "مراجعة أوقات التحضير في أوقات الذروة وتوزيع المهام بين الكاشير والبار.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xaVmRXY3pRV1k0TkVoNmRYTnNWRFZYYWtOcmIwRRAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 2,
+   "text": "المطعم كان ولا غلططه😅👌\nبس المشكله الحين عندكم بل توصيل الطلب يجي بارد مو معقول أنا ابعد عنكم27دقيقه ويبرد بذي السرعة عموما أنا طلبت مرتين من المطعم مرة نجحت ومرة لا ف التحسن سهل إن شاء الله",
+   "text_translated": null,
+   "published_at": "2026-11-18T16:28:24.502Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": "الله يحييك، نعتذر على برودة الطلب، وملاحظتك وصلت لإدارة الفرع. إذا ممكن التواصل عبر الواتساب على الرقم 0503579222 لمعرفة تفاصيل المشكلة",
+   "collected_at": "2026-11-18T17:14:16Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "taste",
+     "speed",
+     "other"
+    ],
+    "negative_topics": [
+     "speed",
+     "other"
+    ],
+    "severity": "low",
+    "summary": "وصول الطلب بارد بسبب مدة التوصيل الطويلة، وطلب ثانٍ لم ينجح",
+    "staff_mentions": [],
+    "products": [],
+    "action": "مراجعة تغليف الطلبات المخصصة للتوصيل وتتبع الطلبات التي تتجاوز مدة التوصيل المعتادة.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21wak9GWmZURGRPU0V4RVNuaE1YMVppYW5Jd1JsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-aliibnabitalib",
+   "brand": "رشف",
+   "branch_name": "بريدة - طريق علي بن أبي طالب",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "طلبت قهوة اليوم اثيوبي حارة لذيذة وطلبنا اسبنش لاتيه وطلبنا لاتيه\nكلها لذيذة وطلبنا حلا موزون ماشاءالله",
+   "text_translated": null,
+   "published_at": "2026-11-18T16:23:23.303Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJZ_1jIQBXfxUR7NZU6LCPplk",
+   "owner_reply": null,
+   "collected_at": "2026-11-18T17:14:16Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إعجاب بالقهوة الإثيوبية واللاتيه والحلا",
+    "staff_mentions": [],
+    "products": [
+     "قهوة إثيوبي حارة",
+     "سبانش لاتيه",
+     "لاتيه",
+     "حلا موزون"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25odWIzUkdNMmhhUVU1eE1scFNWRXh2VlZSeVZsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "دي بوق  وروبن  بالخدمه ممتنازين.",
+   "text_translated": null,
+   "published_at": "2026-11-18T13:19:19.578Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "منوّر يا بدر، شهادتك في دي بوق وروبن غالية علينا وبنوصّلها لهم، ننتظرك دايم 🩵",
+   "collected_at": "2026-11-18T17:14:16Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بخدمة الموظفين بوق وروبن",
+    "staff_mentions": [
+     {
+      "name": "بوق",
+      "sentiment": "positive"
+     },
+     {
+      "name": "روبن",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2poWmFsSjRRVlF3TFZGRFNXeDVPVXcwVFdaSldXYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-18T10:03:48.848Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "يا هلا ومرحبا، تقييمك فرّحنا مره، وبابنا مفتوح لكم دايم 🩵",
+   "collected_at": "2026-11-18T17:14:16Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tNeWJFZFlabU15VERsRFpIazNOMnMzV0VaUVNYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-18T08:12:28.334Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "شاكرين لك تقييمك الغالي، وبالخدمة دايم 🩵",
+   "collected_at": "2026-11-18T17:14:16Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pNd1FXOVpkR1ZLUjBsT1NXSnpPSGd6TW5Sa1VFRRAB",
    "source": "apify",
