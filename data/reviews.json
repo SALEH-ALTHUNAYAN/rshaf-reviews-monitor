@@ -1,6 +1,33 @@
 {
- "updated_at": "2026-11-18T17:15:25Z",
+ "updated_at": "2026-11-18T23:50:43Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xoMFVsQnViMFUxUm1WVFowNURkMkpSTjBSVVVFRRAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-18T19:41:16.166Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": "يا هلا، شاكرين لك تقييمك الحلو، دايم على البال 🧡 🍔",
+   "collected_at": "2026-11-18T23:50:11Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25aQ1gwRkdSRmgxTjNGNFJETmxMVEpFVVZCT1RsRRAB",
    "source": "apify",
@@ -78,7 +105,7 @@
    "text_translated": null,
    "published_at": "2026-11-18T16:23:23.303Z",
    "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJZ_1jIQBXfxUR7NZU6LCPplk",
-   "owner_reply": null,
+   "owner_reply": "الله يحييك ميمي، سعدنا إن الإثيوبي والسبانش لاتيه واللاتيه والحلا كلها عجبتكم، وننتظر زيارتك الجاية 🩵",
    "collected_at": "2026-11-18T17:14:16Z",
    "analysis": {
     "sentiment": "positive",
