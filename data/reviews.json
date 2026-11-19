@@ -1,6 +1,349 @@
 {
- "updated_at": "2026-11-19T00:20:46Z",
+ "updated_at": "2026-11-19T10:18:33Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pSNGNFRnBVV0Z5VUZweGFXdzFVazVvVFhaSVprRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "سانجيب 👍🏻",
+   "text_translated": null,
+   "published_at": "2026-11-19T09:03:28.922Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "مساء الخير، شكرك لسانجيب بنوصّله له، وبالعافية دايم 🩵",
+   "collected_at": "2026-11-19T10:17:41Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظف سانجيب.",
+    "staff_mentions": [
+     {
+      "name": "سانجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2s5VE1HVktObmhLZW5CaGRURkxXbkp1UWxoUFlYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "سون جيب وحمزة، خدمة ممتازة وسرعة في انجاز الطلب\nشكرًا",
+   "text_translated": null,
+   "published_at": "2026-11-19T09:02:01.984Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "يا مرحبا، الخدمة الممتازة وسرعة الإنجاز يستاهل عليها سون جيب وحمزة الشكر، وكلامكم بيوصلهم، ولا تطوّلون علينا 🩵",
+   "collected_at": "2026-11-19T10:17:41Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "speed"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظفين وسرعة إنجاز الطلب.",
+    "staff_mentions": [
+     {
+      "name": "سون جيب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزة",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT201V1dtSjBlVXBxT1MxWFJGUldOVE5mWkdsNlZYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "Sanjay and hamzah are so nice and helpful they are the best staff in rashf",
+   "text_translated": "سانجاي وحمزة لطيفان ومتعاونان للغاية، وهما أفضل الموظفين في رشف.",
+   "published_at": "2026-11-19T08:58:36.280Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "كلماتك لطيفة للغاية، ونحن نتفق معك تمامًا! سننقل إشادتك إلى سانجاي وحمزة، ونراكم قريبًا 🩵",
+   "collected_at": "2026-11-19T10:17:41Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بلطف الموظفين وتعاونهم.",
+    "staff_mentions": [
+     {
+      "name": "Sanjay",
+      "sentiment": "positive"
+     },
+     {
+      "name": "hamzah",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xCMVp6Rm9WbHBTYVd0VmVuVXdjMWh1YVhkMVJIYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "خدمة ممتازة وتعامل راقي",
+   "text_translated": null,
+   "published_at": "2026-11-19T07:16:30.392Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "أهلاً وسهلاً صالح، شهادتك بالخدمة والتعامل الراقي نعتز فيها، تسلم، ونشوفك قريب 🩵",
+   "collected_at": "2026-11-19T10:17:41Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالخدمة الممتازة والتعامل الراقي.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tOM01tNUJlRTE2TkRGWVFURlRSRlpUTkRoa2MzYxAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 4,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-19T06:51:16.768Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": "حيّاك الله عقيل، شاكرين لك تقييمك ونتمنى نكسب النجمة الخامسة الزيارة الجاية، الله يحفظك 🧡 🍔",
+   "collected_at": "2026-11-19T10:17:41Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 4 نجوم بدون تعليق.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2kweFRrVTBUMFF3ZGtWNGRVSTFSblY2TlRoT1JWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "نشكركم صراحه قهوه وخدمه حلوووووه",
+   "text_translated": null,
+   "published_at": "2026-11-19T04:56:39.630Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "أهلاً سعد، كلامك الحلو عن القهوة والخدمة فرّحنا مره، تسلم، وتنوّرنا دايم 🩵",
+   "collected_at": "2026-11-19T10:17:41Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "other"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بجودة القهوة والخدمة.",
+    "staff_mentions": [],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xwcmNEQlpja1V0YjB4eU1WTkdibGx6YVY5SWRXYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "الدجاج سيزر لذيذه وتعامل الموظف تفائيل لطيف جدا والخدمه سريعه والقهوه لذيذه",
+   "text_translated": null,
+   "published_at": "2026-11-19T04:49:18.408Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "مساكم الله بالخير، دجاج السيزر والقهوة وسرعة الخدمة كلها فرّحتنا، وبنوصّل شكركم لتفائيل، ومكانكم محفوظ عندنا 🩵",
+   "collected_at": "2026-11-19T10:17:41Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff",
+     "speed"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بلذة الدجاج سيزر والقهوة وسرعة الخدمة.",
+    "staff_mentions": [
+     {
+      "name": "تفائيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "دجاج سيزر",
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xOc0xUQTBNaTE2WDE5c1NURTNZek5SZVdRMVIxRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "Tofayel srivce good 👍👍",
+   "text_translated": "خدمة طفيل جيدة 👍👍",
+   "published_at": "2026-11-19T04:44:44.512Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "يسعدنا حقًا أنك استمتعت بالخدمة! سننقل شكرك إلى طفيل، ويسعدنا دائمًا رؤيتك 🩵",
+   "collected_at": "2026-11-19T10:17:41Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بجودة الخدمة من الموظف Tofayel.",
+    "staff_mentions": [
+     {
+      "name": "Tofayel",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21OMlpIaFZORTFhVTFWcU0zVkZWMGRQYjBGaVJVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "قهوة رائعة وخدمة أروع . تحياتي للسيد توفائيل على جودة الخدمة",
+   "text_translated": null,
+   "published_at": "2026-11-19T01:31:31.400Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "أهلين، شهادتكم بالقهوة والخدمة أسعدتنا مره، وبنوصّل التحية لتوفائيل، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-19T10:17:41Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة رائعة وخدمة ممتازة، مع إشادة بالموظف توفائيل",
+    "staff_mentions": [
+     {
+      "name": "توفائيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xCTFNIQllZM0ZpYkRablJEVTNaVFJwUVhWdlprRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-aliibnabitalib",
+   "brand": "رشف",
+   "branch_name": "بريدة - طريق علي بن أبي طالب",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "Saif is the best 👍",
+   "text_translated": "سيف هو الأفضل 👍",
+   "published_at": "2026-11-18T22:27:01.085Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJZ_1jIQBXfxUR7NZU6LCPplk",
+   "owner_reply": "مرحباً! سيف سيسعد كثيراً بسماع هذا، وسنحرص على إيصال كلماتك اللطيفة إليه. يسعدنا دائماً وجودك معنا 🩵",
+   "collected_at": "2026-11-19T10:17:41Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظف Saif وتقييم مرتفع",
+    "staff_mentions": [
+     {
+      "name": "Saif",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xoMFVsQnViMFUxUm1WVFowNURkMkpSTjBSVVVFRRAB",
    "source": "apify",
