@@ -1,6 +1,184 @@
 {
- "updated_at": "2026-11-20T03:11:04Z",
+ "updated_at": "2026-11-20T12:52:10Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2todmJrdEtVSEl3TlVwdk9XbHBTelpvYzB0WFRGRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-20T12:28:47.028Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "هلا وغلا، شاكرين لك على النجوم الخمس، بالخدمة دايم 🩵",
+   "collected_at": "2026-11-20T12:51:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25oWVZ6UTNTMmM0VlVWaVMwRnVMWFp2T0d0VVlVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "قهوة اليوم اثيبوبي بارد استثنائية عندهم .. و محمد شجيب احسن واحد ممكن يقدم لك الخدمة",
+   "text_translated": null,
+   "published_at": "2026-11-20T11:58:27.862Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "هلا وغلا، الإثيوبي البارد استثنائي بشهادتك، وبنوصّل كلامك لمحمد شجيب، بالخدمة دايم 🩵",
+   "collected_at": "2026-11-20T12:51:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة إثيوبية باردة ممتازة وخدمة محمد متميزة",
+    "staff_mentions": [
+     {
+      "name": "محمد",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة اليوم اثيوبي بارد"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xGMU4yRXdNR1p2YmxwTE5YaExSWEpqV1VVNGRGRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "Sun Geeb and hamza",
+   "text_translated": "سون جيب وحمزة",
+   "published_at": "2026-11-20T10:29:16.861Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "مرحباً عمر، شكراً على إشادتك بـ\"صن جيب\" و\"حمزة\"، سنحرص على إيصالها إليهما. يسعدنا دائماً وجودك معنا 🩵",
+   "collected_at": "2026-11-20T12:51:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظفين Sun Geeb وhamza",
+    "staff_mentions": [
+     {
+      "name": "Sun Geeb",
+      "sentiment": "positive"
+     },
+     {
+      "name": "hamza",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2kxdUxVUk1WR0pVUW1OUlVEWXhZVGxpUlZoT2RVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "Sanjib and Hamza is so good behave",
+   "text_translated": "سنجيب وحمزة يتصرفان بشكل جيد للغاية",
+   "published_at": "2026-11-20T08:11:22.569Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "أهلاً وسهلاً بكم، يسعدنا سماع كلماتكم الطيبة عن حسن أخلاق سنجيب وحمزة، وسننقلها إليهما. إلى اللقاء قريباً 🩵",
+   "collected_at": "2026-11-20T12:51:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بحسن تعامل الموظفين Sanjib وHamza",
+    "staff_mentions": [
+     {
+      "name": "Sanjib",
+      "sentiment": "positive"
+     },
+     {
+      "name": "Hamza",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21kT1RsTXRVa3RsVVRsV2FrZGpVV1F3V2s1eVgxRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "Sanjeev and Hamza the best",
+   "text_translated": "سانجيف وحمزة هما الأفضل",
+   "published_at": "2026-11-20T07:09:42.961Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "أهلاً وسهلاً فهد! سننقل كلماتك الطيبة إلى سانجيف وحمزة، وسيسعدان كثيراً بسماعها 🩵",
+   "collected_at": "2026-11-20T12:51:28Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظفين Sanjeev وHamza",
+    "staff_mentions": [
+     {
+      "name": "Sanjeev",
+      "sentiment": "positive"
+     },
+     {
+      "name": "Hamza",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21kUk1IUnhlbVY2Vm5KRlZIcE1VbTlpZEdKM1gyYxAB",
    "source": "apify",
