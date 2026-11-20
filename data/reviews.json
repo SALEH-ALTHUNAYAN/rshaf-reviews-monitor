@@ -1,6 +1,393 @@
 {
- "updated_at": "2026-11-20T12:52:10Z",
+ "updated_at": "2026-11-20T21:49:57Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25aWWRtaGxTWFZ5TUZsT1VITkxVMVpHYTBkWU4yYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "تعامل ممتاز وقهوه ممتازه وشكر العمل محمد شجيب على تعامله وتعونه",
+   "text_translated": null,
+   "published_at": "2026-11-20T21:46:17.250Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": null,
+   "collected_at": "2026-11-20T21:48:07Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تعامل ممتاز وقهوة ممتازة من محمد شجيب",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21KcGRsOTVVbk10VkhabmNERkhjek5FTVd0VE9HYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "محمد شجيب روحه جميله وتعامله جداً جميل والصراحه قهوة الخط ما تحلا الا من عند رشف لكن لو ترجعون بف كريم بيكان وشكراً",
+   "text_translated": null,
+   "published_at": "2026-11-20T21:26:59.356Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "أهلين فيك، قهوة الخط ما تحلا إلا من رشف كلمة تفرحنا، وبنوصّل شكرك لمحمد شجيب واقتراح البف كريم بيكان للفرع، ومالك إلا اللي يرضيك 🩵",
+   "collected_at": "2026-11-20T21:48:07Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "taste",
+     "availability"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "يمدح محمد شجيب وقهوة الخط ويطلب إعادة بف كريم بيكان",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة الخط",
+     "بف كريم بيكان"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21GeWNsaDViekpsUkZBMmRHaHJSakpLU0Vka1ZVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "موظفين جيدين جدا،وخاصة عبدالله",
+   "text_translated": null,
+   "published_at": "2026-11-20T21:14:27.283Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "مرحبا محمد، شهادتك بالموظفين فرحتنا مره، وكلامك بيوصل للفريق، الله يحفظك 🩵",
+   "collected_at": "2026-11-20T21:48:07Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "موظفون جيدون جداً، وخاصة عبدالله",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT201WE9IaFVVVXhtVFZKR2VtUXhia1pGY21aSFNWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "الموظف عبدالله تعامل خلوق وممتاز جدا",
+   "text_translated": null,
+   "published_at": "2026-11-20T21:10:03.483Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "يا مرحبا، عبدالله الخلوق يستاهل كل كلمة طيبة، وكلامك بيوصله أكيد، نشوفك قريب 🩵",
+   "collected_at": "2026-11-20T21:48:07Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تعامل خلوق وممتاز من الموظف عبدالله",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21SSVJVbGFaVXBuVTBoT1drUnphVVZOZWtoalFuYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "الاسبريسو حلوو والباريستا معشوق 10/10",
+   "text_translated": null,
+   "published_at": "2026-11-20T16:24:46.031Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "هلا والله محمد، الاسبريسو حلو بشهادتك، وبنوصّل الـ10/10 لمعشوق أكيد، بالعافية عليك 🩵",
+   "collected_at": "2026-11-20T21:48:07Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "الإسبريسو لذيذ والباريستا معشوق ممتاز",
+    "staff_mentions": [
+     {
+      "name": "معشوق",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "اسبريسو"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tZd2VXRm9TWGhYYzI1cWIxUXhaRVk1TW1adVNVRRAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 2,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-20T16:18:57.818Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": "أهلاً محسن، نعتذر منك ونسعى دايماً لتحسين تجربتك. إذا ممكن التواصل عبر الواتساب على الرقم 0503579222 لمعرفة تفاصيل المشكلة 🧡",
+   "collected_at": "2026-11-20T21:48:07Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "low",
+    "summary": "تقييم نجمتين بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "التواصل مع العميل أو مراجعة الفرع لمعرفة سبب التقييم المنخفض",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tscGJrSXlZekJQWm01RFVtRnNUSGt5YTJvMlFVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "شكراً معشوق👍🏻",
+   "text_translated": null,
+   "published_at": "2026-11-20T15:23:22.129Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "أهلاً وسهلاً، شكرك الطيب بنوصّله لمعشوق، الله يسعدك 🩵",
+   "collected_at": "2026-11-20T21:48:07Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر للموظف معشوق",
+    "staff_mentions": [
+     {
+      "name": "معشوق",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2premFUWXRTRXBJVmt0clJFaGFSRVkyZFZCc1ZWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "محمد شوجيب افضل معلم",
+   "text_translated": null,
+   "published_at": "2026-11-20T15:01:27.779Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "يا أهلاً أبو أمير، محمد شوجيب يستاهل لقب معلم، وبنوصّل له كلامك، نورتنا 🩵",
+   "collected_at": "2026-11-20T21:48:07Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "يمدح محمد شوجيب ويصفه بأفضل معلم",
+    "staff_mentions": [
+     {
+      "name": "محمد شوجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21GVE0ycEZTMVF4T1dnMGVHVkhVMk51UzB0c2QyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "الموظف عبدالله  نفسيته حلوه و رهيب من النوادر تحصل موظف زي كذا . والكركديه لذيذذذذ",
+   "text_translated": null,
+   "published_at": "2026-11-20T14:33:59.819Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "يا هلا، الكركديه لذيذ بشهادتك، وبنوصّل شكرك لعبدالله على نفسيته الحلوة، تنوّرنا دايم 🩵",
+   "collected_at": "2026-11-20T21:48:07Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بأخلاق الموظف عبدالله وبطعم الكركديه",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "كركديه"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xaUlJVSlRTVWt5ZDNobWJrMUZibnBsTjA5cGFWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "الموظف عبدالله خلوق ومحترم\nجربت الماتشا كلها ممتازه",
+   "text_translated": null,
+   "published_at": "2026-11-20T14:32:56.486Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "صباحك خير عبدالله، تجربتك للماتشا كلها وكلامك الطيب فرّحونا، وبنوصّل شكرك للموظف عبدالله على خلقه، حياك في أي وقت 🩵",
+   "collected_at": "2026-11-20T21:48:07Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بخلق الموظف عبدالله وجودة الماتشا",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "ماتشا"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCRVh6Sk1NalZtYkRCSlIxQktia2RGVlZWU1owRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "الموظف عبدالله رهيب وسمح والموكا حلو",
+   "text_translated": null,
+   "published_at": "2026-11-20T14:28:07.376Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "صباحك خير، يسعدنا إن الموكا حلو وعبدالله رهيب وسمح، وبنوصّل له كلامك أكيد، مكانك محفوظ عندنا 🩵",
+   "collected_at": "2026-11-20T21:48:07Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بتعامل الموظف عبدالله وطعم الموكا",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "موكا"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2todmJrdEtVSEl3TlVwdk9XbHBTelpvYzB0WFRGRRAB",
    "source": "apify",
@@ -64,6 +451,37 @@
     "model": "claude-haiku-5-5"
    },
    "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xjMFgxOXFhV3BuY2pWWlpEWlFNSFo0WDJab2IzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 2,
+   "text": "تأخير وعدم انضباط بالوقت المحدد 👎🏻👎🏻",
+   "text_translated": null,
+   "published_at": "2026-11-20T11:41:44.135Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "حياك الله دحيم، حقك علينا بموضوع التأخير ونعتذر لك، والملاحظة وصلت لإدارة الفرع. تواصل معنا واتساب 0502041122 مع وقت زيارتك أو رقم الطلب 🩵",
+   "collected_at": "2026-11-20T21:48:07Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "speed"
+    ],
+    "negative_topics": [
+     "speed"
+    ],
+    "severity": "low",
+    "summary": "شكوى من تأخير الخدمة وعدم الالتزام بالوقت",
+    "staff_mentions": [],
+    "products": [],
+    "action": "مراجعة أوقات التجهيز والخدمة مع الفريق لضمان الالتزام بالوقت المحدد للعملاء.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xGMU4yRXdNR1p2YmxwTE5YaExSWEpqV1VVNGRGRRAB",
