@@ -1,6 +1,43 @@
 {
- "updated_at": "2026-11-19T20:33:00Z",
+ "updated_at": "2026-11-20T00:14:45Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0Vk1VVk5NR3MzTVdSb1MxcGlNVmc1YlRONVoxRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "الذ قهوه بالبكيرية واشكر محمد شجيب",
+   "text_translated": null,
+   "published_at": "2026-11-19T21:05:33.273Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "يا مرحبا، ألذ قهوة بالبكيرية كلمة تفرحنا، وبنوصّل شكرك لمحمد شجيب، ننتظر زيارتك الجاية 🩵",
+   "collected_at": "2026-11-20T00:13:52Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة لذيذة مع شكر للموظف محمد شجيب",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tKQ1dtYzFRaTFqWTFveFEwNDVlVEkwUkVaSGJrRRAB",
    "source": "apify",
@@ -616,13 +653,11 @@
     "topics": [],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
+    "summary": "إشادة عامة بالمقهى دون تفاصيل محددة",
     "staff_mentions": [],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    },
    "alerted": "skip"
   },
