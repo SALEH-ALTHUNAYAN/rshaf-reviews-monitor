@@ -1,6 +1,153 @@
 {
- "updated_at": "2026-11-20T00:14:45Z",
+ "updated_at": "2026-11-20T03:11:04Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21kUk1IUnhlbVY2Vm5KRlZIcE1VbTlpZEdKM1gyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "القهوة مرة جميله والكاشير عبدالله راقي ومحترم 💐",
+   "text_translated": null,
+   "published_at": "2026-11-19T22:34:56.612Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "هلا بكِ رقيه، فرحنا إن القهوة جميلة مره عندك، وبنوصّل شكرك لعبدالله على أسلوبه الراقي، يومك سعيد 🩵",
+   "collected_at": "2026-11-20T03:10:24Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إعجاب بطعم القهوة وتعامل الكاشير عبدالله الراقي",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tKbU9FaFlPVmhCWlRkUFZrWmhaM0pUUlc5bmRXYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "المشروبات لذيذه \"ماتشا وقهوة سوداء وايطالي\" والموظف عبدالله ماشاءالله خدوم وبشوش",
+   "text_translated": null,
+   "published_at": "2026-11-19T22:32:15.406Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "هلا بك، فرحنا إن الماتشا والقهوة السوداء والإيطالي عجبوك، وبنوصّل شكرك لعبدالله على خدمته وبشاشته، نشوفك على خير 🩵",
+   "collected_at": "2026-11-20T03:10:24Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إعجاب بالمشروبات وخدمة الموظف عبدالله المميزة",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "ماتشا",
+     "قهوة سوداء",
+     "ايطالي"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2paNVRuTkxXVkF6VEdWSlZucDFPRFphV2pCblJWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "شكرا عبدالله ابتسامة جميلة وخدمة اجمل الله يوفقك",
+   "text_translated": null,
+   "published_at": "2026-11-19T22:30:21.762Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "منوّرين، ابتسامة وخدمة أجمل كلمة تفرحنا مره، وبنوصّل شكرك ودعواتك لعبدالله، ودايم على البال 🩵",
+   "collected_at": "2026-11-20T03:10:24Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر للموظف عبدالله على الابتسامة والخدمة",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21FM2JqZ3dWRlZJYlhCTVdFNHRaSFZvUjBKaGIwRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "الكوفي مشروباته رائعه والموظفين كذلك محترمين واشكر الاخ عبدالله بالخصوص",
+   "text_translated": null,
+   "published_at": "2026-11-19T22:28:34.317Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "مساك الله بالخير، كلامك عن المشروبات والفريق أفرحنا، وبنوصّل شكرك لعبدالله، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-20T03:10:24Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إعجاب بالمشروبات واحترام الموظفين وشكر لعبدالله",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "مشروبات"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0Vk1VVk5NR3MzTVdSb1MxcGlNVmc1YlRONVoxRRAB",
    "source": "apify",
