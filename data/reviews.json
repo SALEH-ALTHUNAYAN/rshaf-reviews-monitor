@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T12:37:21Z",
+ "updated_at": "2026-11-21T14:34:06Z",
  "reviews": [
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT205aU9GSmhTM0J6Ym1OdWJEbG1NVWs1ZFVwMlVtYxAB",
@@ -13,22 +13,53 @@
    "text_translated": null,
    "published_at": "2026-11-21T11:20:01.076Z",
    "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
-   "owner_reply": null,
+   "owner_reply": "تسلم ياسر، دام تجربتك رائعة فهذا اللي نبيه، ونشوفك على خير 🩵",
    "collected_at": "2026-11-21T12:36:33Z",
    "analysis": {
     "sentiment": "positive",
     "topics": [],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
+    "summary": "تجربة ممتازة بشكل عام دون تفاصيل محددة",
     "staff_mentions": [],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    },
    "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xOQ1pHZHVNMGhTTVRNNVIxSXpNM05KVVRoS2VVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-riyadhalkhabra",
+   "brand": "رشف",
+   "branch_name": "رياض الخبراء - شارع محمد الخضير",
+   "city": "رياض الخبراء",
+   "stars": 2,
+   "text": "الفرع ذا تحديدا كل ما اجيه يقول ماعنده شاهي\nوالله يمكن ثالث مدري رابع مره\nهذا وانا داق لكم مشوار من الخبراء\nالفروع الباقيه ممتازه",
+   "text_translated": null,
+   "published_at": "2026-11-21T11:10:35.651Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJHQ-vgIU5ghUR85KEhchZuJ8",
+   "owner_reply": "أهلاً وسهلاً، حقك علينا ونعتذر منك على موضوع الشاهي، خصوصاً وأنت جاي من الخبراء. ملاحظتك وصلت لإدارة الفرع، تواصل معنا واتساب 0502041122 مع وقت زيارتك، الله يحفظك 🩵",
+   "collected_at": "2026-11-21T14:33:22Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "availability"
+    ],
+    "negative_topics": [
+     "availability"
+    ],
+    "severity": "medium",
+    "summary": "نفاد الشاهي في فرع الخبراء للمرة الثالثة أو الرابعة",
+    "staff_mentions": [],
+    "products": [
+     "شاهي"
+    ],
+    "action": "مراجعة مخزون الشاهي في فرع رياض الخبراء وضمان توفره بشكل دائم، ومتابعة الفرع عاجلاً.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xoaFIyOXpVekpvYTNacE1EVjJhazVRTjBoamFHYxAB",
