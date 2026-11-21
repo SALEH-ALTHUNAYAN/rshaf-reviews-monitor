@@ -1,6 +1,120 @@
 {
- "updated_at": "2026-11-21T14:34:06Z",
+ "updated_at": "2026-11-21T20:31:01Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25KdU1sbHNabXBzWVVKdWRGVXhiemhNUWtwSlExRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 3,
+   "text": "اخذت منهم قهوه مره يمي والعامل شوجيب سريع ومتعااون ان شاءالله مو اخر مرهه اخذ قهوتهم",
+   "text_translated": null,
+   "published_at": "2026-11-21T18:32:35.420Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "يا مرحبا، يسعدنا إن القهوة يمي مره عندك، وبنوصّل شكرك لشوجيب على سرعته وتعاونه، لا تطوّل علينا 🩵",
+   "collected_at": "2026-11-21T20:30:22Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "speed",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "طلب قهوة مرة أعجبه، والعامل سريع ومتعاون.",
+    "staff_mentions": [
+     {
+      "name": "شوجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة مرة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21NemJWb3pWMGhMZWxGaWVWRXpNM1phVXpONlJWRRAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 1,
+   "text": "التجربة غير مرضيه اطلاقاً\nاولاً من ناحية الاسعار ؟ برجر بهذا الحجم الصغير جداً ومن غير وجبه سعره ٢٣ ريال وشريحة لحم واحده!  طيب امنا بالله نقول يمكن الطعم يشفع والله لا طعم ولا سعر وفوقها الشكل غير مطابق للصور المعروضه .\nوحتى الفرايز كميته مرره قليله وبرجر الدجاج نفس الحكاية مره صغير على وجبه بهالسعر\nاتمنى تتحسن الجوده والكميه 🙏🏻",
+   "text_translated": null,
+   "published_at": "2026-11-21T17:00:34.888Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": "نعتذر إن تجربتك ما كانت بمستوى توقعك، وملاحظتك على الكمية والجودة وصلت لإدارة الفرع. إذا ممكن التواصل عبر الواتساب على الرقم 0503579222 لمعرفة تفاصيل المشكلة 🧡",
+   "collected_at": "2026-11-21T20:30:22Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "price",
+     "taste",
+     "accuracy",
+     "other"
+    ],
+    "negative_topics": [
+     "price",
+     "taste",
+     "accuracy",
+     "other"
+    ],
+    "severity": "medium",
+    "summary": "البرجر صغير وغالي السعر، والطعم ضعيف، والشكل مخالف للصور.",
+    "staff_mentions": [],
+    "products": [
+     "برجر لحم",
+     "برجر دجاج",
+     "فرايز",
+     "وجبة برجر"
+    ],
+    "action": "مراجعة أحجام الحصص وتسعير البرجر والفرايز، ومطابقة شكل المنتج مع الصور المعروضة.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25wRFUzTnRkSGhhVnpCUlkwUnNjMWd6VDJNMmJXYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "زرتهم وكان تعامل رائع واخلاق عالية جداً ، شكراً جزيلاً للأخ بسام الخميس",
+   "text_translated": null,
+   "published_at": "2026-11-21T15:09:46.517Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "يا هلا ومرحبا، تسعدنا كلمتك عن التعامل الرائع، وبنوصّل شكرك لبسام الخميس، بالعافية 🩵",
+   "collected_at": "2026-11-21T20:30:22Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تعامل رائع وأخلاق عالية من الموظف بسام الخميس.",
+    "staff_mentions": [
+     {
+      "name": "بسام الخميس",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT205aU9GSmhTM0J6Ym1OdWJEbG1NVWs1ZFVwMlVtYxAB",
    "source": "apify",
