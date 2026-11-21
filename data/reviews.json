@@ -1,6 +1,101 @@
 {
- "updated_at": "2026-11-20T23:37:51Z",
+ "updated_at": "2026-11-21T03:12:57Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25KTFRVRjJVbDh0WTBGeFRuWmxTVXBpWWtVM05sRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "شكرًا للاخ طفيل على حسن الخدمة ورحابة صدره",
+   "text_translated": null,
+   "published_at": "2026-11-21T00:50:54.407Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "مرحبتين، شكرك لطفيل على حسن خدمته ورحابة صدره بنوصّله أكيد، بالعافية 🩵",
+   "collected_at": "2026-11-21T03:11:58Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر للموظف طفيل على حسن الخدمة وسعة صدره",
+    "staff_mentions": [
+     {
+      "name": "طفيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pWblJDMTBYMEZTV25ST1NsSkZXV1JaVWpVNE1HYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-20T23:51:06.392Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "تقييمك فرّحنا ومعه الخمس نجوم، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-21T03:11:58Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي النجوم بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2w5SFNERkhiQzFsVG05cmRHOHlPRWRxUWtaaVFsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "فنانين ماشاء الله والمعلم محمد شجيب اجودي مره وخدوم🙏🏻👍🏻👍🏻",
+   "text_translated": null,
+   "published_at": "2026-11-20T22:56:03.004Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "حيّاك الله عزام، محمد شجيب خدوم وأخلاقه عالية بشهادتك، وبنوصّل له كلامك، تسلم 🩵",
+   "collected_at": "2026-11-21T03:11:58Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالفنانين ومحمد شجيب لخدمتهم ولطفهم",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25aWWRtaGxTWFZ5TUZsT1VITkxVMVpHYTBkWU4yYxAB",
    "source": "apify",
