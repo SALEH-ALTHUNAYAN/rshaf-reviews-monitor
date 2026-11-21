@@ -1,6 +1,43 @@
 {
- "updated_at": "2026-11-21T20:31:01Z",
+ "updated_at": "2026-11-21T22:43:44Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pscWNWbzNjRmswUTJoQ04wOXZWbmN6U1c1amFVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "الكركديه\nوا الإيطالي\nوالموظف محمد شجيب محترم محترم جدا وتعامله كويس",
+   "text_translated": null,
+   "published_at": "2026-11-21T21:25:20.120Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "يا أهلاً عزوز، تسلم على كلمتك عن الكركديه والإيطالي، وبنوصّل شكرك لمحمد شجيب، ومكانك محفوظ عندنا 🩵",
+   "collected_at": "2026-11-21T22:43:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إعجاب بالكركديه والإيطالي وتعامل الموظف محمد المحترم",
+    "staff_mentions": [
+     {
+      "name": "محمد",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "الكركديه",
+     "الإيطالي"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25KdU1sbHNabXBzWVVKdWRGVXhiemhNUWtwSlExRRAB",
    "source": "apify",
@@ -38,6 +75,41 @@
     "model": "claude-haiku-5-5"
    },
    "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xaa09FMWhOR2haTjJKd2FXWk5Xa0YzVHpreWNHYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "الطعم جيد جدا، خاصة الموظف السعودي عبدالله اسلوبه جميل",
+   "text_translated": null,
+   "published_at": "2026-11-21T17:17:56.062Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "يا أهلاً محمد، الطعم الزين وأسلوب عبدالله الجميل فرّحونا، وبنوصّل له شكرك، تنوّرنا دايم 🩵",
+   "collected_at": "2026-11-21T22:43:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "طعم جيد جداً وأسلوب الموظف عبدالله جميل",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21NemJWb3pWMGhMZWxGaWVWRXpNM1phVXpONlJWRRAB",
