@@ -1,6 +1,439 @@
 {
- "updated_at": "2026-11-21T03:12:57Z",
+ "updated_at": "2026-11-21T12:37:21Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT205aU9GSmhTM0J6Ym1OdWJEbG1NVWs1ZFVwMlVtYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "تجربة رائعة",
+   "text_translated": null,
+   "published_at": "2026-11-21T11:20:01.076Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": null,
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "stars-only",
+    "attempts": 1,
+    "v": 2
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xoaFIyOXpVekpvYTNacE1EVjJhazVRTjBoamFHYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "الخدمه ممتازه",
+   "text_translated": null,
+   "published_at": "2026-11-21T09:37:00.972Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "هلا والله سلمان، تسلم على كلمتك عن الخدمة، يسعدنا إنها كانت ممتازة، وحياك في أي وقت 🩵",
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "الخدمة ممتازة",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURyNE9LQ0JBEAE",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "أشكر الموظف sanjeev  على حسن تعامله وسرعته في الخدمه",
+   "text_translated": null,
+   "published_at": "2026-11-21T09:30:26.016Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "تشرفنا بزيارتك..يومك سعيد🩵",
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "speed"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظف sanjeev لحسن التعامل والسرعة",
+    "staff_mentions": [
+     {
+      "name": "sanjeev",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21sMU5IbDBaR1pTV0VKWFJYTkxTM04xYjE5aWJsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "توفايل",
+   "text_translated": null,
+   "published_at": "2026-11-21T09:27:56.026Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "حيّاكم الله، توفايل مع الخمس نجوم فرّحونا، شاكرين لك، وننتظر زيارتك الجاية 🩵",
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "كلمة غير واضحة المعنى، التقييم 5 نجوم",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tJMlMxOUJTaTF5VjNCMGEwWmhZMjV2TjNOVFEzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-21T08:00:02.284Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "يا هلا، شاكرين لك النجوم الخمس، وبالخدمة دايم 🩵",
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "بدون نص، تقييم 5 نجوم فقط",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25kYWNISkxRemhxWldaMmVWSmtPSE5vTVROclUyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "سنجيب",
+   "text_translated": null,
+   "published_at": "2026-11-21T07:50:15.363Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "يا هلا، شكرك لسنجيب بيوصله أكيد، وشاكرين لك الخمس نجوم، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "ذكر اسم الموظف سنجيب بتقييم إيجابي",
+    "staff_mentions": [
+     {
+      "name": "سنجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xVeFdXWlJUalpITjB0T1psZ3lWblJvZUVsUGRVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "Sanjib and Hamza is so nice behave",
+   "text_translated": "سنجيب وحمزة لطيفان للغاية في تصرفاتهما.",
+   "published_at": "2026-11-21T07:07:30.631Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "أهلاً وسهلاً، وشكراً لك على كلماتك اللطيفة! سننقل ملاحظاتك الكريمة إلى سنجيب وحمزة 🩵",
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظفين Sanjib وHamza بالتعامل اللطيف",
+    "staff_mentions": [
+     {
+      "name": "Sanjib",
+      "sentiment": "positive"
+     },
+     {
+      "name": "Hamza",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0SGJqQjFSbGhQUzNOb05FbzJkVTEwT0dkRWRWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "Thank you sanjib",
+   "text_translated": "شكراً لك يا سنجيب",
+   "published_at": "2026-11-21T06:47:00.348Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "أهلاً وسهلاً بك، وسننقل شكرك إلى سنجيب. نأمل أن نراك مجدداً قريباً 🩵",
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر للموظف sanjib",
+    "staff_mentions": [
+     {
+      "name": "sanjib",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pSaFEyZHRXalJrZUhwa1lXaDZla1Y1WjE5TU9IYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "لذيذ والخدمة رائعة.سانجيب حمزة 💐👍🏽",
+   "text_translated": null,
+   "published_at": "2026-11-21T06:28:27.143Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "بالخدمة لك دائمًا\nنورتنـا 🩵",
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "طعم لذيذ وخدمة رائعة من سانجيب وحمزة",
+    "staff_mentions": [
+     {
+      "name": "سانجيب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزة",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xCZk9FWlpXbTlRYnpKalpXWnplVXg2TjFJeFlsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "اشكر العامل سانجيب و حمزه على التعامل وعلى تقديمهم الطلب بسرعه 👍🏼👍🏼",
+   "text_translated": null,
+   "published_at": "2026-11-21T06:08:51.412Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "ومرحبا بك يا مهند، شكرك لسانجيب وحمزه على سرعة تقديم الطلب بيوصلهم أكيد، ننتظرك دايم 🩵",
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "speed"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر لسانجيب وحمزة على التعامل وسرعة تقديم الطلب",
+    "staff_mentions": [
+     {
+      "name": "سانجيب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزه",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pOSFUxaHFZMDB6TlU1TWIwUTViblJHVlVGd1RGRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "ممتاز",
+   "text_translated": null,
+   "published_at": "2026-11-21T05:50:21.882Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "الله يسعدك محمد، كلمة ممتاز منك فرّحتنا مره، ويومك سعيد 🩵",
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم عام ممتاز",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT214d2IwNDROVEJtTldSalYxZFVRVFZZVG1aVU4yYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "مميز ومرتب ولذيذ كل شي عندهم\nشكرا للموظف سهيل",
+   "text_translated": null,
+   "published_at": "2026-11-21T05:43:51.260Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "منوّر يا عز، مرتب ولذيذ بشهادتك وهذا اللي نبيه، وبنوصّل شكرك لسهيل، عساها دايم عامرة 🩵",
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "facility",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "مميز ومرتب ولذيذ، وشكر للموظف سهيل",
+    "staff_mentions": [
+     {
+      "name": "سهيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25CS1ZXZERaeTF6VlRrdFJqQm5XRU5PTFVWbWFtYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "افضل معامله من العاملين سانجبب وحمزه محترمين ويعلمونك بالعروض الله يجزاهم خير",
+   "text_translated": null,
+   "published_at": "2026-11-21T01:22:55.590Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "مساك الله بالخير صالح، سانجبب وحمزه يستاهلون كلامك الطيب وبنوصّله لهم، وأنت دايم على البال 🩵",
+   "collected_at": "2026-11-21T12:36:33Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "other"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "معاملة محترمة من سانجبب وحمزه، وإعلام بالعروض",
+    "staff_mentions": [
+     {
+      "name": "سانجبب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزه",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25KTFRVRjJVbDh0WTBGeFRuWmxTVXBpWWtVM05sRRAB",
    "source": "apify",
