@@ -1,6 +1,44 @@
 {
- "updated_at": "2026-11-22T23:10:18Z",
+ "updated_at": "2026-11-22T23:35:49Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25WNE5FWkdWazlrYkVkaVozZFlWa2htYUdselMwRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "الصراحه من دخل الشتاء وانا يوميا اخذ هوت شوكلت ( الصدق فنان وجميل وصنع بحب ) ورشف شهادتي فيه مجروحه ونتمنى لهم التوفيق كما اشكر الاداره اللي قدمت للمستهلك شي جميل واسعار مناسبه لجميع فئات المجتمع واشكر الموظف محمد شجيب على حسن التعامل والاخلاق العاليه وهو اضافه جميله للفرع",
+   "text_translated": null,
+   "published_at": "2026-11-22T23:19:07.858Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "الله يحييك أحمد، الهوت شوكلت كل يوم من دخل الشتاء؟ هذا وفاء يفرحنا، وبنوصّل شكرك لمحمد شجيب، وإنت دايم على البال 🩵",
+   "collected_at": "2026-11-22T23:35:16Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "price",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بجودة الهوت شوكلت والأسعار المناسبة وحسن تعامل محمد شجيب",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "هوت شوكلت"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xCdVdUVjBSM05WVlROdE5qSXRhMEpVV1ZaVmVHYxAB",
    "source": "apify",
@@ -62,6 +100,40 @@
     "products": [
      "قهوة"
     ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xkalpHeEJOVTh0UjFwQ2RGcDRkRVpmVWkxTWJIYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "محمد شجيب شغل 100٪",
+   "text_translated": null,
+   "published_at": "2026-11-22T21:16:38.673Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "الله يحييك نواف، شهادتك في محمد شجيب فرّحتنا، وبنوصّل شكرك له، ننتظرك دايم 🩵",
+   "collected_at": "2026-11-22T23:35:16Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بأداء الموظف محمد شجيب",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
     "action": "",
     "model": "claude-haiku-5-5"
    },
