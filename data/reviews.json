@@ -1,6 +1,72 @@
 {
- "updated_at": "2026-11-22T17:50:17Z",
+ "updated_at": "2026-11-22T23:10:18Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xCdVdUVjBSM05WVlROdE5qSXRhMEpVV1ZaVmVHYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-unayzah-kingabdulaziz",
+   "brand": "رشف",
+   "branch_name": "عنيزة - طريق الملك عبدالعزيز",
+   "city": "عنيزة",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-22T23:05:18.041Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJ7dQlfADtgRURVltPqlQdA5k",
+   "owner_reply": "أهلاً بك، تقييمك الكامل وصلنا وفرّحنا، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-22T23:09:42Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي بدون نص",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xKWVNERldaSE5QWmpoc1VXeDBkakEwTTJOVlMwRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "Mohammed Shajib is amazing! He prepares my order before I arrive, unlike many other coffee shops where orders are only prepared when you get there, even when ordered through the app. He pays great attention to detail and customer satisfaction, even making sure my drink is sealed with a sticker just the way I like it. The coffee is absolutely delicious too! I highly recommend him👍🏼😋",
+   "text_translated": "محمد شجيب رائع! يُجهز طلبي قبل وصولي، على عكس العديد من المقاهي الأخرى حيث لا تُجهز الطلبات إلا عند الوصول، حتى عند الطلب عبر التطبيق. يهتم بأدق التفاصيل ورضا الزبائن، حتى أنه يتأكد من وضع ملصق على مشروبي بالطريقة التي أحبها. والقهوة لذيذة للغاية! أنصح به بشدة 👍🏼😋",
+   "published_at": "2026-11-22T22:11:38.743Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "أهلاً وسهلاً! يسعدنا أن طلبك جاهز ومغلف كما تحب، وسننقل شكرك إلى محمد شجيب 🩵",
+   "collected_at": "2026-11-22T23:09:42Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "speed",
+     "staff",
+     "taste",
+     "accuracy"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "الموظف محمد شجيب يجهز الطلب مسبقاً ويهتم بالتفاصيل، والقهوة لذيذة",
+    "staff_mentions": [
+     {
+      "name": "Mohammed Shajib",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2twSmJVdDZXV0ZWYldSQ1JYSTNUWGxzVjAxWFUyYxAB",
    "source": "apify",
