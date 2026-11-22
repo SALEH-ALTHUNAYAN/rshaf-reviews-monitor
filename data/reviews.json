@@ -1,6 +1,219 @@
 {
- "updated_at": "2026-11-22T09:44:29Z",
+ "updated_at": "2026-11-22T17:50:17Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2twSmJVdDZXV0ZWYldSQ1JYSTNUWGxzVjAxWFUyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "الخدمه جميله والقهوه جداا حلوه وفي البودنق الكوكيز لذيذذ واشكر الموظف محمد شجيم على تفانيه بالعمل و اسلوبه الجميل",
+   "text_translated": null,
+   "published_at": "2026-11-22T17:10:49.959Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "هلا بك، سعدنا بكلمتك عن القهوة والبودنق الكوكيز، وبنوصّل شكرك لمحمد شجيم على تفانيه، يومك سعيد 🩵",
+   "collected_at": "2026-11-22T17:48:59Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "خدمة جميلة وقهوة وكوكيز لذيذة مع إشادة بالموظف محمد",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيم",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة",
+     "بودنق كوكيز"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21nNFUxQkZhSGxhZDI5cVkwSk1YMmRHTjJsd2IzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "Mashok is very good",
+   "text_translated": "ماشوك جيد جداً",
+   "published_at": "2026-11-22T16:03:28.859Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "لطف منك قول ذلك! سنشارك كلماتك مع ماشوك، ونرحب بك دائمًا في فرعنا في بريدة 🩵",
+   "collected_at": "2026-11-22T17:48:59Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم إيجابي عام بدون تفاصيل",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21WaGQxTnBZVFphT0UxbGFHNHpVM1V0VlVkbmVrRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-unayzah-zamil",
+   "brand": "رشف",
+   "branch_name": "عنيزة - طريق زامل السليم",
+   "city": "عنيزة",
+   "stars": 3,
+   "text": "عباره عن كرفانه صغيره ما فيش اماكن للجلوس",
+   "text_translated": null,
+   "published_at": "2026-11-22T14:41:18.923Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJa3D0Y1XtgRURx9pBCpvbLyo",
+   "owner_reply": "شاكرين لك تقييمك شاركنا ملاحظاتك بالواتس 0502041122\nيومك سعيد",
+   "collected_at": "2026-11-22T17:48:59Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "facility"
+    ],
+    "negative_topics": [
+     "facility"
+    ],
+    "severity": "low",
+    "summary": "المكان كرفان صغير وبلا أماكن جلوس كافية",
+    "staff_mentions": [],
+    "products": [],
+    "action": "مراجعة توفير أماكن جلوس أو تحسين استغلال المساحة في فرع عنيزة.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xwMU1VdDBUVUpRZVRoblNtNUNSbmRWTWpkTFNHYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "mashoq,arafat service is good",
+   "text_translated": "خدمة ماشوق وعرفات جيدة",
+   "published_at": "2026-11-22T14:12:46.803Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "شكرًا لتقييمك بخمس نجوم! سننقل كلماتك الطيبة إلى مشوق وعرفات، ونتطلع إلى رؤيتك مجددًا 🩵",
+   "collected_at": "2026-11-22T17:48:59Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "خدمة جيدة مع إشادة بالموظف عرفات",
+    "staff_mentions": [
+     {
+      "name": "arafat",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2poMk5FNVFNa1pLVDJwaFVVRlVObkZUZG5BNGFWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "تعامل الموظفين ممتاز",
+   "text_translated": null,
+   "published_at": "2026-11-22T13:12:26.104Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "حيّاكم وبيّاكم، شاكرين لكم كلمتكم عن تعامل الموظفين، وبيوصل كلامكم للفريق، ما قصرتوا 🩵",
+   "collected_at": "2026-11-22T17:48:59Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تعامل الموظفين ممتاز",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25vdFZWOTVXUzFCV1ZOalpXcDZNVjkxUjFZNWMyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-22T12:05:48.638Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "حياكِ الله ابتسام، تسلمين على نجومك الخمس، ونشوفك على خير 🩵",
+   "collected_at": "2026-11-22T17:48:59Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خمس نجوم بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25nemIxWndRVFJFYlZOWVMycDVjbVY1TFU1elpYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-22T09:45:37.135Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "مساك الله بالخير، شاكرين لك تقييمك الحلو، ونشوفك قريب 🩵",
+   "collected_at": "2026-11-22T17:48:59Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خمس نجوم بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pGaFQxbDZWVEI1WkRaRlZuZFlkMm80UlhOSWRXYxAB",
    "source": "apify",
