@@ -1,6 +1,44 @@
 {
- "updated_at": "2026-11-22T02:12:49Z",
+ "updated_at": "2026-11-22T09:44:29Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pGaFQxbDZWVEI1WkRaRlZuZFlkMm80UlhOSWRXYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "Sanjeev and hamza is nice and good behavior",
+   "text_translated": "سانجيف وحمزة لطيفان وحسنا السلوك",
+   "published_at": "2026-11-22T07:34:45.763Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "يسعدنا سماع ذلك! سيُعجب سانجيف وحمزة بهذا، وسنحرص على إيصال كلماتك الطيبة إليهما. من دواعي سرورنا دائمًا وجودك معنا 🩵",
+   "collected_at": "2026-11-22T09:43:57Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "العميل أشاد بلطف الموظفين سانجيف وحمزة وحسن تعاملهم.",
+    "staff_mentions": [
+     {
+      "name": "Sanjeev",
+      "sentiment": "positive"
+     },
+     {
+      "name": "hamza",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pscWNWbzNjRmswUTJoQ04wOXZWbmN6U1c1amFVRRAB",
    "source": "apify",
