@@ -1,6 +1,74 @@
 {
- "updated_at": "2026-11-22T23:35:49Z",
+ "updated_at": "2026-11-23T07:33:03Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tkS1pGZFFlWEF4WmtoTlpqVlhjRVZSVmtkTGJIYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "شكرا على الخدمه الطيبه ياشبير",
+   "text_translated": null,
+   "published_at": "2026-11-23T05:49:45.022Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "منوّر يا موسى، شبير بيوصله شكرك على الخدمة الطيبة، الله يسعدك 🩵",
+   "collected_at": "2026-11-23T07:32:08Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر على الخدمة الطيبة",
+    "staff_mentions": [
+     {
+      "name": "شبير",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xkZmNUZFphRWxMYVhselRtYzJWRVpUU2pJelVuYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "شكراً للأخ طوفيل",
+   "text_translated": null,
+   "published_at": "2026-11-23T00:57:28.879Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "يا هلا، شكرك الطيب وصل، وبنوصّل كلامك لطوفيل، عساها دايم عامرة 🩵",
+   "collected_at": "2026-11-23T07:32:08Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر للموظف طوفيل",
+    "staff_mentions": [
+     {
+      "name": "طوفيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25WNE5FWkdWazlrYkVkaVozZFlWa2htYUdselMwRRAB",
    "source": "apify",
