@@ -1,6 +1,232 @@
 {
- "updated_at": "2026-11-23T07:33:03Z",
+ "updated_at": "2026-11-23T20:11:40Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tabU1HSkRSRXh3T0U1VlQxOWpXRkZNV1VOWGRHYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-23T19:41:11.471Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "أهلين، شاكرين لك نجومك الخمس، وإنت دايم على البال 🩵",
+   "collected_at": "2026-11-23T20:11:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT210cGJXUXhhMWhSUWxsc1FsWnFVbkl5YUVSU01rRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "مره رائع والباريستا معشوق قهوه اليوم ولا غلطة",
+   "text_translated": null,
+   "published_at": "2026-11-23T15:32:09.941Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "يا هلا ومرحبا حنان، فرحنا إن قهوتك اليوم ولا غلطة، وبنوصّل شكرك لمعشوق، الله يحفظكِ 🩵",
+   "collected_at": "2026-11-23T20:11:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "stars-only",
+    "attempts": 1,
+    "v": 2
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pSTlRFRTFSbTQzUzFwRVJHNUJhbTVqVldOTlMyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "كل الشكر والتقدير لكفي رشف وللموظف عبدالله على حسن التعامل وطيب الاستقبال والجهود المبذولة\nما قصرتوا",
+   "text_translated": null,
+   "published_at": "2026-11-23T15:31:06.142Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "الله يسلمكم، كلامكم عن طيب الاستقبال أسعدنا، وبنوصّل شكركم لعبدالله، وبالخدمة دايم 🩵",
+   "collected_at": "2026-11-23T20:11:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر للموظف عبدالله على حسن التعامل والاستقبال",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21aNE56QklOMDkwYldSMU5WSlFVR1JYUmxaUWNYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "قهوة رشف مميزة دائمًا وابدًا، واشكر الموظف عبدالله على تعامله الرائع وتعاونه",
+   "text_translated": null,
+   "published_at": "2026-11-23T15:13:09.232Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "الله يحييك، شاكرين لك كلمتك عن قهوة رشف المميزة، وبنوصّل شكرك لعبدالله على تعامله وتعاونه، بالعافية 🩵",
+   "collected_at": "2026-11-23T20:11:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة مميزة باستمرار وشكر للموظف عبدالله",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21SbU1GbFZiemhEWkRsSlNrMW5iMWxwV1VrdFZXYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "القهوه لذيذه والخدمه سريعه ، شكرا للموظف عبدالله على اسلوبه اللطيف 🤍",
+   "text_translated": null,
+   "published_at": "2026-11-23T15:12:01.434Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "مرحباً بك، شاكرين لك على القهوة اللذيذة والخدمة السريعة، وبنوصّل شكرك لعبدالله على أسلوبه اللطيف، بالعافية 🩵",
+   "collected_at": "2026-11-23T20:11:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "speed",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة لذيذة وخدمة سريعة مع شكر لعبدالله",
+    "staff_mentions": [
+     {
+      "name": "عبدالله",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tsVFVqbHBSRFZmWVRVeFNYcENja0ZSVWpaT1JYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "معشوق عرفات باريستا 100٪",
+   "text_translated": null,
+   "published_at": "2026-11-23T13:13:59.477Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "هلا والله فهد، معشوق عرفات يستاهل المية بالمية، وبنوصّل له كلامك، تسلم على كلامك 🩵",
+   "collected_at": "2026-11-23T20:11:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالباريستا عرفات",
+    "staff_mentions": [
+     {
+      "name": "عرفات",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25Sa1MxcHRVbEUxVTBwbVQyMTZOMXBxVjFsVGJtYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "👍🏻",
+   "text_translated": null,
+   "published_at": "2026-11-23T09:53:20.551Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "هلا وغلا، وصلتنا نجومك الخمس وفرّحتنا، تنوّرنا دايم 🩵",
+   "collected_at": "2026-11-23T20:11:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي مع رد مختصر بالإيموجي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tkS1pGZFFlWEF4WmtoTlpqVlhjRVZSVmtkTGJIYxAB",
    "source": "apify",
