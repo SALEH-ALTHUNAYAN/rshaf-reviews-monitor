@@ -1,6 +1,326 @@
 {
- "updated_at": "2026-11-24T04:47:11Z",
+ "updated_at": "2026-11-24T17:40:52Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pRM2NVZDFSVWhCUkRobE0waFZZMU41YWtSQ2JsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-24T17:38:05.489Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "هلا بك، تقييمك بالخمس نجوم يفرحنا، وبابنا مفتوح لك في أي وقت 🩵",
+   "collected_at": "2026-11-24T17:38:50Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tKVVJrazFibTV1WlRVeVpGWTRRVlprVkRad1YyYxAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 1,
+   "text": "\"رجّعت صحن البطاطس لنفس الكاشير في نفس اللحظة وما أكلته بسبب حالته مثل ما هو واضح في الصورة، ولم يتم تعويضي أو استبداله وقتها",
+   "text_translated": null,
+   "published_at": "2026-11-24T16:31:06.106Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": null,
+   "collected_at": "2026-11-24T17:38:50Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "hygiene",
+     "other"
+    ],
+    "negative_topics": [
+     "hygiene",
+     "other"
+    ],
+    "severity": "critical",
+    "summary": "صحن بطاطس بحالة سيئة ولم يُستبدل أو يُعوّض العميل",
+    "staff_mentions": [],
+    "products": [
+     "صحن بطاطس"
+    ],
+    "action": "مراجعة جودة البطاطس في فرع الرس وتفعيل إجراء الاستبدال أو التعويض الفوري عند رجوع الطلب من العميل.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2kxNlFXTXlkRXcwVFhvMFltaEhibk51TTJsbldFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "اطعم الفريدو ممكن تذوقه 😋",
+   "text_translated": null,
+   "published_at": "2026-11-24T16:16:41.761Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "مساك الله بالخير أحمد، أطعم فريدو بشهادتك وهذا يسعدنا مره، نشوفك قريب 🩵",
+   "collected_at": "2026-11-24T17:38:50Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "يصف طعم الفريدو بالممتاز ويشجع على تذوقه",
+    "staff_mentions": [],
+    "products": [
+     "فريدو"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2w5NFRWZFNkVGxuWmpsR1JEWlhWVkJJYUU5R1dWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "ممتاز",
+   "text_translated": null,
+   "published_at": "2026-11-24T13:13:19.742Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "هلا بك، تقييمك الممتاز يسعدنا ويشجعنا نكمل على نفس المستوى، نشوفك قريب 🩵",
+   "collected_at": "2026-11-24T17:38:50Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تعليق قصير يصف التجربة بممتاز",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2kwNFRVNU1PSFpSZVZwVlozQjBTMDF3ZW5walMwRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "من افضل الكوفيات واللي اتردد عليها بشكل مستمر ولا زاد حبي له الا بسبب العامل معشوق بنقلاديشي الجنسيه وخدوم جدًا والابتسامه ماتفارقه",
+   "text_translated": null,
+   "published_at": "2026-11-24T12:56:50.185Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "حيّاكم الله، تردّدك علينا يسعدنا، وبنوصّل شكرك لمعشوق على خدمته وابتسامته، ومالك إلا اللي يرضيك 🩵",
+   "collected_at": "2026-11-24T17:38:50Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالعامل معشوق لخدمته ولطف ابتسامته",
+    "staff_mentions": [
+     {
+      "name": "معشوق",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25WaWJGQmplSHAzZFRoa1ZHTjNVMGR3VUU0eE1FRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "اشكر معشوق على الخدمة",
+   "text_translated": null,
+   "published_at": "2026-11-24T11:43:02.835Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "أهلاً وسهلاً، بنوصّل شكرك لمعشوق على خدمته، وكلامك فرّحنا، نورتنا 🩵",
+   "collected_at": "2026-11-24T17:38:50Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر للموظف معشوق على حسن الخدمة",
+    "staff_mentions": [
+     {
+      "name": "معشوق",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pGbk5GVlpUazlLWkVodlJYVnVRVWhRVG5jMk9VRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-24T10:22:22.849Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "مساك الله بالخير محمد، تقييمك أسعدنا مره، لا تطوّل علينا 🩵",
+   "collected_at": "2026-11-24T17:38:50Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2poUVZtRjZNSFZ1YnpWeVJHSTFSbkZ5WmtaNGMyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-24T08:16:04.633Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "يا مرحبا، تقييمك رفع معنوياتنا، وننتظر زيارتك الجاية 🩵",
+   "collected_at": "2026-11-24T17:38:50Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pKcFdVSk1ObFJPTTJSdWRWUkZUazVLUkZvM2FFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-aliibnabitalib",
+   "brand": "رشف",
+   "branch_name": "بريدة - طريق علي بن أبي طالب",
+   "city": "بريدة",
+   "stars": 1,
+   "text": "انا مستعجله واخذت ساندوتش سيزر من عندهم\nغاليه على غير سنع فوقها قاعده اكل خبز والحشوه مقللينها مره !!!\nلا احد يجربها طعمها مب حلو",
+   "text_translated": null,
+   "published_at": "2026-11-24T07:06:36.492Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJZ_1jIQBXfxUR7NZU6LCPplk",
+   "owner_reply": "حياكِ الله، نعتذر منكِ على الطلب، وملاحظتك عن الساندوتش وصلت لإدارة فرع بريدة، تواصلي معنا واتساب 0502041122 مع وقت الزيارة أو رقم الطلب 🩵",
+   "collected_at": "2026-11-24T17:38:50Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "taste",
+     "price",
+     "other"
+    ],
+    "negative_topics": [
+     "taste",
+     "price",
+     "other"
+    ],
+    "severity": "medium",
+    "summary": "السعر مرتفع، والسيزر فيه خبز زائد وحشوة مقلية أكثر من اللازم وطعمها غير مستساغ",
+    "staff_mentions": [],
+    "products": [
+     "ساندوتش سيزر"
+    ],
+    "action": "مراجعة وصفة ساندوتش السيزر ونسبة الخبز والحشوة ودرجة القلي، ومراجعة تسعيره مقارنة بالحجم.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNienF1anBBRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "من افضل محلات الدرايف ثرو التي تقدم القهوه يستخدم محاصيل جوده عاليه يستحق التجربه شكرا للموظف سانجيب و حمزه  👌🏻🩵",
+   "text_translated": null,
+   "published_at": "2026-11-24T05:43:26.031Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "تشرفنا بزيارتك..يومك سعيد🩵",
+   "collected_at": "2026-11-24T17:38:50Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تجربة ممتازة بقهوة من محاصيل عالية الجودة، مع شكر للموظفين",
+    "staff_mentions": [
+     {
+      "name": "سانجيب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزه",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "القهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT201c1IyRllNalZ2VUhRNFVrMVdRelYzY1haTldFRRAB",
    "source": "apify",
