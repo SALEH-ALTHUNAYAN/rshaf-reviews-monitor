@@ -1,6 +1,41 @@
 {
- "updated_at": "2026-11-23T20:11:40Z",
+ "updated_at": "2026-11-24T03:45:37Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT201c1IyRllNalZ2VUhRNFVrMVdRelYzY1haTldFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "اشكر تعامل الفرع هذا طيبين واشكر توفائيل على سرعة اجابته",
+   "text_translated": null,
+   "published_at": "2026-11-24T00:59:51.861Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "صباحك خير، شاكرين لك كلمتك الطيبة عن الفرع، وشكرك لتوفائيل على سرعة تجاوبه بيوصله، مكانك محفوظ عندنا 🩵",
+   "collected_at": "2026-11-24T03:44:29Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "speed"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر لطف الفرع وسرعة استجابة الموظف توفائيل",
+    "staff_mentions": [
+     {
+      "name": "توفائيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tabU1HSkRSRXh3T0U1VlQxOWpXRkZNV1VOWGRHYxAB",
    "source": "apify",
@@ -44,16 +79,25 @@
    "collected_at": "2026-11-23T20:11:02Z",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "taste",
+     "accuracy",
+     "staff"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
-    "staff_mentions": [],
-    "products": [],
+    "summary": "تجربة ممتازة مع الباريستا معشوق وقهوة بدون أخطاء",
+    "staff_mentions": [
+     {
+      "name": "معشوق",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    },
    "alerted": "skip"
   },
