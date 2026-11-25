@@ -1,8 +1,64 @@
 {
- "updated_at": "2026-11-24T17:40:52Z",
+ "updated_at": "2026-11-25T01:52:28Z",
  "reviews": [
   {
-   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pRM2NVZDFSVWhCUkRobE0waFZZMU41YWtSQ2JsRRAB",
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21sMmVUTklTMGR2TkVKTU9Fc3lWREE1Y1RkV1pVRRAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 1,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-25T01:23:00.357Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": "هلا والله وسام، نعتذر إن تجربتك ما عجبتك ونبي نحسّنها. إذا ممكن التواصل عبر الواتساب على الرقم 0503579222 لمعرفة تفاصيل المشكلة 🧡",
+   "collected_at": "2026-11-25T01:51:47Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "medium",
+    "summary": "",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "stars-only",
+    "attempts": 1,
+    "v": 2
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25sbFRHeDBOMGR0TFZZeWVHVkhNRVZMVFVaWFMxRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-24T21:35:33.718Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "يا هلا، شاكرين لك تقييمك الغالي، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-25T01:51:47Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم خماسي النجوم دون نص.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t4blpsZEZjRXRZYkRkRVIzcEtiM050UW5JMWIzYxAB",
    "source": "apify",
    "branch_id": "rshaf-bukayriyah",
    "brand": "رشف",
@@ -11,22 +67,60 @@
    "stars": 5,
    "text": "",
    "text_translated": null,
-   "published_at": "2026-11-24T17:38:05.489Z",
+   "published_at": "2026-11-24T21:35:18.941Z",
    "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
-   "owner_reply": "هلا بك، تقييمك بالخمس نجوم يفرحنا، وبابنا مفتوح لك في أي وقت 🩵",
-   "collected_at": "2026-11-24T17:38:50Z",
+   "owner_reply": "يا أهلاً، وصلنا تقييمك ونقدّر وقتك، نشوفك على خير 🩵",
+   "collected_at": "2026-11-25T01:51:47Z",
    "analysis": {
     "sentiment": "positive",
     "topics": [],
     "negative_topics": [],
     "severity": "none",
-    "summary": "تقييم خماسي بدون تعليق نصي",
+    "summary": "",
     "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "stars-only",
+    "attempts": 1,
+    "v": 2
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pRM2NVZDFSVWhCUkRobE0waFZZMU41YWtSQ2JsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "تعامل الموظف محمد الحقيقة جيد جدا اضافة الى ان الخدمة سريعة",
+   "text_translated": null,
+   "published_at": "2026-11-24T17:38:57.965Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "هلا بك، تقييمك بالخمس نجوم يفرحنا، وبابنا مفتوح لك في أي وقت 🩵",
+   "collected_at": "2026-11-24T17:38:50Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "speed"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تعامل جيد من الموظف محمد وخدمة سريعة.",
+    "staff_mentions": [
+     {
+      "name": "محمد",
+      "sentiment": "positive"
+     }
+    ],
     "products": [],
     "action": "",
     "model": "claude-haiku-5-5"
    },
-   "alerted": "skip"
+   "alerted": "skip",
+   "edited": true
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tKVVJrazFibTV1WlRVeVpGWTRRVlprVkRad1YyYxAB",
