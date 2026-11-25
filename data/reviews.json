@@ -1,6 +1,181 @@
 {
- "updated_at": "2026-11-25T02:24:16Z",
+ "updated_at": "2026-11-25T14:18:55Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xwdFgxOVFaa055YjJaeVVFc3pNeTB4UW1OV2VWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-kingfahd",
+   "brand": "رشف",
+   "branch_name": "الرس - طريق الملك فهد",
+   "city": "الرس",
+   "stars": 1,
+   "text": "الكوب الحجم الكبير للمره الثاله اطلبه وفيه مشكله مايحتفظ بالقهوه وورق الكوب خفيف جداً 👎🏻",
+   "text_translated": null,
+   "published_at": "2026-11-25T12:17:01.046Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJsXOFxN_LgxURBC_JSCvJdu4",
+   "owner_reply": "أهلاً بك، نعتذر عن مشكلة الكوب، وملاحظتك عن الحجم الكبير وخفة الورق وصلت لإدارة فرع الرس، ويسعدنا تواصلك معنا واتساب 0502041122 مع وقت الزيارة أو رقم الطلب 🩵",
+   "collected_at": "2026-11-25T14:17:48Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [
+     "other"
+    ],
+    "negative_topics": [
+     "other"
+    ],
+    "severity": "medium",
+    "summary": "الكوب الكبير يتكرر معه عيب عدم الاحتفاظ بالقهوة وخفة الورق.",
+    "staff_mentions": [],
+    "products": [
+     "كوب قهوة حجم كبير"
+    ],
+    "action": "فحص جودة أكواب الحجم الكبير مع المورد، والتواصل مع العميل لتعويضه.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pGbGVFZzViMlZRWkVWWGJYUmZVbUpGZWtVNFVFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "معشوق افضل موظف",
+   "text_translated": null,
+   "published_at": "2026-11-25T11:43:50.232Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "هلا والله، معشوق يستاهل هالشهادة، وبنوصّل له كلامك، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-25T14:17:48Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظف معشوق ووصفه بأنه أفضل موظف.",
+    "staff_mentions": [
+     {
+      "name": "معشوق",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tsaU5Hc3RTRXc1UlV0NGVFZE1OVzVOVjBVek5WRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "القهوه جيده وبسعر مناسب ، الموظف محمد سجيب محترم وخدوم",
+   "text_translated": null,
+   "published_at": "2026-11-25T11:37:01.719Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "هلا والله، شاكرين لك كلمتك عن القهوة والسعر، وبنوصّل شكرك لمحمد سجيب على أدبه وخدمته، بالعافية 🩵",
+   "collected_at": "2026-11-25T14:17:48Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "price",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة جيدة بسعر مناسب مع إشادة بخدمة الموظف محمد.",
+    "staff_mentions": [
+     {
+      "name": "محمد",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25WS1lWSnJRbm95U3pGU2VtWnlYMDQxU1ZneGNuYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "محمد طفيل  أفضل عامل يصلح قهوه",
+   "text_translated": null,
+   "published_at": "2026-11-25T05:58:36.071Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "منوّر يا عبدالمجيد، كلامك عن محمد طفيل بيوصله ويفرحه، عساها دايم عامرة 🩵",
+   "collected_at": "2026-11-25T14:17:48Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظف محمد طفيل بوصفه أفضل من يحضر القهوة.",
+    "staff_mentions": [
+     {
+      "name": "محمد طفيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2taeFMwZzVVbkU0ZUU5T1RtWXdMWFZyUlRZeFJYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "محمد طفيل خربوطي 😻❤️",
+   "text_translated": null,
+   "published_at": "2026-11-25T05:52:55.616Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "هلا وغلا راشد، محبتك لمحمد طفيل خربوطي وصلتنا وبنبلّغه شكرك، تنوّرنا دايم 🩵",
+   "collected_at": "2026-11-25T14:17:48Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة مودّة بالموظف محمد طفيل.",
+    "staff_mentions": [
+     {
+      "name": "محمد طفيل",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21sMmVUTklTMGR2TkVKTU9Fc3lWREE1Y1RkV1pVRRAB",
    "source": "apify",
@@ -27,6 +202,35 @@
     "model": "claude-haiku-5-5"
    },
    "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25vd2EyTmFTMlZqYmpKS1lrZFdURXBQU0d3M1EwRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "Great coffee and best staff sanjee",
+   "text_translated": "قهوة رائعة وأفضل فريق عمل، سانجي",
+   "published_at": "2026-11-25T00:54:09.952Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "أهلاً وسهلاً، وشكراً جزيلاً على كلماتك اللطيفة عن قهوتنا! سننقل شكرك إلى سانجي، الذي يسعده دائماً خدمتك 🩵",
+   "collected_at": "2026-11-25T14:17:48Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "stars-only",
+    "attempts": 1,
+    "v": 2
+   },
+   "alerted": "skip"
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25sbFRHeDBOMGR0TFZZeWVHVkhNRVZMVFVaWFMxRRAB",
