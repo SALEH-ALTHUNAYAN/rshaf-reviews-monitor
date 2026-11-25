@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25T01:52:28Z",
+ "updated_at": "2026-11-25T02:24:16Z",
  "reviews": [
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21sMmVUTklTMGR2TkVKTU9Fc3lWREE1Y1RkV1pVRRAB",
@@ -20,13 +20,11 @@
     "topics": [],
     "negative_topics": [],
     "severity": "medium",
-    "summary": "",
+    "summary": "تقييم سلبي بنجمة واحدة دون نص توضيحي",
     "staff_mentions": [],
     "products": [],
-    "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "action": "مراجعة سجل الطلب والتواصل مع الفرع لمعرفة سبب التقييم المنخفض.",
+    "model": "claude-haiku-5-5"
    },
    "alerted": true
   },
@@ -76,13 +74,11 @@
     "topics": [],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
+    "summary": "تقييم ممتاز بخمس نجوم دون نص توضيحي",
     "staff_mentions": [],
     "products": [],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    },
    "alerted": "skip"
   },
