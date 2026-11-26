@@ -1,6 +1,48 @@
 {
- "updated_at": "2026-11-26T01:29:53Z",
+ "updated_at": "2026-11-26T10:51:54Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xrNU5sRXhlbWx0U1ROMWRWTjBPRTlxVmtkb00wRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "تعامل راقي من الاخون سنجيب وحمزة اخذت منهم قهوه اليوم بارده وحلا جميل جدا",
+   "text_translated": null,
+   "published_at": "2026-11-26T10:21:57.497Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "أهلاً وسهلاً، الحلا اللي عجبك فرّحنا مره، وبنوصّل شكرك لسنجيب وحمزة، يومك سعيد 🩵",
+   "collected_at": "2026-11-26T10:51:20Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تعامل راقٍ من الموظفين مع قهوة باردة وحلا جميل",
+    "staff_mentions": [
+     {
+      "name": "سنجيب",
+      "sentiment": "positive"
+     },
+     {
+      "name": "حمزة",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة باردة",
+     "حلا"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2psMlpFVkxZbGd5Y25sSGMzQjFWRE5pZDA5cVYyYxAB",
    "source": "apify",
