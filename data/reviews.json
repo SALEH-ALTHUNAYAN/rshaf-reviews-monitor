@@ -1,6 +1,67 @@
 {
- "updated_at": "2026-11-26T00:19:56Z",
+ "updated_at": "2026-11-26T01:29:53Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2psMlpFVkxZbGd5Y25sSGMzQjFWRE5pZDA5cVYyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-naziyah",
+   "brand": "رشف",
+   "branch_name": "بريدة - النازية (طريق الملك خالد)",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-25T22:34:03.922Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJKx-2PtpZfxURLHd-NlnOqSA",
+   "owner_reply": "يا أهلاً، شاكرين لك تقييمك الغالي، ننتظر زيارتك الجاية 🩵",
+   "collected_at": "2026-11-26T01:28:55Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون نص مكتوب.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2s1VmNuTmpUV1UxUnpabFEydzJSVnBmVVVWTGJuYxAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 5,
+   "text": "الطعم ولا غلطه طلبت بلاك ترافل وجبه صح انه صغير بس الطعم مررره لذيذ بعتمدكم في المرات القادمه ..",
+   "text_translated": null,
+   "published_at": "2026-11-25T21:57:30.011Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": "مره أسعدنا كلامك عن البلاك ترافل، وملاحظتك على الحجم وصلت للفرع وبنتابعها، بالخدمة دايم 🧡 🍔",
+   "collected_at": "2026-11-26T01:28:55Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "other"
+    ],
+    "negative_topics": [
+     "other"
+    ],
+    "severity": "low",
+    "summary": "الطعم لذيذ جداً، والوجبة صغيرة الحجم قليلاً، وسيعود العميل.",
+    "staff_mentions": [],
+    "products": [
+     "وجبة بلاك ترافل"
+    ],
+    "action": "مراجعة حجم حصة وجبة بلاك ترافل في فرع الرس للتأكد من توافقها مع المواصفات.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pGa1ZEaFVOMEpCYUdwYVIzRTFVbGszUkVObVVIYxAB",
    "source": "apify",
