@@ -1,6 +1,141 @@
 {
- "updated_at": "2026-11-26T10:51:54Z",
+ "updated_at": "2026-11-26T21:28:48Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25aNk5rTTFYMEp4UkZvdFUwUlZWVmMyUW04NVMxRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "محمد شجيب🌹",
+   "text_translated": null,
+   "published_at": "2026-11-26T16:22:14.720Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "هلا والله، شاكرين لك النجوم الخمس ، وكلامك بيوصل للفريق، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-26T21:28:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظف محمد شجيب",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pjNGIxazJWRTFrTVRrMk0wMXNVblJMYm5CNVUyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "صراحه كوفي رائع واشكر الباريستا محمد سوجيب",
+   "text_translated": null,
+   "published_at": "2026-11-26T14:04:18.408Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "حياكم الله، الكوفي رائع بشهادتك وهذا يفرحنا مره، وبنوصّل شكرك لمحمد سوجيب، لا تطولون علينا 🩵",
+   "collected_at": "2026-11-26T21:28:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بجودة الكوفي وشكر للباريستا",
+    "staff_mentions": [
+     {
+      "name": "محمد سوجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "كوفي"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2taaVNtSlVSak5tUTA5ck9UTTJZalIwU0U0MGJsRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-26T12:50:53.093Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "الله يحييكم، تقييمك فرّحنا مره، شاكرين لك وبالخدمة دايم 🩵",
+   "collected_at": "2026-11-26T21:28:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق نصي",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21SUFRITk1UVXRLVjFCQmQxUlplbnAyWTJNNGNYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "محمد شجيب اسلوبه ممتاز ويعرف يسوي اسبريسو فنان",
+   "text_translated": null,
+   "published_at": "2026-11-26T12:29:47.575Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "أهلاً وسهلاً، كلامك عن الاسبريسو الفنان أسعدنا مره، وبنوصّل شكرك لمحمد شجيب على أسلوبه، بالخدمة دايم 🩵",
+   "collected_at": "2026-11-26T21:28:02Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff",
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بأسلوب محمد شجيب ومهارته في الإسبريسو",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "اسبريسو"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xrNU5sRXhlbWx0U1ROMWRWTjBPRTlxVmtkb00wRRAB",
    "source": "apify",
