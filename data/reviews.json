@@ -1,6 +1,480 @@
 {
- "updated_at": "2026-11-25T14:18:55Z",
+ "updated_at": "2026-11-26T00:19:56Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pGa1ZEaFVOMEpCYUdwYVIzRTFVbGszUkVObVVIYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "الموظف محمد شجيب تعامل ممتاز وخدمه ممتازة يشكر جداً",
+   "text_translated": null,
+   "published_at": "2026-11-25T18:55:24.266Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "هلا بك علي، خدمة محمد شجيب وتعامله وصلنا مدحك لها وبنوصّل له شكرك، الله يحفظك 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تعامل ممتاز وخدمة متميزة من الموظف محمد شجيب",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tRMlYyRnZlVFl6TFZsc2QwcEJhSEI1UzBWU1QyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "كل ما جيت البكيرية لازم امر عليهم قهوتهم ممتازة والحلا عندهم ايضاً سبق اني جربته واعجبني\nواشكر الموظف محمد على تعامله الطيب",
+   "text_translated": null,
+   "published_at": "2026-11-25T18:32:58.906Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "مساك الله بالخير، فرحنا مره إن قهوتنا صارت محطتك كل ما زرت البكيرية، وبنوصّل شكرك لمحمد على تعامله الطيب، مرورك يشرفنا دايم 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة ممتازة وحلويات مميزة مع شكر للموظف محمد",
+    "staff_mentions": [
+     {
+      "name": "محمد",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة",
+     "حلا"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25vdFVYUkphV3RoZG1KTVZuUmZObEkzTFdaRE5VRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-riyadhalkhabra",
+   "brand": "رشف",
+   "branch_name": "رياض الخبراء - شارع محمد الخضير",
+   "city": "رياض الخبراء",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-25T18:32:12.910Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJHQ-vgIU5ghUR85KEhchZuJ8",
+   "owner_reply": "صباحك خير، شاكرين لك النجوم الخمس، نورتنا 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون تعليق",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2s5clUyOTNRVUpEU21rM2F6UnFhbTVXUlRoYWIyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "محمد شجيب تعامله جمييل جدداً",
+   "text_translated": null,
+   "published_at": "2026-11-25T17:45:07.936Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "بالخدمة لكم دائمًا\nنورتنـا 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تعامل جميل من الموظف محمد شجيب",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pSS1ZtdExaMDFZV1dkcE16RkxRbVoyTlVOR1drRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "قهوتهم ممتازة وتعامل الموظفين ممتاز خصوصا محمد شوجيب اذا اقبلت يولم قهوتي",
+   "text_translated": null,
+   "published_at": "2026-11-25T17:28:11.605Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "يا مرحبا، قهوتنا ممتازة بشهادتك وهذا يفرحنا مره، وبنوصّل شكرك لمحمد شوجيب على تعامله، بالعافية 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة ممتازة وتعامل جيد من الموظفين، خاصة محمد",
+    "staff_mentions": [
+     {
+      "name": "محمد شوجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2kwdFMwZG1iRm80ZFRkSmNtMTZNV1k0VVc1RlRWRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "القهوه ممتازه جدا واشكر العمال على أسلوبه الجميل\nوخاصه محمد شريف 🌹",
+   "text_translated": null,
+   "published_at": "2026-11-25T17:03:36.183Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "حيّاك وبيّاك عايد، شكراً على كلامك الزين عن القهوة، وبنوصّل شكرك لمحمد شريف على أسلوبه، ننتظرك دايم 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة ممتازة جداً وأسلوب جميل من الموظفين",
+    "staff_mentions": [
+     {
+      "name": "محمد شريف",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pkWE9XOHpVbkptWlMwM00zcDRNMmMyWVVWVVVtYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "افضل موضف محمد شجيف أسلوب رائع جدا",
+   "text_translated": null,
+   "published_at": "2026-11-25T16:58:03.181Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "حيّاك وبيّاك عبدالله، بنوصّل شكرك لمحمد شجيف، وكلامك عن أسلوبه فرّحنا، الله يسعدك 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "أسلوب رائع من الموظف محمد شجيف",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيف",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t4QmIxVnhORnAyUjIxMUxYUnBhVmt5UVhZMlUyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "خدمة و اكل جميل",
+   "text_translated": null,
+   "published_at": "2026-11-25T16:47:54.890Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "مرحبتين، شهادتك بالخدمة والأكل فرّحتنا مره، ومكانك محفوظ عندنا 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "خدمة وطعام جميلان",
+    "staff_mentions": [],
+    "products": [
+     "أكل"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xNMFpqaEtiVTgyWm5sb2NFRmpSM2RuWTFkM01FRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "الامريكانو عندهم هو خياري الأول وكذلك الايس دريب\nوحابه اشيد بالموظف محمد شجيب على خدمته الممتازه واخلاقه",
+   "text_translated": null,
+   "published_at": "2026-11-25T16:42:07.470Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "حيّاكِ وبيّاكِ، الأمريكانو خيارك الأول وهذا شرف لنا، وبنوصّل شكرك لمحمد شجيب، دايم على البال 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إعجاب بالأمريكانو والآيس دريب وإشادة بخدمة الموظف محمد شجيب",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "الامريكانو",
+     "الايس دريب"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2w4d1JHUkZVVkZuWVhVMFR6WkZORTlGWDI5b01GRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "محمد سجيب محترم ومبتسم حفظ الله محمد سجيب",
+   "text_translated": null,
+   "published_at": "2026-11-25T16:40:03.134Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "الله يحييك، احترام محمد سجيب وابتسامته يستاهلون كلامك، وبنوصّل له شكرك، الله يسعدك 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظف محمد سجيب لاحترامه وابتسامته",
+    "staff_mentions": [
+     {
+      "name": "محمد سجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2toMmFUWXdZbGxKYjNGaU1tTlFOekJGVmpJdFQyYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-riyadhalkhabra",
+   "brand": "رشف",
+   "branch_name": "رياض الخبراء - شارع محمد الخضير",
+   "city": "رياض الخبراء",
+   "stars": 1,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-25T16:36:07.719Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJHQ-vgIU5ghUR85KEhchZuJ8",
+   "owner_reply": "يا هلا ومرحبا، نعتذر إن زيارتك ما أرضتك، ونتمنى نعرف وش اللي ما عجبك عشان نحسّنه، ويسعدنا تواصلك معنا واتساب 0502041122 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "negative",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "low",
+    "summary": "تقييم نجمة واحدة بدون تعليق يوضح السبب",
+    "staff_mentions": [],
+    "products": [],
+    "action": "التواصل مع العميل لمعرفة سبب التقييم المنخفض ومعالجته",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": true
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21wS1dWcHhYemt0U2s4MGFXRjBWekJhTVdKZmVFRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "سرعه في الخدمة وجودة المنتجات وحسن تعامل الموظف محمد شوجي👍🏼",
+   "text_translated": null,
+   "published_at": "2026-11-25T16:32:23.352Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "تسلم يا ابو عبدالرحمن، سعدنا بكلامك عن السرعة والجودة، وبنوصّل شكرك لمحمد شوجي، ننتظرك دايم 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "speed",
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بسرعة الخدمة وجودة المنتجات وتعامل الموظف محمد شوجي",
+    "staff_mentions": [
+     {
+      "name": "محمد شوجي",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pGaU4wNVpVblV5U2xWc1YwaGFVMlJQU1VwRmVXYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-uyunaljawa",
+   "brand": "رشف",
+   "branch_name": "عيون الجواء - طريق الملك فهد",
+   "city": "عيون الجواء",
+   "stars": 5,
+   "text": "قهوتهم لذيذة\nالكويكز نو سككر مكسر !",
+   "text_translated": null,
+   "published_at": "2026-11-25T16:28:35.776Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJuVnVa6CneBURXAxeZAEW-mk",
+   "owner_reply": "الله يحييك، شاكرين لك على كلمتك الحلوة، وننتظر زيارتك الجاية قريب 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إعجاب بطعم القهوة وذكر منتج الكويكز",
+    "staff_mentions": [],
+    "products": [
+     "القهوة",
+     "الكويكز نو سككر مكسر"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCTGVVVk9UR2hwZHpRelVITXdUR0prTmxoV1lVRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "الموظف محمد شجيب محترم جدا",
+   "text_translated": null,
+   "published_at": "2026-11-25T15:30:30.614Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "الله يحييك وليد، يسعدنا إنك لقيت الاحترام عند محمد شجيب، وبنوصّل له شكرك، ننتظرك دايم 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بالموظف محمد شجيب واحترامه الكبير",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xwdFgxOVFaa055YjJaeVVFc3pNeTB4UW1OV2VWRRAB",
    "source": "apify",
@@ -219,16 +693,24 @@
    "collected_at": "2026-11-25T14:17:48Z",
    "analysis": {
     "sentiment": "positive",
-    "topics": [],
+    "topics": [
+     "taste",
+     "staff"
+    ],
     "negative_topics": [],
     "severity": "none",
-    "summary": "",
-    "staff_mentions": [],
-    "products": [],
+    "summary": "Great coffee and excellent staff praised by the customer",
+    "staff_mentions": [
+     {
+      "name": "sanjee",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "coffee"
+    ],
     "action": "",
-    "model": "stars-only",
-    "attempts": 1,
-    "v": 2
+    "model": "claude-haiku-5-5"
    },
    "alerted": "skip"
   },
