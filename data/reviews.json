@@ -1,6 +1,74 @@
 {
- "updated_at": "2026-11-26T21:28:48Z",
+ "updated_at": "2026-11-27T01:27:50Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tscFVrdHZPRW93Ykd0MFRFMTJPRmRqWlZwVFRuYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-hazm",
+   "brand": "رشف",
+   "branch_name": "الرس - الحزم (شارع الجريف)",
+   "city": "الرس",
+   "stars": 5,
+   "text": "رمضان افضل موظف🙏\nصرت اجيهم يوميًا بسبب تعامله الرائع",
+   "text_translated": null,
+   "published_at": "2026-11-27T00:46:38.253Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJM1scVFrLgxURrgNoyU5fHDk",
+   "owner_reply": "هلا وغلا، زيارتك اليومية تشرفنا، وبنوصّل شكرك لرمضان على تعامله الرائع، بالعافية 🩵",
+   "collected_at": "2026-11-27T01:26:58Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "العميل يزور المقهى يومياً بسبب تعامل الموظف رمضان الرائع",
+    "staff_mentions": [
+     {
+      "name": "رمضان",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xObFJESTRNa2RJWTBwbk1EUnRUMVF0VEVKTldtYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "محمد شجيب روحه جميله وتعامله جداً جميل",
+   "text_translated": null,
+   "published_at": "2026-11-26T22:24:39.763Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "يا لله حيّاك محمد، كلامك عن روحه وتعامله أسعدنا مره، وبنوصّل شكرك لمحمد شجيب، تنوّرنا دايم 🩵",
+   "collected_at": "2026-11-27T01:26:58Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بروح الموظف محمد الجميلة وحسن تعامله",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25aNk5rTTFYMEp4UkZvdFUwUlZWVmMyUW04NVMxRRAB",
    "source": "apify",
