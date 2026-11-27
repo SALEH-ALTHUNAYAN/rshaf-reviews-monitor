@@ -1,6 +1,141 @@
 {
- "updated_at": "2026-11-27T13:52:25Z",
+ "updated_at": "2026-11-27T22:42:22Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25sUk9EYzBNbmhTYm5kVlVreDBiVGRDU3paWk1WRRAB",
+   "source": "apify",
+   "branch_id": "armeema-rass",
+   "brand": "ارميما",
+   "branch_name": "الرس - مجمع روسيل",
+   "city": "الرس",
+   "stars": 5,
+   "text": "مره لذيذ ماشاءالله",
+   "text_translated": null,
+   "published_at": "2026-11-27T20:19:53.807Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%A2%D8%B1%D9%85%D9%8A%D9%85%D8%A7&query_place_id=ChIJsXj4-w_LgxURfsDL8l_g_3c",
+   "owner_reply": "مرحبا، فرحتنا كبيرة إن الأكل عجبك، شاكرين لك تقييمك، ننتظر زيارتك الجاية 🧡 🍔",
+   "collected_at": "2026-11-27T22:41:42Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "طعم لذيذ حسب العميل",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21KbkxXWkNUVkZ4UlZKT2VHZHFaVjlIVDBkWlRYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "شكرا  لسرعة تنفيذ الطلب  كنت مستعجل واستلمت الطلب باقل من دقيقتين\n\nشكرا محمد شجيب",
+   "text_translated": null,
+   "published_at": "2026-11-27T19:31:39.118Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "حياك الله صالح \n\nبخدمتك دائمًا 🩵",
+   "collected_at": "2026-11-27T22:41:42Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "speed",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "سرعة تنفيذ الطلب خلال أقل من دقيقتين",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xOV1QwWk5kVkZzYzIxa1gySjBVM1YwUzNGTFEzYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-bukayriyah",
+   "brand": "رشف",
+   "branch_name": "البكيرية - طريق الملك عبدالعزيز",
+   "city": "البكيرية",
+   "stars": 5,
+   "text": "الايس سبانش عندهم يفووز 👌🏻👌🏻\nوكذلك الموظف محمد شجيب محترم جدا وتعامله كويس 👍🏻",
+   "text_translated": null,
+   "published_at": "2026-11-27T19:19:43.872Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJQxBHFQAZghURcfhIamLDdPM",
+   "owner_reply": "الله يسعدك أبو عبيد، الايس سبانش يفوز بشهادتك وهذا يفرحنا، وبنوصّل شكرك لمحمد شجيب، ومالك إلا اللي يرضيك 🩵",
+   "collected_at": "2026-11-27T22:41:42Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "الايس سبانش مميز والموظف محترم",
+    "staff_mentions": [
+     {
+      "name": "محمد شجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "الايس سبانش"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25vdFVYUkphV3RoZG1KTVZuUmZObEkzTFdaRE5VRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-riyadhalkhabra",
+   "brand": "رشف",
+   "branch_name": "رياض الخبراء - شارع محمد الخضير",
+   "city": "رياض الخبراء",
+   "stars": 5,
+   "text": "ولله تستاهل الخمسه علا الجوده والعمال بس عندي شي ابغا اقوله\nالي هو ان العمال يطيحون المشروبات كثير لان يحطونه علا طرف الطاوله\nاشكرك علا الشغل والنظافة",
+   "text_translated": null,
+   "published_at": "2026-11-27T17:04:04.987Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJHQ-vgIU5ghUR85KEhchZuJ8",
+   "owner_reply": "صباحك خير، شاكرين لك النجوم الخمس، نورتنا 🩵",
+   "collected_at": "2026-11-26T00:19:00Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff",
+     "hygiene"
+    ],
+    "negative_topics": [
+     "staff"
+    ],
+    "severity": "low",
+    "summary": "جودة ونظافة جيدة مع شكوى من وضع المشروبات على طرف الطاولة",
+    "staff_mentions": [],
+    "products": [],
+    "action": "تذكير الموظفين بتقديم المشروبات في وسط الطاولة بعيداً عن حافتها لتجنب انسكابها.",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip",
+   "edited": true
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21kV1NFOUxlVGxOVEhaelRIWjFjVE5GUjJSSlFrRRAB",
    "source": "apify",
@@ -468,33 +603,6 @@
      "قهوة",
      "حلا"
     ],
-    "action": "",
-    "model": "claude-haiku-5-5"
-   },
-   "alerted": "skip"
-  },
-  {
-   "id": "Ci9DQUlRQUNvZENodHljRjlvT25vdFVYUkphV3RoZG1KTVZuUmZObEkzTFdaRE5VRRAB",
-   "source": "apify",
-   "branch_id": "rshaf-riyadhalkhabra",
-   "brand": "رشف",
-   "branch_name": "رياض الخبراء - شارع محمد الخضير",
-   "city": "رياض الخبراء",
-   "stars": 5,
-   "text": "",
-   "text_translated": null,
-   "published_at": "2026-11-25T18:32:12.910Z",
-   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20RSHAF&query_place_id=ChIJHQ-vgIU5ghUR85KEhchZuJ8",
-   "owner_reply": "صباحك خير، شاكرين لك النجوم الخمس، نورتنا 🩵",
-   "collected_at": "2026-11-26T00:19:00Z",
-   "analysis": {
-    "sentiment": "positive",
-    "topics": [],
-    "negative_topics": [],
-    "severity": "none",
-    "summary": "تقييم 5 نجوم بدون تعليق",
-    "staff_mentions": [],
-    "products": [],
     "action": "",
     "model": "claude-haiku-5-5"
    },
