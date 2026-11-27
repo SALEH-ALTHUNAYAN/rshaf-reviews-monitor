@@ -1,6 +1,73 @@
 {
- "updated_at": "2026-11-27T04:14:41Z",
+ "updated_at": "2026-11-27T13:52:25Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21kV1NFOUxlVGxOVEhaelRIWjFjVE5GUjJSSlFrRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-buraydah-rehab",
+   "brand": "رشف",
+   "branch_name": "بريدة - الرحاب",
+   "city": "بريدة",
+   "stars": 5,
+   "text": "جربت قهوة اليوم باردة، تجنن وتعامل الموظف راقي وخدمة سريعة",
+   "text_translated": null,
+   "published_at": "2026-11-27T09:42:36.277Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJbaL138BXfxURl6ZU5rWhf2g",
+   "owner_reply": "كلامك غالي علينا، القهوة الباردة تجنن بشهادتك، وبنوصّل للفريق مدحك لتعاملهم وسرعتهم، عساها دايم عامرة 🩵",
+   "collected_at": "2026-11-27T13:51:40Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff",
+     "speed"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "عميل راضٍ عن القهوة الباردة وتعامل الموظف وسرعة الخدمة",
+    "staff_mentions": [],
+    "products": [
+     "قهوة باردة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tSTVlVc3pTbk5RUkRaNVUwVkZaMTlKUTNnNFRIYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "شكرًا لسن جيب على تعامله الراقي وخدمته الحلوة، ما قصّر وكان متعاون جدا",
+   "text_translated": null,
+   "published_at": "2026-11-27T05:50:29.957Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "يا هلا بتقييمك الحلو، كلامك عن سن جيب فرّحنا مره وبنوصّل له شكرك، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-27T13:51:40Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "شكر الموظف على تعامله الراقي وتعاونه وحسن خدمته",
+    "staff_mentions": [
+     {
+      "name": "سن جيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xSeVFsSkdZMk5HZWtoWWMyTldOSGhJTTNsQmJYYxAB",
    "source": "apify",
