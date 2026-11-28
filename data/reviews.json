@@ -1,6 +1,77 @@
 {
- "updated_at": "2026-11-28T01:00:28Z",
+ "updated_at": "2026-11-28T07:44:41Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT205SFMwNVNZemhGWVVSc1FVODFZMEU0Vkdwak9GRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "قهوتكم من افضل القهاوي و الموظف سانجب بشوش و يرحب  اطلق موظف",
+   "text_translated": null,
+   "published_at": "2026-11-28T04:54:44.941Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "الله يسعدك يزيد، شكراً على ثقتك بقهوتنا، وبنوصّل مدحك لسانجب، وإنت دايم على البال 🩵",
+   "collected_at": "2026-11-28T07:43:43Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "taste",
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "قهوة من أفضل القهاوي وموظف بشوش ومرحب",
+    "staff_mentions": [
+     {
+      "name": "سانجب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [
+     "قهوة"
+    ],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURuOUl6MlZBEAE",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "افضل كاشير سنجيب",
+   "text_translated": null,
+   "published_at": "2026-11-28T02:52:37.086Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "المشروبات عزيزي تتحضر وقت ماتجي عشان لو طولت مايبرد عليك 🩵\nتشرفنا بزيارتك..يومك سعيد🩵",
+   "collected_at": "2026-11-28T07:43:43Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [
+     "staff"
+    ],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "إشادة بأفضل كاشير",
+    "staff_mentions": [
+     {
+      "name": "سنجيب",
+      "sentiment": "positive"
+     }
+    ],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xWTlYybDRNWGhMY0ZWT2RuazRNbnBJTTNKS2FYYxAB",
    "source": "apify",
