@@ -1,6 +1,60 @@
 {
- "updated_at": "2026-11-27T22:42:22Z",
+ "updated_at": "2026-11-28T01:00:28Z",
  "reviews": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xWTlYybDRNWGhMY0ZWT2RuazRNbnBJTTNKS2FYYxAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "سونجيب 👍🏻👍🏻",
+   "text_translated": null,
+   "published_at": "2026-11-28T00:38:47.484Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "منوّر يا أحمد، شكرك بنوصّله لسونجيب وأكيد بيسعده مره، يومك سعيد 🩵",
+   "collected_at": "2026-11-28T00:59:38Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم مع تعليق قصير يحمل إشارة إعجاب.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25KcmQxQmZNMGxrTVVSWFYyeE9hVWw1TW1SU05FRRAB",
+   "source": "apify",
+   "branch_id": "rshaf-rass-shananah",
+   "brand": "رشف",
+   "branch_name": "الرس - شارع الشنانة",
+   "city": "الرس",
+   "stars": 5,
+   "text": "",
+   "text_translated": null,
+   "published_at": "2026-11-28T00:13:45.019Z",
+   "url": "https://www.google.com/maps/search/?api=1&query=%D8%B1%D8%B4%D9%81%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJK0_hObDLgxUR1aGuGOiI7tc",
+   "owner_reply": "وصلنا تقييمك الخمس نجوم وفرّحنا مره، تشرفنا بزيارتك 🩵",
+   "collected_at": "2026-11-28T00:59:38Z",
+   "analysis": {
+    "sentiment": "positive",
+    "topics": [],
+    "negative_topics": [],
+    "severity": "none",
+    "summary": "تقييم 5 نجوم بدون نص.",
+    "staff_mentions": [],
+    "products": [],
+    "action": "",
+    "model": "claude-haiku-5-5"
+   },
+   "alerted": "skip"
+  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25sUk9EYzBNbmhTYm5kVlVreDBiVGRDU3paWk1WRRAB",
    "source": "apify",
